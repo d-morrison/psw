@@ -23,6 +23,7 @@ and Anglish alternatives.
 Latin | Anglish
 ----- | ------
 prior to | before
+necessary | needed
 
 Commonly used Latin words and phrases and Anglish alternatives
 
