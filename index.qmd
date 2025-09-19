@@ -1,9 +1,8 @@
 # Preface {.unnumbered}
 
-This is a Quarto book.
-
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
-
-```{r}
-1 + 1
-```
+This book will present my perspective on scientific writing,
+in particular focusing on writing about statistical data analysis,
+but also scientific writing generally
+(and informative prose generally).
+I intend to give it to academic mentees as a style guide reference,
+and also use it as a notebook for myself.

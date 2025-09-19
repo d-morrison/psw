@@ -2,12 +2,13 @@ project:
   type: book
 
 book:
-  title: "psw"
-  author: "Norah Jones"
+  title: "Principles of Scientific Writing"
+  author: "Douglas Ezra Morrison"
   date: "9/19/2025"
   chapters:
     - index.qmd
     - intro.qmd
+    - word-choice.qmd
     - summary.qmd
     - references.qmd
 

@@ -1,0 +1,20 @@
+# Word choice
+
+I recommend trying to replace Latin-derived words and phrases 
+with Old English-derived equivalents (["Anglish"](https://anglish.org/) words) 
+where possible; 
+it generally makes writing simpler and easier to read.
+
+
+:::{#tbl-latin-anglish-synonyms}
+
+Latin | Anglish
+----- | ------
+prior to | before
+
+Commonly used Latin words and phrases and Anglish alternatives
+
+:::
+
+
+See also <https://bark-fa.github.io/Anglish-Translator/>
