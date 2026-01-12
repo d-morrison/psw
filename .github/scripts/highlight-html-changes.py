@@ -182,7 +182,11 @@ class HTMLDiffer:
             elif tag == 'replace':
                 # Text was changed - highlight the new text
                 changed_text = ''.join(new_words[j1:j2])
-                result.append(f'<mark class="preview-text-changed" title="Modified from: {escape("".join(old_words[i1:i2]))}">{changed_text}</mark>')
+                old_text_escaped = escape("".join(old_words[i1:i2]))
+                result.append(
+                    f'<mark class="preview-text-changed" '
+                    f'title="Modified from: {old_text_escaped}">{changed_text}</mark>'
+                )
             elif tag == 'insert':
                 # Text was added - highlight as insertion
                 added_text = ''.join(new_words[j1:j2])
@@ -252,7 +256,10 @@ class HTMLDiffer:
                     best_match_idx = idx
             
             # If we found a similar element and it's not identical, highlight the differences
-            if best_match_idx is not None and best_ratio > SIMILARITY_THRESHOLD_MIN and best_ratio < SIMILARITY_THRESHOLD_MAX:
+            is_similar = (best_match_idx is not None and 
+                         best_ratio > SIMILARITY_THRESHOLD_MIN and 
+                         best_ratio < SIMILARITY_THRESHOLD_MAX)
+            if is_similar:
                 used_old_indices.add(best_match_idx)
                 old_text, old_elem = old_elem_list[best_match_idx]
                 
