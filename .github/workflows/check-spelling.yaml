@@ -17,9 +17,7 @@ jobs:
       image: rocker/tidyverse:latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
-        with:
-          submodules: recursive
+        uses: actions/checkout@v4
 
       - name: Disable renv
         run: echo "RENV_CONFIG_AUTOLOADER_ENABLED=FALSE" >> $GITHUB_ENV
