@@ -33,7 +33,7 @@ Common package URLs:
 - [`{renv}`](https://rstudio.github.io/renv/)
 - [`{targets}`](https://docs.ropensci.org/targets/)
 - [`{data.table}`](https://rdatatable.gitlab.io/data.table/)
-- [`{assertthat}`](https://cran.r-project.org/package=assertthat)
+- [`{assertthat}`](https://cran.r-project.org/web/packages/assertthat/index.html)
 
 
 ### Blank Lines Before Lists
