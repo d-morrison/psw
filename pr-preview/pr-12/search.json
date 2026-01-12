@@ -1,0 +1,32 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Principles of Scientific Writing",
+    "section": "",
+    "text": "Preface\nThis book will present my perspective on scientific writing, in particular focusing on writing about statistical data analysis, but also scientific writing generally (and informative prose generally). I intend to give it to academic mentees as a style guide reference, and also use it as a notebook for myself.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "word-choice.html",
+    "href": "word-choice.html",
+    "title": "2  Word choice",
+    "section": "",
+    "text": "I recommend trying to replace Latin-derived words and phrases with Old English-derived equivalents (“Anglish” words) where possible; it generally makes writing simpler and easier to read. Latin words  create artificial barriers to understanding. Many Latin-derived words commonly used in scientific writing are composed from roots and affixes which are not commonly used in their basic forms; hence, readers cannot determine the meanings of these words by decomposing them. Instead, they need to memorize the meanings of these words directly. In contrast, the components of composite Anglish words are typically also used individually, so the meanings of the composites can be derived directly. Table 2.1 lists some common Latinate words and phrases and Anglish alternatives.\n\n\n\nTable 2.1: Commonly used Latin words and phrases and Anglish alternatives\n\n\n\n\n\nLatin\nAnglish\n\n\n\n\nprior to\nbefore\n\n\nnecessary\nneeded\n\n\n\n\n\n\nSee also https://bark-fa.github.io/Anglish-Translator/\nI am aware that this book, and even this chapter, contains many Latin word choices where there are Anglish alternatives. It is a work in progress, and also, I am not advocating 100% Anglish purity. Use whichever words and phrases you think your readers are most likely to understand easily. Preferring Anglish is merely a useful heuristic to help achieve our ultimate goal of producing clear, easy-to-read writing.\nJust to be clear, although I prefer Anglish words, I have no particular preference for Anglish people or culture; it is only a practical consideration, based on the realities of English as the current default language of science and the relatively-recent hybridization of the English language.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Word choice</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "3  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  }
+]
