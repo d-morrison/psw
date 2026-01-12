@@ -10,6 +10,7 @@ book:
     - index.qmd
     - intro.qmd
     - word-choice.qmd
+    - conciseness.qmd
     - summary.qmd
     - references.qmd
 

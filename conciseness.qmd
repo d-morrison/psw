@@ -1,0 +1,42 @@
+# Conciseness
+
+Concise writing conveys ideas efficiently,
+using only the words necessary to communicate meaning clearly.
+Every word should serve a purpose.
+Eliminate redundancy and verbosity.
+When you can express an idea in fewer words without losing meaning,
+do so.
+
+## Common ways to improve conciseness
+
+- Remove redundant phrases
+  - "in order to" → "to"
+  - "due to the fact that" → "because"
+  - "at this point in time" → "now"
+  - "a large number of" → "many"
+  
+- Use active voice instead of passive where appropriate
+  - "The experiment was conducted by the researchers" → "The researchers conducted the experiment"
+  
+- Eliminate unnecessary qualifiers
+  - "very", "really", "quite" often add little meaning
+  
+- Replace wordy phrases with single words
+  - "make a decision" → "decide"
+  - "give consideration to" → "consider"
+  - "is able to" → "can"
+
+Remember: concise writing is not about making every sentence as short as possible,
+but about removing words that do not contribute to meaning or clarity.
+
+## Examples of concise writing
+
+Many effective writers throughout history have exemplified the principle of conciseness.
+
+Julius Caesar's *Commentarii* and phrases like "Veni, vidi, vici" 
+demonstrate the power of brevity [@caesar_gallic].
+
+Ernest Hemingway was known for his spare,
+direct prose style.
+His short sentences and simple words conveyed complex ideas and emotions
+without unnecessary embellishment [@hemingway_style].
