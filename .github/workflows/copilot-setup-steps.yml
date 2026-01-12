@@ -1,12 +1,12 @@
-# GitHub Copilot Setup Steps for lab-manual
+# GitHub Copilot Setup Steps for Principles of Scientific Writing
 #
 # This workflow configures the GitHub Copilot coding agent's environment
-# by preinstalling R, Quarto and TinyTeX for rendering the Bookdown manual.
+# by preinstalling R, Quarto and TinyTeX for rendering the book.
 #
 # See: https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/customize-the-agent-environment
 #
 # This workflow sets up:
-# - R for running Bookdown
+# - R for running scripts
 # - Quarto CLI for rendering
 # - TinyTeX for PDF output
 

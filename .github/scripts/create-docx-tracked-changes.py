@@ -187,7 +187,7 @@ def process_docx_file(new_docx_path, base_docx_dir):
         return
     
     # Create output path with tracked changes
-    # For the main book DOCX, create UCD-SeRG-Lab-Manual-tracked-changes.docx
+    # For the main book DOCX, create Principles-of-Scientific-Writing-tracked-changes.docx
     output_path = new_path.parent / f"{new_path.stem}-tracked-changes.docx"
     
     print(f"  Output will be: {output_path}")

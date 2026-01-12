@@ -1,6 +1,6 @@
-# Copilot Instructions for UCD-SeRG Lab Manual
+# Copilot Instructions for Principles of Scientific Writing
 
-This file contains guidelines for GitHub Copilot and other AI assistants when working with the lab manual.
+This file contains guidelines for GitHub Copilot and other AI assistants when working with the book.
 
 ## Markdown and Quarto Formatting
 

@@ -47,7 +47,7 @@ def add_home_page_banner(index_html_path, changed_chapters):
         links_html = ', '.join(chapter_links)
         
         # Add DOCX link to the banner
-        docx_filename = "UCD-SeRG-Lab-Manual-tracked-changes.docx"
+        docx_filename = "Principles-of-Scientific-Writing-tracked-changes.docx"
         
         banner = f'''
 <div class="preview-home-changes-banner">
