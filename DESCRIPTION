@@ -1,0 +1,9 @@
+Package: psw
+Title: Principles of Scientific Writing
+Version: 0.0.1
+Authors@R: 
+    person("Douglas", "Morrison", , "demorrison@ucdavis.edu", role = c("aut", "cre"))
+Description: A book about scientific writing principles.
+License: CC BY-NC-ND 4.0
+Encoding: UTF-8
+Language: en-US
