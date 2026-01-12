@@ -1,0 +1,7 @@
+# Custom words for the Principles of Scientific Writing book
+# Add project-specific terms, proper nouns, and technical jargon here
+# One word per line
+
+Quarto
+qmd
+GitHub
