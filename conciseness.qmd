@@ -1,19 +1,16 @@
 # Conciseness
 
-Julius Caesar was renowned not only as a military commander but also as a writer.
-His *Commentarii de Bello Gallico* (Commentaries on the Gallic War) 
-exemplifies clear, direct prose.
-Caesar wrote in a straightforward style,
-avoiding unnecessary embellishment
-and focusing on conveying information efficiently.
-His famous phrase "Veni, vidi, vici" (I came, I saw, I conquered)
-demonstrates the power of brevity [@caesar_gallic].
-
-Scientific writing should emulate Caesar's conciseness.
+Concise writing conveys ideas efficiently,
+using only the words necessary to communicate meaning clearly.
 Every word should serve a purpose.
 Eliminate redundancy and verbosity.
 When you can express an idea in fewer words without losing meaning,
 do so.
+
+Many effective writers throughout history have exemplified this principle,
+including Julius Caesar,
+whose *Commentarii* and phrases like "Veni, vidi, vici" 
+demonstrate the power of brevity [@caesar_gallic].
 
 ## Common ways to improve conciseness
 
