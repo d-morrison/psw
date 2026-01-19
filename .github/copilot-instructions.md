@@ -308,3 +308,19 @@ This workflow enables a hybrid editing process where collaborators can make edit
 - Preserve all existing content when refactoring
 - Add blank lines before all lists
 - Follow the lab's R package development workflow (as described throughout this repo)
+
+## AI-Assisted Authorship Disclaimer
+
+**When creating new chapters**, always include the AI-assisted authorship disclaimer immediately after the chapter heading.
+Use the Quarto include shortcode to include the disclaimer from the shared file:
+
+```markdown
+# Chapter Title
+
+{{< include _copilot-disclaimer.qmd >}}
+
+Chapter content starts here...
+```
+
+The disclaimer file (`_copilot-disclaimer.qmd`) is located in the root directory of the book and contains a standard notice that the chapter was written with GitHub Copilot assistance.
+This disclaimer should be added to all new chapters to maintain transparency about the use of AI tools in writing the book.
