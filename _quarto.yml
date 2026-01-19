@@ -9,6 +9,7 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
+    - defining-terms.qmd
     - word-choice.qmd
     - conciseness.qmd
     - summary.qmd
