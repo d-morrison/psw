@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>1&nbsp; Introduction – Principles of Scientific Writing</title>
+<title>2&nbsp; Citations and Evidence – Principles of Scientific Writing</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,8 +50,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./citations-evidence.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./word-choice.html" rel="next">
+<link href="./intro.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -249,7 +269,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./citations-evidence.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Citations and Evidence</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -285,13 +305,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link active">
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./citations-evidence.html" class="sidebar-item-text sidebar-link">
+  <a href="./citations-evidence.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Citations and Evidence</span></span></a>
   </div>
 </li>
@@ -324,8 +344,42 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#why-claims-need-support" id="toc-why-claims-need-support" class="nav-link active" data-scroll-target="#why-claims-need-support"><span class="header-section-number">2.1</span> Why claims need support</a></li>
+  <li><a href="#what-constitutes-adequate-support" id="toc-what-constitutes-adequate-support" class="nav-link" data-scroll-target="#what-constitutes-adequate-support"><span class="header-section-number">2.2</span> What constitutes adequate support</a>
+  <ul class="collapse">
+  <li><a href="#empirical-claims" id="toc-empirical-claims" class="nav-link" data-scroll-target="#empirical-claims"><span class="header-section-number">2.2.1</span> Empirical claims</a></li>
+  <li><a href="#theoretical-claims" id="toc-theoretical-claims" class="nav-link" data-scroll-target="#theoretical-claims"><span class="header-section-number">2.2.2</span> Theoretical claims</a></li>
+  <li><a href="#methodological-claims" id="toc-methodological-claims" class="nav-link" data-scroll-target="#methodological-claims"><span class="header-section-number">2.2.3</span> Methodological claims</a></li>
+  <li><a href="#common-knowledge" id="toc-common-knowledge" class="nav-link" data-scroll-target="#common-knowledge"><span class="header-section-number">2.2.4</span> Common knowledge</a></li>
+  </ul></li>
+  <li><a href="#what-makes-a-citation-relevant" id="toc-what-makes-a-citation-relevant" class="nav-link" data-scroll-target="#what-makes-a-citation-relevant"><span class="header-section-number">2.3</span> What makes a citation relevant</a></li>
+  <li><a href="#what-makes-a-source-trustworthy" id="toc-what-makes-a-source-trustworthy" class="nav-link" data-scroll-target="#what-makes-a-source-trustworthy"><span class="header-section-number">2.4</span> What makes a source trustworthy</a>
+  <ul class="collapse">
+  <li><a href="#peer-review" id="toc-peer-review" class="nav-link" data-scroll-target="#peer-review"><span class="header-section-number">2.4.1</span> Peer review</a></li>
+  <li><a href="#reputation-of-authors-and-institutions" id="toc-reputation-of-authors-and-institutions" class="nav-link" data-scroll-target="#reputation-of-authors-and-institutions"><span class="header-section-number">2.4.2</span> Reputation of authors and institutions</a></li>
+  <li><a href="#replication-and-consensus" id="toc-replication-and-consensus" class="nav-link" data-scroll-target="#replication-and-consensus"><span class="header-section-number">2.4.3</span> Replication and consensus</a></li>
+  <li><a href="#transparency-and-reproducibility" id="toc-transparency-and-reproducibility" class="nav-link" data-scroll-target="#transparency-and-reproducibility"><span class="header-section-number">2.4.4</span> Transparency and reproducibility</a></li>
+  <li><a href="#preprints-and-non-peer-reviewed-sources" id="toc-preprints-and-non-peer-reviewed-sources" class="nav-link" data-scroll-target="#preprints-and-non-peer-reviewed-sources"><span class="header-section-number">2.4.5</span> Preprints and non-peer-reviewed sources</a></li>
+  <li><a href="#sources-to-generally-avoid" id="toc-sources-to-generally-avoid" class="nav-link" data-scroll-target="#sources-to-generally-avoid"><span class="header-section-number">2.4.6</span> Sources to generally avoid</a></li>
+  </ul></li>
+  <li><a href="#best-practices" id="toc-best-practices" class="nav-link" data-scroll-target="#best-practices"><span class="header-section-number">2.5</span> Best practices</a></li>
+  <li><a href="#common-citation-errors-to-avoid" id="toc-common-citation-errors-to-avoid" class="nav-link" data-scroll-target="#common-citation-errors-to-avoid"><span class="header-section-number">2.6</span> Common citation errors to avoid</a></li>
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples"><span class="header-section-number">2.7</span> Examples</a>
+  <ul class="collapse">
+  <li><a href="#poor-unsupported-claim" id="toc-poor-unsupported-claim" class="nav-link" data-scroll-target="#poor-unsupported-claim"><span class="header-section-number">2.7.1</span> Poor (unsupported claim)</a></li>
+  <li><a href="#better-citation-provided" id="toc-better-citation-provided" class="nav-link" data-scroll-target="#better-citation-provided"><span class="header-section-number">2.7.2</span> Better (citation provided)</a></li>
+  <li><a href="#best-citation-with-context" id="toc-best-citation-with-context" class="nav-link" data-scroll-target="#best-citation-with-context"><span class="header-section-number">2.7.3</span> Best (citation with context)</a></li>
+  <li><a href="#poor-irrelevant-citation" id="toc-poor-irrelevant-citation" class="nav-link" data-scroll-target="#poor-irrelevant-citation"><span class="header-section-number">2.7.4</span> Poor (irrelevant citation)</a></li>
+  <li><a href="#better-relevant-citation" id="toc-better-relevant-citation" class="nav-link" data-scroll-target="#better-relevant-citation"><span class="header-section-number">2.7.5</span> Better (relevant citation)</a></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">2.8</span> Conclusion</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -333,7 +387,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Citations and Evidence</span></h1>
 </div>
 
 
@@ -350,8 +404,204 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Every claim in scientific writing should be supported by either citations to relevant sources or direct evidence from data or experiments. This principle is fundamental to maintaining credibility, enabling verification, and building on the accumulated knowledge of the scientific community.</p>
+<section id="why-claims-need-support" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="why-claims-need-support"><span class="header-section-number">2.1</span> Why claims need support</h2>
+<p>Scientific writing aims to convey truthful, verifiable information. Unsupported claims undermine this goal in several ways:</p>
+<ul>
+<li><strong>Credibility</strong>: Readers cannot assess the reliability of assertions without knowing their basis</li>
+<li><strong>Verification</strong>: Claims without support cannot be independently verified or challenged</li>
+<li><strong>Reproducibility</strong>: Other researchers need sources to understand the foundation of your work</li>
+<li><strong>Intellectual honesty</strong>: Proper attribution gives credit where it is due and distinguishes your original contributions from existing knowledge</li>
+<li><strong>Learning pathway</strong>: Citations provide readers a roadmap to learn more about a topic</li>
+</ul>
+<p>When you make a claim, you are asking readers to accept it as true. They deserve to know why they should trust that claim.</p>
+</section>
+<section id="what-constitutes-adequate-support" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="what-constitutes-adequate-support"><span class="header-section-number">2.2</span> What constitutes adequate support</h2>
+<p>Different types of claims require different types of support:</p>
+<section id="empirical-claims" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="empirical-claims"><span class="header-section-number">2.2.1</span> Empirical claims</h3>
+<p>Claims about observable phenomena or data should be supported by:</p>
+<ul>
+<li>Direct presentation of the data (tables, figures, statistical analyses)</li>
+<li>Citations to published studies that collected the relevant data</li>
+<li>Description of experimental methods that generated the evidence</li>
+<li>Links to publicly accessible datasets</li>
+</ul>
+</section>
+<section id="theoretical-claims" class="level3" data-number="2.2.2">
+<h3 data-number="2.2.2" class="anchored" data-anchor-id="theoretical-claims"><span class="header-section-number">2.2.2</span> Theoretical claims</h3>
+<p>Claims about concepts, models, or interpretations should be supported by:</p>
+<ul>
+<li>Citations to papers that developed or validated the theory</li>
+<li>Logical arguments with clearly stated premises</li>
+<li>Mathematical derivations or proofs</li>
+<li>References to review articles that synthesize relevant theoretical work</li>
+</ul>
+</section>
+<section id="methodological-claims" class="level3" data-number="2.2.3">
+<h3 data-number="2.2.3" class="anchored" data-anchor-id="methodological-claims"><span class="header-section-number">2.2.3</span> Methodological claims</h3>
+<p>Claims about appropriate methods or best practices should be supported by:</p>
+<ul>
+<li>Citations to methodological papers or textbooks</li>
+<li>Empirical evidence of method performance</li>
+<li>Expert consensus statements</li>
+<li>Validation studies</li>
+</ul>
+</section>
+<section id="common-knowledge" class="level3" data-number="2.2.4">
+<h3 data-number="2.2.4" class="anchored" data-anchor-id="common-knowledge"><span class="header-section-number">2.2.4</span> Common knowledge</h3>
+<p>Not every statement requires citation. Well-established facts that are common knowledge within your field (e.g., “DNA is a double helix” in molecular biology) can be stated without citation. However, when in doubt, provide a citation—over-citing is preferable to under-citing.</p>
+</section>
+</section>
+<section id="what-makes-a-citation-relevant" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="what-makes-a-citation-relevant"><span class="header-section-number">2.3</span> What makes a citation relevant</h2>
+<p>A relevant citation is one that actually supports the specific claim you are making. Common problems with citation relevance include:</p>
+<ul>
+<li><strong>Citing review papers indiscriminately</strong>: While review papers are valuable for general background, cite the original research when making specific claims about particular findings</li>
+<li><strong>Citing papers that don’t address the claim</strong>: Ensure the cited work actually discusses the point you’re making</li>
+<li><strong>Over-generalizing from narrow studies</strong>: Don’t cite a study with limited scope to support a broad general claim</li>
+<li><strong>Using outdated sources</strong>: When current knowledge has superseded older findings, cite more recent work</li>
+</ul>
+<p>To ensure relevance:</p>
+<ul>
+<li>Read the papers you cite (at least the relevant sections)</li>
+<li>Verify that the cited work actually supports your specific claim</li>
+<li>Cite the most direct source available</li>
+<li>When citing for general background versus specific claims, make the distinction clear</li>
+</ul>
+</section>
+<section id="what-makes-a-source-trustworthy" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="what-makes-a-source-trustworthy"><span class="header-section-number">2.4</span> What makes a source trustworthy</h2>
+<p>Not all sources are equally reliable. Consider these factors when evaluating trustworthiness:</p>
+<section id="peer-review" class="level3" data-number="2.4.1">
+<h3 data-number="2.4.1" class="anchored" data-anchor-id="peer-review"><span class="header-section-number">2.4.1</span> Peer review</h3>
+<p>Peer-reviewed publications in reputable journals have undergone expert scrutiny. This doesn’t guarantee correctness, but it provides a baseline level of quality control.</p>
+</section>
+<section id="reputation-of-authors-and-institutions" class="level3" data-number="2.4.2">
+<h3 data-number="2.4.2" class="anchored" data-anchor-id="reputation-of-authors-and-institutions"><span class="header-section-number">2.4.2</span> Reputation of authors and institutions</h3>
+<p>Work from recognized experts and well-regarded institutions tends to be more reliable, though this should not be the sole criterion.</p>
+</section>
+<section id="replication-and-consensus" class="level3" data-number="2.4.3">
+<h3 data-number="2.4.3" class="anchored" data-anchor-id="replication-and-consensus"><span class="header-section-number">2.4.3</span> Replication and consensus</h3>
+<p>Findings that have been replicated by independent groups or that represent scientific consensus are more trustworthy than isolated claims.</p>
+</section>
+<section id="transparency-and-reproducibility" class="level3" data-number="2.4.4">
+<h3 data-number="2.4.4" class="anchored" data-anchor-id="transparency-and-reproducibility"><span class="header-section-number">2.4.4</span> Transparency and reproducibility</h3>
+<p>Studies that:</p>
+<ul>
+<li>Clearly describe their methods</li>
+<li>Share their data and code</li>
+<li>Disclose potential conflicts of interest</li>
+<li>Have been successfully reproduced by others</li>
+</ul>
+<p>are more trustworthy than those lacking these features.</p>
+</section>
+<section id="preprints-and-non-peer-reviewed-sources" class="level3" data-number="2.4.5">
+<h3 data-number="2.4.5" class="anchored" data-anchor-id="preprints-and-non-peer-reviewed-sources"><span class="header-section-number">2.4.5</span> Preprints and non-peer-reviewed sources</h3>
+<p>Preprints can be valuable for accessing cutting-edge research, but they have not undergone peer review. When citing preprints:</p>
+<ul>
+<li>Note that they are preprints</li>
+<li>Check whether a peer-reviewed version has since been published</li>
+<li>Exercise extra scrutiny of the methods and conclusions</li>
+</ul>
+</section>
+<section id="sources-to-generally-avoid" class="level3" data-number="2.4.6">
+<h3 data-number="2.4.6" class="anchored" data-anchor-id="sources-to-generally-avoid"><span class="header-section-number">2.4.6</span> Sources to generally avoid</h3>
+<p>Some sources typically lack the rigor needed for scientific writing:</p>
+<ul>
+<li>Wikipedia and general encyclopedias (though they can be useful starting points for finding primary sources)</li>
+<li>Popular press articles about scientific findings (cite the original research instead)</li>
+<li>Blogs and social media posts (unless discussing public discourse or documenting specific claims made in those venues)</li>
+<li>Predatory or pay-to-publish journals without genuine peer review</li>
+<li>Retracted papers</li>
+</ul>
+</section>
+</section>
+<section id="best-practices" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="best-practices"><span class="header-section-number">2.5</span> Best practices</h2>
+<p>To effectively support your claims:</p>
+<ol type="1">
+<li><strong>Cite as you write</strong>: Add citations immediately when making claims, rather than planning to “add references later”</li>
+<li><strong>Use citation management tools</strong>: Software like Zotero, Mendeley, or BibTeX helps organize and format references correctly</li>
+<li><strong>Check your citations</strong>: Before submitting, verify that every citation supports its associated claim</li>
+<li><strong>Provide context</strong>: Help readers understand why a source is relevant (e.g., “Smith et al.&nbsp;(2020) demonstrated that…” rather than just “(Smith et al., 2020)”)</li>
+<li><strong>Balance primary and review sources</strong>: Use primary sources for specific findings, reviews for general background</li>
+<li><strong>Stay current</strong>: Supplement foundational older references with recent work showing the current state of knowledge</li>
+<li><strong>Cite diverse sources</strong>: When possible, include work from different research groups and perspectives</li>
+</ol>
+</section>
+<section id="common-citation-errors-to-avoid" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="common-citation-errors-to-avoid"><span class="header-section-number">2.6</span> Common citation errors to avoid</h2>
+<ul>
+<li><strong>Citation needed</strong>: Making claims without any supporting citation or evidence</li>
+<li><strong>Vague attribution</strong>: Using phrases like “studies have shown” without citing specific studies<br>
+</li>
+<li><strong>Circular citation</strong>: Citing a paper that doesn’t contain the claimed information but cites another paper that does (cite the original source)</li>
+<li><strong>Citation padding</strong>: Adding citations that don’t actually support your claims just to appear well-referenced</li>
+<li><strong>Selective citation</strong>: Only citing work that supports your position while ignoring contradictory evidence</li>
+<li><strong>Ghost authorship</strong>: Failing to cite work that directly influenced your ideas</li>
+</ul>
+</section>
+<section id="examples" class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="examples"><span class="header-section-number">2.7</span> Examples</h2>
+<section id="poor-unsupported-claim" class="level3" data-number="2.7.1">
+<h3 data-number="2.7.1" class="anchored" data-anchor-id="poor-unsupported-claim"><span class="header-section-number">2.7.1</span> Poor (unsupported claim)</h3>
+<blockquote class="blockquote">
+<p>Machine learning models often perform poorly on small datasets.</p>
+</blockquote>
+<p><strong>Problem</strong>: This claim is stated as fact without any support.</p>
+</section>
+<section id="better-citation-provided" class="level3" data-number="2.7.2">
+<h3 data-number="2.7.2" class="anchored" data-anchor-id="better-citation-provided"><span class="header-section-number">2.7.2</span> Better (citation provided)</h3>
+<blockquote class="blockquote">
+<p>Machine learning models often perform poorly on small datasets <span class="citation" data-cites="vapnik1998 hawkins2004">(<a href="references.html#ref-vapnik1998" role="doc-biblioref">Vapnik 1998</a>; <a href="references.html#ref-hawkins2004" role="doc-biblioref">Hawkins 2004</a>)</span>.</p>
+</blockquote>
+<p><strong>Improvement</strong>: Citations provide evidence for the claim.</p>
+</section>
+<section id="best-citation-with-context" class="level3" data-number="2.7.3">
+<h3 data-number="2.7.3" class="anchored" data-anchor-id="best-citation-with-context"><span class="header-section-number">2.7.3</span> Best (citation with context)</h3>
+<blockquote class="blockquote">
+<p>Machine learning models often perform poorly on small datasets. Vapnik (1998) showed that the generalization error of learning algorithms typically decreases as training set size increases, and Hawkins (2004) demonstrated that complex models are particularly prone to overfitting when trained on limited data <span class="citation" data-cites="vapnik1998 hawkins2004">(<a href="references.html#ref-vapnik1998" role="doc-biblioref">Vapnik 1998</a>; <a href="references.html#ref-hawkins2004" role="doc-biblioref">Hawkins 2004</a>)</span>.</p>
+</blockquote>
+<p><strong>Improvement</strong>: The specific support each citation provides is explained.</p>
+</section>
+<section id="poor-irrelevant-citation" class="level3" data-number="2.7.4">
+<h3 data-number="2.7.4" class="anchored" data-anchor-id="poor-irrelevant-citation"><span class="header-section-number">2.7.4</span> Poor (irrelevant citation)</h3>
+<blockquote class="blockquote">
+<p>Python is the most popular programming language for data science <span class="citation" data-cites="knuth84">(<a href="references.html#ref-knuth84" role="doc-biblioref">Knuth 1984</a>)</span>.</p>
+</blockquote>
+<p><strong>Problem</strong>: Knuth’s 1984 paper on literate programming doesn’t address Python or data science.</p>
+</section>
+<section id="better-relevant-citation" class="level3" data-number="2.7.5">
+<h3 data-number="2.7.5" class="anchored" data-anchor-id="better-relevant-citation"><span class="header-section-number">2.7.5</span> Better (relevant citation)</h3>
+<blockquote class="blockquote">
+<p>Python is the most popular programming language for data science <span class="citation" data-cites="stackoverflow2024">(<a href="references.html#ref-stackoverflow2024" role="doc-biblioref">Stack Overflow 2024</a>)</span>.</p>
+</blockquote>
+<p><strong>Improvement</strong>: The citation is to a current survey of programming language usage.</p>
+</section>
+</section>
+<section id="conclusion" class="level2" data-number="2.8">
+<h2 data-number="2.8" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">2.8</span> Conclusion</h2>
+<p>Supporting claims with appropriate citations and evidence is not optional—it is essential to scientific communication. It allows readers to verify your claims, understand the foundation of your arguments, and locate resources for further learning. Always ask yourself: “How does my reader know this is true?” If the answer isn’t obvious from your text, add a citation or present direct evidence.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-hawkins2004" class="csl-entry" role="listitem">
+Hawkins, Douglas M. 2004. <span>“The Problem of Overfitting.”</span> <em>Journal of Chemical Information and Computer Sciences</em> 44 (1): 1–12. <a href="https://doi.org/10.1021/ci0342472">https://doi.org/10.1021/ci0342472</a>.
+</div>
+<div id="ref-knuth84" class="csl-entry" role="listitem">
+Knuth, Donald E. 1984. <span>“Literate Programming.”</span> <em>Comput. J.</em> 27 (2): 97–111. <a href="https://doi.org/10.1093/comjnl/27.2.97">https://doi.org/10.1093/comjnl/27.2.97</a>.
+</div>
+<div id="ref-stackoverflow2024" class="csl-entry" role="listitem">
+Stack Overflow. 2024. <span>“Stack Overflow Developer Survey 2024.”</span> <a href="https://survey.stackoverflow.co/2024/">https://survey.stackoverflow.co/2024/</a>.
+</div>
+<div id="ref-vapnik1998" class="csl-entry" role="listitem">
+Vapnik, Vladimir N. 1998. <em>Statistical Learning Theory</em>. New York: Wiley.
+</div>
+</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -769,13 +1019,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Preface">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface</span>
+      <a href="./intro.html" class="pagination-link" aria-label="Introduction">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./citations-evidence.html" class="pagination-link" aria-label="Citations and Evidence">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Citations and Evidence</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./word-choice.html" class="pagination-link" aria-label="Word choice">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Word choice</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
