@@ -35,6 +35,34 @@ Common package URLs:
 - [`{data.table}`](https://rdatatable.gitlab.io/data.table/)
 - [`{assertthat}`](https://cran.r-project.org/web/packages/assertthat/index.html)
 
+### Lists vs. Comma-Separated Items
+
+When describing lists of three or more items,
+use a bullet list instead of a comma-separated list.
+Use your stylistic judgment to determine when this rule applies.
+
+**Examples:**
+
+❌ **Don't** use comma-separated lists for three or more items:
+```
+The template includes GitHub Actions workflows for publishing, link checking, and spell checking.
+```
+
+✅ **Do** use bullet lists instead:
+```
+The template includes GitHub Actions workflows for:
+
+- Publishing
+- Link checking
+- Spell checking
+```
+
+**When to use your judgment:**
+
+- Short, simple items in a sentence may remain comma-separated if it maintains readability
+- Complex items or items with descriptions should always use bullet lists
+- Use bullet lists when the items are important and deserve emphasis
+- Technical lists (commands, file names, features) typically benefit from bullet format
 
 ### Blank Lines Before Lists
 
