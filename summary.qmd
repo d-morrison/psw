@@ -1,3 +1,5 @@
 # Summary
 
+{{< include _copilot-disclaimer.qmd >}}
+
 In summary, this book has no content whatsoever.

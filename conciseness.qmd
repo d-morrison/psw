@@ -1,5 +1,7 @@
 # Conciseness
 
+{{< include _copilot-disclaimer.qmd >}}
+
 Concise writing conveys ideas efficiently,
 using only the words necessary to communicate meaning clearly.
 Every word should serve a purpose.
