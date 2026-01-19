@@ -1,0 +1,82 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Principles of Scientific Writing",
+    "section": "",
+    "text": "Preface\nThis book will present my perspective on scientific writing, in particular focusing on writing about statistical data analysis, but also scientific writing generally (and informative prose generally). I intend to give it to academic mentees as a style guide reference, and also use it as a notebook for myself.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "NoteAI-Assisted Authorship\n\n\n\nThis chapter was written with the assistance of GitHub Copilot, which expanded on outlined ideas and draft notes provided by the author. The content represents the author’s perspective and has been reviewed for accuracy, but the detailed prose was generated through AI assistance.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "word-choice.html",
+    "href": "word-choice.html",
+    "title": "2  Word choice",
+    "section": "",
+    "text": "NoteAI-Assisted Authorship\n\n\n\nThis chapter was written with the assistance of GitHub Copilot, which expanded on outlined ideas and draft notes provided by the author. The content represents the author’s perspective and has been reviewed for accuracy, but the detailed prose was generated through AI assistance.\n\n\nI recommend trying to replace Latin-derived words and phrases with Old English-derived equivalents (“Anglish” words) where possible; it generally makes writing simpler and easier to read. Latin words  create artificial barriers to understanding. Many Latin-derived words commonly used in scientific writing are composed from roots and affixes which are not commonly used in their basic forms; hence, readers cannot determine the meanings of these words by decomposing them. Instead, they need to memorize the meanings of these words directly. In contrast, the components of composite Anglish words are typically also used individually, so the meanings of the composites can be derived directly. Table 2.1 lists some common Latinate words and phrases and Anglish alternatives.\n\n\n\nTable 2.1: Commonly used Latin words and phrases and Anglish alternatives\n\n\n\n\n\nLatin\nAnglish\n\n\n\n\nprior to\nbefore\n\n\nnecessary\nneeded\n\n\n\n\n\n\nSee also https://bark-fa.github.io/Anglish-Translator/\nI am aware that this book, and even this chapter, contains many Latin word choices where there are Anglish alternatives. It is a work in progress, and also, I am not advocating 100% Anglish purity. Use whichever words and phrases you think your readers are most likely to understand easily. Preferring Anglish is merely a useful heuristic to help achieve our ultimate goal of producing clear, easy-to-read writing.\nJust to be clear, although I prefer Anglish words, I have no particular preference for Anglish people or culture; it is only a practical consideration, based on the realities of English as the current default language of science and the relatively-recent hybridization of the English language.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Word choice</span>"
+    ]
+  },
+  {
+    "objectID": "conciseness.html",
+    "href": "conciseness.html",
+    "title": "3  Conciseness",
+    "section": "",
+    "text": "3.1 Common ways to improve conciseness\nConcise writing conveys ideas efficiently, using only the words necessary to communicate meaning clearly. Every word should serve a purpose. Eliminate redundancy and verbosity. When you can express an idea in fewer words without losing meaning, do so.\nRemember: concise writing is not about making every sentence as short as possible, but about removing words that do not contribute to meaning or clarity.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Conciseness</span>"
+    ]
+  },
+  {
+    "objectID": "conciseness.html#common-ways-to-improve-conciseness",
+    "href": "conciseness.html#common-ways-to-improve-conciseness",
+    "title": "3  Conciseness",
+    "section": "",
+    "text": "Remove redundant phrases\n\n“in order to” → “to”\n“due to the fact that” → “because”\n“at this point in time” → “now”\n“a large number of” → “many”\n\nUse active voice instead of passive where appropriate\n\n“The experiment was conducted by the researchers” → “The researchers conducted the experiment”\n\nEliminate unnecessary qualifiers\n\n“very”, “really”, “quite” often add little meaning\n\nReplace wordy phrases with single words\n\n“make a decision” → “decide”\n“give consideration to” → “consider”\n“is able to” → “can”",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Conciseness</span>"
+    ]
+  },
+  {
+    "objectID": "conciseness.html#examples-of-concise-writing",
+    "href": "conciseness.html#examples-of-concise-writing",
+    "title": "3  Conciseness",
+    "section": "3.2 Examples of concise writing",
+    "text": "3.2 Examples of concise writing\nMany effective writers throughout history have exemplified the principle of conciseness.\nJulius Caesar’s Commentarii and phrases like “Veni, vidi, vici” demonstrate the power of brevity (Wikipedia contributors 2026b).\nErnest Hemingway was known for his spare, direct prose style. His short sentences and simple words conveyed complex ideas and emotions without unnecessary embellishment (Wikipedia contributors 2026a).\n\n\n\n\nWikipedia contributors. 2026a. “Ernest Hemingway — Wikipedia, the Free Encyclopedia.” https://en.wikipedia.org/wiki/Ernest_Hemingway#Writing_style.\n\n\n———. 2026b. “Julius Caesar — Wikipedia, the Free Encyclopedia.” https://en.wikipedia.org/wiki/Julius_Caesar#Literary_works.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Conciseness</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "4  Summary",
+    "section": "",
+    "text": "NoteAI-Assisted Authorship\n\n\n\nThis chapter was written with the assistance of GitHub Copilot, which expanded on outlined ideas and draft notes provided by the author. The content represents the author’s perspective and has been reviewed for accuracy, but the detailed prose was generated through AI assistance.\n\n\nIn summary, this book has no content whatsoever.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Wikipedia contributors. 2026a. “Ernest Hemingway —\nWikipedia, the Free Encyclopedia.” https://en.wikipedia.org/wiki/Ernest_Hemingway#Writing_style.\n\n\n———. 2026b. “Julius Caesar — Wikipedia,\nthe Free Encyclopedia.” https://en.wikipedia.org/wiki/Julius_Caesar#Literary_works.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
