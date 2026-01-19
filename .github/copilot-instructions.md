@@ -170,6 +170,67 @@ See [Quarto Cross-References documentation](https://quarto.org/docs/authoring/cr
 - Consistent formatting across all output formats
 - Better accessibility for screen readers
 
+### Theorems, Definitions, and Examples
+
+**ALWAYS use Quarto's theorem environments for mathematical content and definitions.**
+See [Quarto Theorems and Proofs](https://quarto.org/docs/authoring/cross-references.html#theorems-and-proofs) for complete details.
+
+**Use theorem-like environments instead of manual formatting:**
+
+- Do NOT use `**Definition:**` or `**Example:**` as plain text
+- Do use Quarto's div syntax with appropriate labels
+
+**Available theorem environments and their prefixes:**
+
+| Label Prefix | Printed Name | Use For |
+|--------------|--------------|---------|
+| `#thm-` | Theorem | Mathematical theorems |
+| `#lem-` | Lemma | Supporting lemmas |
+| `#cor-` | Corollary | Corollaries |
+| `#prp-` | Proposition | Propositions |
+| `#cnj-` | Conjecture | Conjectures |
+| `#def-` | Definition | Formal definitions |
+| `#exm-` | Example | Examples |
+| `#exr-` | Exercise | Exercises |
+| `#sol-` | Solution | Solutions |
+| `#rem-` | Remark | Remarks |
+| `#alg-` | Algorithm | Algorithms |
+
+**Syntax for theorem-like environments:**
+
+```markdown
+::: {#def-term}
+
+## Term
+
+A *term* is a word or phrase with a specific,
+technical meaning within a particular field or context.
+
+:::
+```
+
+**Syntax for examples:**
+
+```markdown
+::: {#exm-population}
+
+## Population
+
+In statistics,
+the term "population" refers to the complete set of all items or individuals of interest,
+not just a geographic population of people.
+
+:::
+```
+
+**Benefits:**
+
+- Automatic numbering (e.g., "Definition 2.1", "Example 2.2")
+- Consistent formatting across HTML and PDF output
+- Cross-referenceable with `@def-label` or `@exm-label`
+- Proper semantic structure for accessibility
+- Professional typesetting (uses amsthm package in LaTeX)
+
 ## R Code Style
 
 - Follow the tidyverse style guide: https://style.tidyverse.org

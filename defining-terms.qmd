@@ -6,14 +6,24 @@ concise definition immediately before or after its first use.
 Readers should not need to search for the meaning of a term
 or infer it from context alone.
 
-**Definition:**
+::: {#def-term}
+
+## Term
+
 A *term* is a word or phrase with a specific,
 technical meaning within a particular field or context.
 
-**Example:**
+:::
+
+::: {#exm-population}
+
+## Population
+
 In statistics,
 the term "population" refers to the complete set of all items or individuals of interest,
 not just a geographic population of people.
+
+:::
 
 ## Guidelines for defining terms
 
@@ -38,25 +48,29 @@ Follow these principles when introducing new terms:
 
 Here are examples of well-defined terms:
 
-**Example 1: Statistical term**
+::: {#exm-confidence-interval}
 
-**Definition:**
+## Statistical term: Confidence interval
+
 A *confidence interval* is a range of values,
 derived from sample statistics,
 that is likely to contain the true population parameter.
 
-**Example:**
 If we calculate a 95% confidence interval for mean height as [165 cm, 175 cm],
 we are 95% confident that the true population mean height falls within this range.
 
-**Example 2: Writing term**
+:::
 
-**Definition:**
+::: {#exm-active-voice}
+
+## Writing term: Active voice
+
 *Active voice* is a sentence structure where the subject performs the action expressed by the verb.
 
-**Example:**
 "The researcher conducted the experiment" is in active voice,
 while "The experiment was conducted by the researcher" is in passive voice.
+
+:::
 
 ## Mathematical statements require examples
 
@@ -68,49 +82,82 @@ that demonstrate their application.
 Abstract mathematical statements become more accessible
 when readers can see concrete instances.
 
-**Definition:**
-A *theorem* is a statement that has been proven to be true
-based on previously established statements and axioms.
+::: {#thm-pythagorean}
 
-**Example:**
-The Pythagorean theorem states that in a right triangle,
+## Pythagorean theorem
+
+In a right triangle,
 the square of the hypotenuse equals the sum of squares of the other two sides:
 $a^2 + b^2 = c^2$.
+
+:::
+
+::: {#exm-pythagorean}
+
+## Pythagorean theorem example
+
 For a triangle with sides 3, 4, and 5:
 $3^2 + 4^2 = 9 + 16 = 25 = 5^2$.
 
-**Definition:**
-A *lemma* is a proven statement used as a stepping stone
-to prove a larger theorem.
+:::
 
-**Example:**
-Euclid's Lemma states that if a prime number divides a product of two integers,
+::: {#lem-euclid}
+
+## Euclid's Lemma
+
+If a prime number divides a product of two integers,
 it must divide at least one of those integers.
+
+:::
+
+::: {#exm-euclid}
+
+## Euclid's Lemma example
+
 If 5 divides 15 × 6 = 90,
 then 5 must divide either 15 or 6.
 Indeed, 5 divides 15.
 
-**Definition:**
-A *corollary* is a statement that follows readily
-from a theorem that has already been proven.
+:::
 
-**Example:**
-A corollary of the Pythagorean theorem is that
-in an isosceles right triangle with legs of length $a$,
+::: {#cor-isosceles-right}
+
+## Isosceles right triangle
+
+In an isosceles right triangle with legs of length $a$,
 the hypotenuse has length $a\sqrt{2}$.
+
+:::
+
+::: {#exm-isosceles-right}
+
+## Isosceles right triangle example
+
 For a triangle with legs of length 5,
 the hypotenuse is $5\sqrt{2} \approx 7.07$.
 
-**Definition:**
+:::
+
+::: {#def-postulate}
+
+## Postulate (axiom)
+
 A *postulate* (or axiom) is a statement accepted as true without proof,
 serving as a starting point for further reasoning.
 
-**Example:**
-Euclid's fifth postulate (the parallel postulate) states that
-through a point not on a line,
+:::
+
+::: {#exm-parallel-postulate}
+
+## Euclid's parallel postulate
+
+Through a point not on a line,
 exactly one line can be drawn parallel to the given line.
+
 If we have line $L$ and point $P$ not on $L$,
 only one line through $P$ will never intersect $L$.
+
+:::
 
 ## Why examples matter
 
