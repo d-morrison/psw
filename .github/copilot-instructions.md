@@ -288,6 +288,16 @@ When working with chapters that don't yet use includes:
 5. Ensure blank lines before include statements
 6. Test that rendering still works correctly
 
+### Build Artifacts
+
+**Do not track the `docs/` folder in git.**
+
+- The `docs/` folder contains Quarto build output (HTML files, JavaScript, CSS, etc.)
+- Build artifacts are generated during the CI/CD pipeline and deployed to GitHub Pages
+- The `docs/` folder should be listed in `.gitignore`
+- Each build generates fresh output, so committing it creates unnecessary git history bloat
+- The output directory is configured in `_quarto.yml` as `output-dir: docs`
+
 ## Working with DOCX Files
 
 GitHub Copilot can read and process Microsoft Word (.docx) files, which is useful for translating edits made in Word back to Quarto format.
