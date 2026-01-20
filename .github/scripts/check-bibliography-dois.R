@@ -11,6 +11,9 @@ suppressPackageStartupMessages({
   library(stringr)
 })
 
+# User agent to use for HTTP requests (realistic Chrome browser string)
+USER_AGENT <- "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
 #' Parse BibTeX file and extract entries
 #'
 #' @param filepath Path to BibTeX file
@@ -70,6 +73,7 @@ validate_doi_url <- function(doi, retry_on_403 = TRUE) {
   
   # Try up to 3 times for 403 errors
   max_attempts <- if (retry_on_403) 3 else 1
+  last_error <- NULL
   
   for (attempt in 1:max_attempts) {
     if (attempt > 1) {
@@ -79,11 +83,11 @@ validate_doi_url <- function(doi, retry_on_403 = TRUE) {
       Sys.sleep(wait_time)
     }
     
-    tryCatch({
+    result <- tryCatch({
       response <- GET(
         doi_url,
         timeout(30),
-        user_agent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+        user_agent(USER_AGENT)
       )
       
       status_code <- status_code(response)
@@ -95,8 +99,13 @@ validate_doi_url <- function(doi, retry_on_403 = TRUE) {
           status_code = status_code
         ))
       } else if (status_code == 403 && attempt < max_attempts) {
-        # Continue to retry
-        next
+        # Store error and continue to retry
+        last_error <- list(
+          is_valid = FALSE,
+          error = sprintf("DOI URL returned status %d", status_code),
+          status_code = status_code
+        )
+        NULL  # Continue loop
       } else {
         return(list(
           is_valid = FALSE,
@@ -106,8 +115,13 @@ validate_doi_url <- function(doi, retry_on_403 = TRUE) {
       }
     }, error = function(e) {
       if (attempt < max_attempts) {
-        # Continue to retry
-        return(NULL)
+        # Store error and continue to retry
+        last_error <<- list(
+          is_valid = FALSE,
+          error = sprintf("Error accessing DOI: %s", e$message),
+          status_code = NULL
+        )
+        NULL  # Continue loop
       } else {
         return(list(
           is_valid = FALSE,
@@ -116,6 +130,16 @@ validate_doi_url <- function(doi, retry_on_403 = TRUE) {
         ))
       }
     })
+    
+    # If result is not NULL, it was returned above
+    if (!is.null(result)) {
+      return(result)
+    }
+  }
+  
+  # Return last error if all attempts failed
+  if (!is.null(last_error)) {
+    return(last_error)
   }
   
   # Should not reach here, but return error just in case
@@ -145,7 +169,7 @@ get_doi_metadata <- function(doi) {
     response <- GET(
       api_url,
       timeout(30),
-      user_agent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+      user_agent(USER_AGENT)
     )
     
     if (status_code(response) == 200) {
