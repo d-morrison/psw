@@ -19,9 +19,15 @@ technical meaning within a particular field or context.
 
 ## Population
 
+::: {#def-population-term}
+
+## Population (term)
+
 In statistics,
 the term "population" refers to the complete set of all items or individuals of interest,
 not just a geographic population of people.
+
+:::
 
 :::
 
@@ -52,9 +58,15 @@ Here are examples of well-defined terms:
 
 ## Statistical term: Confidence interval
 
+::: {#def-confidence-interval}
+
+## Confidence interval
+
 A *confidence interval* is a range of values,
 derived from sample statistics,
 that is likely to contain the true population parameter.
+
+:::
 
 If we calculate a 95% confidence interval for mean height as [165 cm, 175 cm],
 we are 95% confident that the true population mean height falls within this range.
@@ -65,7 +77,13 @@ we are 95% confident that the true population mean height falls within this rang
 
 ## Writing term: Active voice
 
+::: {#def-active-voice}
+
+## Active voice
+
 *Active voice* is a sentence structure where the subject performs the action expressed by the verb.
+
+:::
 
 "The researcher conducted the experiment" is in active voice,
 while "The experiment was conducted by the researcher" is in passive voice.
