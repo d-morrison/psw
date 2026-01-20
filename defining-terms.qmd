@@ -21,7 +21,7 @@ technical meaning within a particular field or context.
 
 ::: {#def-population}
 
-## Population (term)
+## Population
 
 In statistics,
 the term "population" refers to the complete set of all items or individuals of interest,
@@ -90,96 +90,6 @@ while "The experiment was conducted by the researcher" is in passive voice.
 
 :::
 
-## Mathematical statements require examples
-
-Mathematical theorems,
-lemmas,
-corollaries,
-and postulates should always include examples
-that demonstrate their application.
-Abstract mathematical statements become more accessible
-when readers can see concrete instances.
-
-### Using theorem environments in Quarto
-
-When writing mathematical or technical content in Quarto,
-use theorem environments to demarcate and highlight the structure of your content.
-These environments provide consistent formatting,
-automatic numbering,
-and cross-reference capabilities.
-
-Quarto provides built-in theorem environments including:
-
-- `#thm-` for theorems
-- `#lem-` for lemmas
-- `#cor-` for corollaries
-- `#prp-` for propositions
-- `#cnj-` for conjectures
-- `#def-` for definitions
-- `#exm-` for examples
-- `#exr-` for exercises
-
-See the [Quarto documentation on theorems and proofs](https://quarto.org/docs/authoring/cross-references.html#theorems-and-proofs) for complete details.
-
-**Example syntax:**
-
-```markdown
-::: {#thm-pythagorean}
-
-## Pythagorean theorem
-
-In a right triangle,
-the square of the hypotenuse equals the sum of squares of the other two sides:
-$a^2 + b^2 = c^2$.
-
-:::
-```
-
-This produces automatically numbered output like "Theorem 2.1 (Pythagorean theorem)"
-and can be referenced elsewhere in your document using `@thm-pythagorean`.
-
-### Example: Pythagorean theorem
-
-::: {#thm-pythagoras}
-
-## Pythagorean theorem
-
-In a right triangle,
-the square of the hypotenuse equals the sum of squares of the other two sides:
-$a^2 + b^2 = c^2$.
-
-:::
-
-::: {#exm-pythagoras}
-
-## Pythagorean theorem example
-
-For a triangle with sides 3, 4, and 5:
-$3^2 + 4^2 = 9 + 16 = 25 = 5^2$.
-
-:::
-
-::: {#def-postulate}
-
-## Postulate (axiom)
-
-A *postulate* (or axiom) is a statement accepted as true without proof,
-serving as a starting point for further reasoning.
-
-:::
-
-::: {#exm-parallel-postulate}
-
-## Euclid's parallel postulate
-
-Through a point not on a line,
-exactly one line can be drawn parallel to the given line.
-
-If we have line $L$ and point $P$ not on $L$,
-only one line through $P$ will never intersect $L$.
-
-:::
-
 ## Why examples matter
 
 Examples serve several crucial purposes:
@@ -228,3 +138,22 @@ Examples serve several crucial purposes:
 - **Examples without context:**
   Ensure examples clearly illustrate the specific aspect
   of the definition they are meant to demonstrate.
+
+## Mathematical statements require examples
+
+Mathematical theorems,
+lemmas,
+corollaries,
+and postulates should always include examples
+that demonstrate their application.
+Abstract mathematical statements become more accessible
+when readers can see concrete instances.
+
+### Using theorem environments in Quarto
+
+{{< include defining-terms/using-theorem-environments.qmd >}}
+
+### Example: Pythagorean theorem
+
+{{< include defining-terms/pythagorean-theorem-example.qmd >}}
+
