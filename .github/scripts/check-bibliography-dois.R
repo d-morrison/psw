@@ -251,6 +251,10 @@ compare_metadata <- function(entry, metadata) {
 check_bibliography_file <- function(filepath, verify_metadata = TRUE) {
   cat(sprintf("\nChecking %s...\n", filepath))
   
+  # Exclusion list: BibTeX keys that don't have DOIs
+  # (e.g., older books where DOIs aren't available)
+  excluded_keys <- c("vapnik1998")
+  
   bib_df <- parse_bibtex_file(filepath)
   if (is.null(bib_df)) {
     return(list(checked_count = 0, errors_count = 1, errors = c("Failed to parse BibTeX file")))
@@ -265,6 +269,12 @@ check_bibliography_file <- function(filepath, verify_metadata = TRUE) {
     
     # Only check books and articles
     if (!(entry_type %in% c("book", "article"))) {
+      next
+    }
+    
+    # Skip excluded entries
+    if (entry$BIBTEXKEY %in% excluded_keys) {
+      cat(sprintf("  Skipping %s '%s' (in exclusion list)...\n", entry_type, entry$BIBTEXKEY))
       next
     }
     
