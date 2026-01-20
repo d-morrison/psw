@@ -1,0 +1,159 @@
+# Defining terms clearly
+
+Clear definitions are essential to effective scientific writing.
+Every specialized term should have an explicit,
+concise definition immediately before or after its first use.
+Readers should not need to search for the meaning of a term
+or infer it from context alone. For example:
+
+::: {#def-term}
+
+## Term
+
+A *term* is a word or phrase with a specific,
+technical meaning within a particular field or context.
+
+:::
+
+::: {#exm-population}
+
+## Population
+
+::: {#def-population}
+
+## Population
+
+In statistics,
+the term "population" refers to the complete set of all items or individuals of interest,
+not just a geographic population of people.
+
+:::
+
+:::
+
+## Guidelines for defining terms
+
+Follow these principles when introducing new terms:
+
+- **Provide explicit definitions:**
+  State clearly what a term means,
+  rather than assuming readers will understand from context.
+  
+- **Be concise:**
+  Definitions should be brief and focused,
+  using only the words necessary to convey the meaning.
+  
+- **Define terms at first use:**
+  Place the definition immediately before or after the term's first appearance.
+  
+- **Provide examples:**
+  Every definition should include at least one concrete example
+  that illustrates how the term is used.
+
+## Examples of term definitions
+
+Here are examples of well-defined terms:
+
+::: {#exm-confidence-interval}
+
+## Statistical term: Confidence interval
+
+::: {#def-confidence-interval}
+
+## Confidence interval
+
+A *confidence interval* is a range of values,
+derived from sample statistics,
+that is likely to contain the true population parameter.
+
+:::
+
+If we calculate a 95% confidence interval for mean height as [165 cm, 175 cm],
+we are 95% confident that the true population mean height falls within this range.
+
+:::
+
+::: {#exm-active-voice}
+
+## Writing term: Active voice
+
+::: {#def-active-voice}
+
+## Active voice
+
+*Active voice* is a sentence structure where the subject performs the action expressed by the verb.
+
+:::
+
+"The researcher conducted the experiment" is in active voice,
+while "The experiment was conducted by the researcher" is in passive voice.
+
+:::
+
+## Why examples matter
+
+Examples serve several crucial purposes:
+
+- **Concrete understanding:**
+  Examples transform abstract concepts into tangible instances
+  that readers can visualize and understand.
+  
+- **Verification:**
+  Readers can work through examples themselves
+  to verify they understand the definition or theorem.
+  
+- **Application:**
+  Examples show how to apply definitions and theorems
+  to solve real problems.
+  
+- **Memory:**
+  Concrete examples are easier to remember
+  than abstract definitions alone.
+
+## Common pitfalls to avoid
+
+- **Circular definitions:**
+  Do not define a term using the term itself.
+  
+  **Incorrect:**
+  "Conciseness is the quality of being concise."
+  
+  **Correct:**
+  "Conciseness is the quality of expressing ideas
+  using only the words necessary to communicate meaning clearly."
+  
+- **Vague definitions:**
+  Avoid definitions that rely on imprecise language.
+  
+  **Incorrect:**
+  "A variable is something that can change."
+  
+  **Correct:**
+  "A variable is a symbol representing a value
+  that can take on different values."
+  
+- **Missing examples:**
+  Never leave a definition without at least one example.
+  
+- **Examples without context:**
+  Ensure examples clearly illustrate the specific aspect
+  of the definition they are meant to demonstrate.
+
+## Mathematical statements require examples
+
+Mathematical theorems,
+lemmas,
+corollaries,
+and postulates should always include examples
+that demonstrate their application.
+Abstract mathematical statements become more accessible
+when readers can see concrete instances.
+
+### Using theorem environments in Quarto
+
+{{< include defining-terms/using-theorem-environments.qmd >}}
+
+### Example: Pythagorean theorem
+
+{{< include defining-terms/pythagorean-theorem-example.qmd >}}
+
