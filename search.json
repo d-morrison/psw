@@ -160,53 +160,103 @@
     ]
   },
   {
+    "objectID": "paper-organization.html",
+    "href": "paper-organization.html",
+    "title": "4  Paper Organization",
+    "section": "",
+    "text": "4.1 Standard paper structure\nEffective organization helps readers navigate your scientific paper and understand your findings. The structure of your paper should guide readers logically from your research question through your methods to your results and conclusions.\nMost scientific papers follow the IMRaD structure:\nSome papers combine Results and Discussion into a single section.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Paper Organization</span>"
+    ]
+  },
+  {
+    "objectID": "paper-organization.html#standard-paper-structure",
+    "href": "paper-organization.html#standard-paper-structure",
+    "title": "4  Paper Organization",
+    "section": "",
+    "text": "Introduction: Present the research question and background\nMethods: Describe how the study was conducted\nResults: Present the findings\nDiscussion: Interpret the findings and their implications",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Paper Organization</span>"
+    ]
+  },
+  {
+    "objectID": "paper-organization.html#organizing-the-results-section",
+    "href": "paper-organization.html#organizing-the-results-section",
+    "title": "4  Paper Organization",
+    "section": "4.2 Organizing the Results section",
+    "text": "4.2 Organizing the Results section\nThe Results section presents your findings clearly and logically. How you organize this section depends on your research design and the complexity of your analyses.\n\n4.2.1 Single outcome studies\nWhen analyzing a single primary outcome, organize results by:\n\nDescriptive statistics first\nMain analysis results\nSensitivity analyses or subgroup analyses\n\n\n\n4.2.2 Multiple outcomes analyzed separately\nWhen analyzing multiple outcomes separately, group your results section by outcome rather than by analysis type. This organization improves clarity and readability by keeping all information about each outcome together.\n\n4.2.2.1 Why group by outcome\nGrouping by outcome helps readers:\n\nFollow the story of each outcome from descriptive statistics through final results\nCompare findings across outcomes more easily\nUnderstand the complete picture for each outcome before moving to the next\nNavigate directly to outcomes of interest\n\n\n\n4.2.2.2 How to organize by outcome\nFor each outcome, present:\n\nDescriptive statistics\nMain analysis results\nSensitivity analyses\nSubgroup analyses (if applicable)\n\nStructure:\nResults\n├── Outcome 1: Mortality\n│   ├── Descriptive statistics\n│   ├── Main analysis\n│   ├── Sensitivity analyses\n│   └── Subgroup analyses\n├── Outcome 2: Hospital readmission\n│   ├── Descriptive statistics\n│   ├── Main analysis\n│   ├── Sensitivity analyses\n│   └── Subgroup analyses\n└── Outcome 3: Quality of life\n    ├── Descriptive statistics\n    ├── Main analysis\n    ├── Sensitivity analyses\n    └── Subgroup analyses\n\n\n4.2.2.3 What to avoid\nDon’t group by analysis type when outcomes are analyzed separately:\nResults (POOR ORGANIZATION)\n├── Descriptive statistics\n│   ├── Mortality\n│   ├── Hospital readmission\n│   └── Quality of life\n├── Main analyses\n│   ├── Mortality\n│   ├── Hospital readmission\n│   └── Quality of life\n└── Sensitivity analyses\n    ├── Mortality\n    ├── Hospital readmission\n    └── Quality of life\nThis forces readers to jump back and forth between sections to understand the complete story for any single outcome.\n\n\n4.2.2.4 Exception: Shared descriptive statistics\nIf your descriptive statistics apply to all outcomes (e.g., baseline characteristics in a clinical trial), present them once at the beginning before discussing individual outcomes.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Paper Organization</span>"
+    ]
+  },
+  {
+    "objectID": "paper-organization.html#figures-and-tables",
+    "href": "paper-organization.html#figures-and-tables",
+    "title": "4  Paper Organization",
+    "section": "4.3 Figures and tables",
+    "text": "4.3 Figures and tables\nPlace figures and tables near the relevant text that describes them. Number them sequentially and reference them in the text before they appear.\nEach figure and table should have a clear, informative caption that allows readers to understand it without reading the main text.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Paper Organization</span>"
+    ]
+  },
+  {
+    "objectID": "paper-organization.html#subsection-headings",
+    "href": "paper-organization.html#subsection-headings",
+    "title": "4  Paper Organization",
+    "section": "4.4 Subsection headings",
+    "text": "4.4 Subsection headings\nUse descriptive subsection headings to guide readers through your results. Headings should clearly indicate the content of each section.\nPoor heading: “Analysis 1”\nBetter heading: “Association between treatment and mortality”\nBest heading: “Treatment reduced mortality by 30%” (when appropriate and not overstating findings)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Paper Organization</span>"
+    ]
+  },
+  {
     "objectID": "word-choice.html",
     "href": "word-choice.html",
-    "title": "4  Word choice",
+    "title": "5  Word choice",
     "section": "",
-    "text": "I recommend trying to replace Latin-derived words and phrases with Old English-derived equivalents (“Anglish” words) where possible; it generally makes writing simpler and easier to read. Latin words  create artificial barriers to understanding. Many Latin-derived words commonly used in scientific writing are composed from roots and affixes which are not commonly used in their basic forms; hence, readers cannot determine the meanings of these words by decomposing them. Instead, they need to memorize the meanings of these words directly. In contrast, the components of composite Anglish words are typically also used individually, so the meanings of the composites can be derived directly. Table 4.1 lists some common Latinate words and phrases and Anglish alternatives.\n\n\n\nTable 4.1: Commonly used Latin words and phrases and Anglish alternatives\n\n\n\n\n\nLatin\nAnglish\n\n\n\n\nprior to\nbefore\n\n\nnecessary\nneeded\n\n\n\n\n\n\nSee also https://bark-fa.github.io/Anglish-Translator/\nI am aware that this book, and even this chapter, contains many Latin word choices where there are Anglish alternatives. It is a work in progress, and also, I am not advocating 100% Anglish purity. Use whichever words and phrases you think your readers are most likely to understand easily. Preferring Anglish is merely a useful heuristic to help achieve our ultimate goal of producing clear, easy-to-read writing.\nJust to be clear, although I prefer Anglish words, I have no particular preference for Anglish people or culture; it is only a practical consideration, based on the realities of English as the current default language of science and the relatively-recent hybridization of the English language.",
+    "text": "I recommend trying to replace Latin-derived words and phrases with Old English-derived equivalents (“Anglish” words) where possible; it generally makes writing simpler and easier to read. Latin words  create artificial barriers to understanding. Many Latin-derived words commonly used in scientific writing are composed from roots and affixes which are not commonly used in their basic forms; hence, readers cannot determine the meanings of these words by decomposing them. Instead, they need to memorize the meanings of these words directly. In contrast, the components of composite Anglish words are typically also used individually, so the meanings of the composites can be derived directly. Table 5.1 lists some common Latinate words and phrases and Anglish alternatives.\n\n\n\nTable 5.1: Commonly used Latin words and phrases and Anglish alternatives\n\n\n\n\n\nLatin\nAnglish\n\n\n\n\nprior to\nbefore\n\n\nnecessary\nneeded\n\n\n\n\n\n\nSee also https://bark-fa.github.io/Anglish-Translator/\nI am aware that this book, and even this chapter, contains many Latin word choices where there are Anglish alternatives. It is a work in progress, and also, I am not advocating 100% Anglish purity. Use whichever words and phrases you think your readers are most likely to understand easily. Preferring Anglish is merely a useful heuristic to help achieve our ultimate goal of producing clear, easy-to-read writing.\nJust to be clear, although I prefer Anglish words, I have no particular preference for Anglish people or culture; it is only a practical consideration, based on the realities of English as the current default language of science and the relatively-recent hybridization of the English language.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Word choice</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Word choice</span>"
     ]
   },
   {
     "objectID": "conciseness.html",
     "href": "conciseness.html",
-    "title": "5  Conciseness",
+    "title": "6  Conciseness",
     "section": "",
-    "text": "5.1 Common ways to improve conciseness\nConcise writing conveys ideas efficiently, using only the words necessary to communicate meaning clearly. Every word should serve a purpose. Eliminate redundancy and verbosity. When you can express an idea in fewer words without losing meaning, do so.\nRemember: concise writing is not about making every sentence as short as possible, but about removing words that do not contribute to meaning or clarity.",
+    "text": "6.1 Common ways to improve conciseness\nConcise writing conveys ideas efficiently, using only the words necessary to communicate meaning clearly. Every word should serve a purpose. Eliminate redundancy and verbosity. When you can express an idea in fewer words without losing meaning, do so.\nRemember: concise writing is not about making every sentence as short as possible, but about removing words that do not contribute to meaning or clarity.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Conciseness</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Conciseness</span>"
     ]
   },
   {
     "objectID": "conciseness.html#common-ways-to-improve-conciseness",
     "href": "conciseness.html#common-ways-to-improve-conciseness",
-    "title": "5  Conciseness",
+    "title": "6  Conciseness",
     "section": "",
     "text": "Remove redundant phrases\n\n“in order to” → “to”\n“due to the fact that” → “because”\n“at this point in time” → “now”\n“a large number of” → “many”\n\nUse active voice instead of passive where appropriate\n\n“The experiment was conducted by the researchers” → “The researchers conducted the experiment”\n\nEliminate unnecessary qualifiers\n\n“very”, “really”, “quite” often add little meaning\n\nReplace wordy phrases with single words\n\n“make a decision” → “decide”\n“give consideration to” → “consider”\n“is able to” → “can”",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Conciseness</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Conciseness</span>"
     ]
   },
   {
     "objectID": "conciseness.html#examples-of-concise-writing",
     "href": "conciseness.html#examples-of-concise-writing",
-    "title": "5  Conciseness",
-    "section": "5.2 Examples of concise writing",
-    "text": "5.2 Examples of concise writing\nMany effective writers throughout history have exemplified the principle of conciseness.\nJulius Caesar’s Commentarii and phrases like “Veni, vidi, vici” demonstrate the power of brevity (Wikipedia contributors 2026b).\nErnest Hemingway was known for his spare, direct prose style. His short sentences and simple words conveyed complex ideas and emotions without unnecessary embellishment (Wikipedia contributors 2026a).\n\n\n\n\nWikipedia contributors. 2026a. “Ernest Hemingway — Wikipedia, the Free Encyclopedia.” https://en.wikipedia.org/wiki/Ernest_Hemingway#Writing_style.\n\n\n———. 2026b. “Julius Caesar — Wikipedia, the Free Encyclopedia.” https://en.wikipedia.org/wiki/Julius_Caesar#Literary_works.",
+    "title": "6  Conciseness",
+    "section": "6.2 Examples of concise writing",
+    "text": "6.2 Examples of concise writing\nMany effective writers throughout history have exemplified the principle of conciseness.\nJulius Caesar’s Commentarii and phrases like “Veni, vidi, vici” demonstrate the power of brevity (Wikipedia contributors 2026b).\nErnest Hemingway was known for his spare, direct prose style. His short sentences and simple words conveyed complex ideas and emotions without unnecessary embellishment (Wikipedia contributors 2026a).\n\n\n\n\nWikipedia contributors. 2026a. “Ernest Hemingway — Wikipedia, the Free Encyclopedia.” https://en.wikipedia.org/wiki/Ernest_Hemingway#Writing_style.\n\n\n———. 2026b. “Julius Caesar — Wikipedia, the Free Encyclopedia.” https://en.wikipedia.org/wiki/Julius_Caesar#Literary_works.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Conciseness</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Conciseness</span>"
     ]
   },
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "6  Summary",
+    "title": "7  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
   {
