@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>3&nbsp; Citations and Evidence – Principles of Scientific Writing</title>
+<title>2&nbsp; Defining terms clearly – Principles of Scientific Writing</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +20,42 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
 }
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -50,8 +65,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./word-choice.html" rel="next">
-<link href="./defining-terms.html" rel="prev">
+<link href="./citations-evidence.html" rel="next">
+<link href="./intro.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -95,6 +110,35 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -269,7 +313,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./citations-evidence.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Citations and Evidence</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./defining-terms.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Defining terms clearly</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -311,13 +355,13 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./defining-terms.html" class="sidebar-item-text sidebar-link">
+  <a href="./defining-terms.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Defining terms clearly</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./citations-evidence.html" class="sidebar-item-text sidebar-link active">
+  <a href="./citations-evidence.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Citations and Evidence</span></span></a>
   </div>
 </li>
@@ -355,35 +399,15 @@ div.csl-indent {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#why-claims-need-support" id="toc-why-claims-need-support" class="nav-link active" data-scroll-target="#why-claims-need-support"><span class="header-section-number">3.1</span> Why claims need support</a></li>
-  <li><a href="#what-constitutes-adequate-support" id="toc-what-constitutes-adequate-support" class="nav-link" data-scroll-target="#what-constitutes-adequate-support"><span class="header-section-number">3.2</span> What constitutes adequate support</a>
+  <li><a href="#guidelines-for-defining-terms" id="toc-guidelines-for-defining-terms" class="nav-link active" data-scroll-target="#guidelines-for-defining-terms"><span class="header-section-number">2.1</span> Guidelines for defining terms</a></li>
+  <li><a href="#examples-of-term-definitions" id="toc-examples-of-term-definitions" class="nav-link" data-scroll-target="#examples-of-term-definitions"><span class="header-section-number">2.2</span> Examples of term definitions</a></li>
+  <li><a href="#why-examples-matter" id="toc-why-examples-matter" class="nav-link" data-scroll-target="#why-examples-matter"><span class="header-section-number">2.3</span> Why examples matter</a></li>
+  <li><a href="#common-pitfalls-to-avoid" id="toc-common-pitfalls-to-avoid" class="nav-link" data-scroll-target="#common-pitfalls-to-avoid"><span class="header-section-number">2.4</span> Common pitfalls to avoid</a></li>
+  <li><a href="#mathematical-statements-require-examples" id="toc-mathematical-statements-require-examples" class="nav-link" data-scroll-target="#mathematical-statements-require-examples"><span class="header-section-number">2.5</span> Mathematical statements require examples</a>
   <ul class="collapse">
-  <li><a href="#empirical-claims" id="toc-empirical-claims" class="nav-link" data-scroll-target="#empirical-claims"><span class="header-section-number">3.2.1</span> Empirical claims</a></li>
-  <li><a href="#theoretical-claims" id="toc-theoretical-claims" class="nav-link" data-scroll-target="#theoretical-claims"><span class="header-section-number">3.2.2</span> Theoretical claims</a></li>
-  <li><a href="#methodological-claims" id="toc-methodological-claims" class="nav-link" data-scroll-target="#methodological-claims"><span class="header-section-number">3.2.3</span> Methodological claims</a></li>
-  <li><a href="#common-knowledge" id="toc-common-knowledge" class="nav-link" data-scroll-target="#common-knowledge"><span class="header-section-number">3.2.4</span> Common knowledge</a></li>
+  <li><a href="#using-theorem-environments-in-quarto" id="toc-using-theorem-environments-in-quarto" class="nav-link" data-scroll-target="#using-theorem-environments-in-quarto"><span class="header-section-number">2.5.1</span> Using theorem environments in Quarto</a></li>
+  <li><a href="#example-pythagorean-theorem" id="toc-example-pythagorean-theorem" class="nav-link" data-scroll-target="#example-pythagorean-theorem"><span class="header-section-number">2.5.2</span> Example: Pythagorean theorem</a></li>
   </ul></li>
-  <li><a href="#what-makes-a-citation-relevant" id="toc-what-makes-a-citation-relevant" class="nav-link" data-scroll-target="#what-makes-a-citation-relevant"><span class="header-section-number">3.3</span> What makes a citation relevant</a></li>
-  <li><a href="#what-makes-a-source-trustworthy" id="toc-what-makes-a-source-trustworthy" class="nav-link" data-scroll-target="#what-makes-a-source-trustworthy"><span class="header-section-number">3.4</span> What makes a source trustworthy</a>
-  <ul class="collapse">
-  <li><a href="#peer-review" id="toc-peer-review" class="nav-link" data-scroll-target="#peer-review"><span class="header-section-number">3.4.1</span> Peer review</a></li>
-  <li><a href="#reputation-of-authors-and-institutions" id="toc-reputation-of-authors-and-institutions" class="nav-link" data-scroll-target="#reputation-of-authors-and-institutions"><span class="header-section-number">3.4.2</span> Reputation of authors and institutions</a></li>
-  <li><a href="#replication-and-consensus" id="toc-replication-and-consensus" class="nav-link" data-scroll-target="#replication-and-consensus"><span class="header-section-number">3.4.3</span> Replication and consensus</a></li>
-  <li><a href="#transparency-and-reproducibility" id="toc-transparency-and-reproducibility" class="nav-link" data-scroll-target="#transparency-and-reproducibility"><span class="header-section-number">3.4.4</span> Transparency and reproducibility</a></li>
-  <li><a href="#preprints-and-non-peer-reviewed-sources" id="toc-preprints-and-non-peer-reviewed-sources" class="nav-link" data-scroll-target="#preprints-and-non-peer-reviewed-sources"><span class="header-section-number">3.4.5</span> Preprints and non-peer-reviewed sources</a></li>
-  <li><a href="#sources-to-generally-avoid" id="toc-sources-to-generally-avoid" class="nav-link" data-scroll-target="#sources-to-generally-avoid"><span class="header-section-number">3.4.6</span> Sources to generally avoid</a></li>
-  </ul></li>
-  <li><a href="#best-practices" id="toc-best-practices" class="nav-link" data-scroll-target="#best-practices"><span class="header-section-number">3.5</span> Best practices</a></li>
-  <li><a href="#common-citation-errors-to-avoid" id="toc-common-citation-errors-to-avoid" class="nav-link" data-scroll-target="#common-citation-errors-to-avoid"><span class="header-section-number">3.6</span> Common citation errors to avoid</a></li>
-  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples"><span class="header-section-number">3.7</span> Examples</a>
-  <ul class="collapse">
-  <li><a href="#poor-unsupported-claim" id="toc-poor-unsupported-claim" class="nav-link" data-scroll-target="#poor-unsupported-claim"><span class="header-section-number">3.7.1</span> Poor (unsupported claim)</a></li>
-  <li><a href="#better-citation-provided" id="toc-better-citation-provided" class="nav-link" data-scroll-target="#better-citation-provided"><span class="header-section-number">3.7.2</span> Better (citation provided)</a></li>
-  <li><a href="#best-citation-with-context" id="toc-best-citation-with-context" class="nav-link" data-scroll-target="#best-citation-with-context"><span class="header-section-number">3.7.3</span> Best (citation with context)</a></li>
-  <li><a href="#poor-irrelevant-citation" id="toc-poor-irrelevant-citation" class="nav-link" data-scroll-target="#poor-irrelevant-citation"><span class="header-section-number">3.7.4</span> Poor (irrelevant citation)</a></li>
-  <li><a href="#better-relevant-citation" id="toc-better-relevant-citation" class="nav-link" data-scroll-target="#better-relevant-citation"><span class="header-section-number">3.7.5</span> Better (relevant citation)</a></li>
-  </ul></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">3.8</span> Conclusion</a></li>
   </ul>
 </nav>
     </div>
@@ -393,7 +417,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Citations and Evidence</span></h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Defining terms clearly</span></h1>
 </div>
 
 
@@ -410,203 +434,115 @@ div.csl-indent {
 </header>
 
 
-<p>Every claim in scientific writing should be supported by either citations to relevant sources or direct evidence from data or experiments. This principle is fundamental to maintaining credibility, enabling verification, and building on the accumulated knowledge of the scientific community.</p>
-<section id="why-claims-need-support" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="why-claims-need-support"><span class="header-section-number">3.1</span> Why claims need support</h2>
-<p>Scientific writing aims to convey truthful, verifiable information. Unsupported claims undermine this goal in several ways:</p>
+<p>Clear definitions are essential to effective scientific writing. Every specialized term should have an explicit, concise definition immediately before or after its first use. Readers should not need to search for the meaning of a term or infer it from context alone. For example:</p>
+<div id="def-term" class="theorem definition">
+<p><span class="theorem-title"><strong>Definition 2.1 (Term)</strong></span> A <em>term</em> is a word or phrase with a specific, technical meaning within a particular field or context.</p>
+</div>
+<div id="exm-population" class="theorem example">
+<p><span class="theorem-title"><strong>Example 2.1 (Population)</strong></span> &nbsp;</p>
+<div id="def-population" class="theorem definition">
+<p><span class="theorem-title"><strong>Definition 2.2 (Population)</strong></span> In statistics, the term “population” refers to the complete set of all items or individuals of interest, not just a geographic population of people.</p>
+</div>
+</div>
+<section id="guidelines-for-defining-terms" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="guidelines-for-defining-terms"><span class="header-section-number">2.1</span> Guidelines for defining terms</h2>
+<p>Follow these principles when introducing new terms:</p>
 <ul>
-<li><strong>Credibility</strong>: Readers cannot assess the reliability of assertions without knowing their basis</li>
-<li><strong>Verification</strong>: Claims without support cannot be independently verified or challenged</li>
-<li><strong>Reproducibility</strong>: Other researchers need sources to understand the foundation of your work</li>
-<li><strong>Intellectual honesty</strong>: Proper attribution gives credit where it is due and distinguishes your original contributions from existing knowledge</li>
-<li><strong>Learning pathway</strong>: Citations provide readers a roadmap to learn more about a topic</li>
-</ul>
-<p>When you make a claim, you are asking readers to accept it as true. They deserve to know why they should trust that claim.</p>
-</section>
-<section id="what-constitutes-adequate-support" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="what-constitutes-adequate-support"><span class="header-section-number">3.2</span> What constitutes adequate support</h2>
-<p>Different types of claims require different types of support:</p>
-<section id="empirical-claims" class="level3" data-number="3.2.1">
-<h3 data-number="3.2.1" class="anchored" data-anchor-id="empirical-claims"><span class="header-section-number">3.2.1</span> Empirical claims</h3>
-<p>Claims about observable phenomena or data should be supported by:</p>
-<ul>
-<li>Direct presentation of the data (tables, figures, statistical analyses)</li>
-<li>Citations to published studies that collected the relevant data</li>
-<li>Description of experimental methods that generated the evidence</li>
-<li>Links to publicly accessible datasets</li>
+<li><p><strong>Provide explicit definitions:</strong> State clearly what a term means, rather than assuming readers will understand from context.</p></li>
+<li><p><strong>Be concise:</strong> Definitions should be brief and focused, using only the words necessary to convey the meaning.</p></li>
+<li><p><strong>Define terms at first use:</strong> Place the definition immediately before or after the term’s first appearance.</p></li>
+<li><p><strong>Provide examples:</strong> Every definition should include at least one concrete example that illustrates how the term is used.</p></li>
 </ul>
 </section>
-<section id="theoretical-claims" class="level3" data-number="3.2.2">
-<h3 data-number="3.2.2" class="anchored" data-anchor-id="theoretical-claims"><span class="header-section-number">3.2.2</span> Theoretical claims</h3>
-<p>Claims about concepts, models, or interpretations should be supported by:</p>
+<section id="examples-of-term-definitions" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="examples-of-term-definitions"><span class="header-section-number">2.2</span> Examples of term definitions</h2>
+<p>Here are examples of well-defined terms:</p>
+<div id="exm-confidence-interval" class="theorem example">
+<p><span class="theorem-title"><strong>Example 2.2 (Statistical term: Confidence interval)</strong></span> &nbsp;</p>
+<div id="def-confidence-interval" class="theorem definition">
+<p><span class="theorem-title"><strong>Definition 2.3 (Confidence interval)</strong></span> A <em>confidence interval</em> is a range of values, derived from sample statistics, that is likely to contain the true population parameter.</p>
+</div>
+<p>If we calculate a 95% confidence interval for mean height as [165 cm, 175 cm], we are 95% confident that the true population mean height falls within this range.</p>
+</div>
+<div id="exm-active-voice" class="theorem example">
+<p><span class="theorem-title"><strong>Example 2.3 (Writing term: Active voice)</strong></span> &nbsp;</p>
+<div id="def-active-voice" class="theorem definition">
+<p><span class="theorem-title"><strong>Definition 2.4 (Active voice)</strong></span> <em>Active voice</em> is a sentence structure where the subject performs the action expressed by the verb.</p>
+</div>
+<p>“The researcher conducted the experiment” is in active voice, while “The experiment was conducted by the researcher” is in passive voice.</p>
+</div>
+</section>
+<section id="why-examples-matter" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="why-examples-matter"><span class="header-section-number">2.3</span> Why examples matter</h2>
+<p>Examples serve several crucial purposes:</p>
 <ul>
-<li>Citations to papers that developed or validated the theory</li>
-<li>Logical arguments with clearly stated premises</li>
-<li>Mathematical derivations or proofs</li>
-<li>References to review articles that synthesize relevant theoretical work</li>
+<li><p><strong>Concrete understanding:</strong> Examples transform abstract concepts into tangible instances that readers can visualize and understand.</p></li>
+<li><p><strong>Verification:</strong> Readers can work through examples themselves to verify they understand the definition or theorem.</p></li>
+<li><p><strong>Application:</strong> Examples show how to apply definitions and theorems to solve real problems.</p></li>
+<li><p><strong>Memory:</strong> Concrete examples are easier to remember than abstract definitions alone.</p></li>
 </ul>
 </section>
-<section id="methodological-claims" class="level3" data-number="3.2.3">
-<h3 data-number="3.2.3" class="anchored" data-anchor-id="methodological-claims"><span class="header-section-number">3.2.3</span> Methodological claims</h3>
-<p>Claims about appropriate methods or best practices should be supported by:</p>
+<section id="common-pitfalls-to-avoid" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="common-pitfalls-to-avoid"><span class="header-section-number">2.4</span> Common pitfalls to avoid</h2>
 <ul>
-<li>Citations to methodological papers or textbooks</li>
-<li>Empirical evidence of method performance</li>
-<li>Expert consensus statements</li>
-<li>Validation studies</li>
+<li><p><strong>Circular definitions:</strong> Do not define a term using the term itself.</p>
+<p><strong>Incorrect:</strong> “Conciseness is the quality of being concise.”</p>
+<p><strong>Correct:</strong> “Conciseness is the quality of expressing ideas using only the words necessary to communicate meaning clearly.”</p></li>
+<li><p><strong>Vague definitions:</strong> Avoid definitions that rely on imprecise language.</p>
+<p><strong>Incorrect:</strong> “A variable is something that can change.”</p>
+<p><strong>Correct:</strong> “A variable is a symbol representing a value that can take on different values.”</p></li>
+<li><p><strong>Missing examples:</strong> Never leave a definition without at least one example.</p></li>
+<li><p><strong>Examples without context:</strong> Ensure examples clearly illustrate the specific aspect of the definition they are meant to demonstrate.</p></li>
 </ul>
 </section>
-<section id="common-knowledge" class="level3" data-number="3.2.4">
-<h3 data-number="3.2.4" class="anchored" data-anchor-id="common-knowledge"><span class="header-section-number">3.2.4</span> Common knowledge</h3>
-<p>Not every statement requires citation. Well-established facts that are common knowledge within your field (e.g., “DNA is a double helix” in molecular biology) can be stated without citation. However, when in doubt, provide a citation—over-citing is preferable to under-citing.</p>
-</section>
-</section>
-<section id="what-makes-a-citation-relevant" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="what-makes-a-citation-relevant"><span class="header-section-number">3.3</span> What makes a citation relevant</h2>
-<p>A relevant citation is one that actually supports the specific claim you are making. Common problems with citation relevance include:</p>
+<section id="mathematical-statements-require-examples" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="mathematical-statements-require-examples"><span class="header-section-number">2.5</span> Mathematical statements require examples</h2>
+<p>Mathematical theorems, lemmas, corollaries, and postulates should always include examples that demonstrate their application. Abstract mathematical statements become more accessible when readers can see concrete instances.</p>
+<section id="using-theorem-environments-in-quarto" class="level3" data-number="2.5.1">
+<h3 data-number="2.5.1" class="anchored" data-anchor-id="using-theorem-environments-in-quarto"><span class="header-section-number">2.5.1</span> Using theorem environments in Quarto</h3>
+<p>When writing mathematical or technical content in Quarto, use theorem environments to demarcate and highlight the structure of your content. These environments provide consistent formatting, automatic numbering, and cross-reference capabilities.</p>
+<p>Quarto provides built-in theorem environments including:</p>
 <ul>
-<li><strong>Citing review papers indiscriminately</strong>: While review papers are valuable for general background, cite the original research when making specific claims about particular findings</li>
-<li><strong>Citing papers that don’t address the claim</strong>: Ensure the cited work actually discusses the point you’re making</li>
-<li><strong>Over-generalizing from narrow studies</strong>: Don’t cite a study with limited scope to support a broad general claim</li>
-<li><strong>Using outdated sources</strong>: When current knowledge has superseded older findings, cite more recent work</li>
+<li><code>#thm-</code> for theorems</li>
+<li><code>#lem-</code> for lemmas</li>
+<li><code>#cor-</code> for corollaries</li>
+<li><code>#prp-</code> for propositions</li>
+<li><code>#cnj-</code> for conjectures</li>
+<li><code>#def-</code> for definitions</li>
+<li><code>#exm-</code> for examples</li>
+<li><code>#exr-</code> for exercises</li>
 </ul>
-<p>To ensure relevance:</p>
-<ul>
-<li>Read the papers you cite (at least the relevant sections)</li>
-<li>Verify that the cited work actually supports your specific claim</li>
-<li>Cite the most direct source available</li>
-<li>When citing for general background versus specific claims, make the distinction clear</li>
-</ul>
+<p>See the <a href="https://quarto.org/docs/authoring/cross-references.html#theorems-and-proofs">Quarto documentation on theorems and proofs</a> for complete details.</p>
+<p><strong>Example syntax:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>::: {#thm-pythagorean}</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">## Pythagorean theorem</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>In a right triangle,</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>the square of the hypotenuse equals the sum of squares of the other two sides:</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>$a^2 + b^2 = c^2$.</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>This produces automatically numbered output like “Theorem 2.1 (Pythagorean theorem)” and can be referenced elsewhere in your document using <code>@thm-pythagorean</code>.</p>
 </section>
-<section id="what-makes-a-source-trustworthy" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="what-makes-a-source-trustworthy"><span class="header-section-number">3.4</span> What makes a source trustworthy</h2>
-<p>Not all sources are equally reliable. Consider these factors when evaluating trustworthiness:</p>
-<section id="peer-review" class="level3" data-number="3.4.1">
-<h3 data-number="3.4.1" class="anchored" data-anchor-id="peer-review"><span class="header-section-number">3.4.1</span> Peer review</h3>
-<p>Peer-reviewed publications in reputable journals have undergone expert scrutiny. This doesn’t guarantee correctness, but it provides a baseline level of quality control.</p>
-</section>
-<section id="reputation-of-authors-and-institutions" class="level3" data-number="3.4.2">
-<h3 data-number="3.4.2" class="anchored" data-anchor-id="reputation-of-authors-and-institutions"><span class="header-section-number">3.4.2</span> Reputation of authors and institutions</h3>
-<p>Work from recognized experts and well-regarded institutions tends to be more reliable, though this should not be the sole criterion.</p>
-</section>
-<section id="replication-and-consensus" class="level3" data-number="3.4.3">
-<h3 data-number="3.4.3" class="anchored" data-anchor-id="replication-and-consensus"><span class="header-section-number">3.4.3</span> Replication and consensus</h3>
-<p>Findings that have been replicated by independent groups or that represent scientific consensus are more trustworthy than isolated claims.</p>
-</section>
-<section id="transparency-and-reproducibility" class="level3" data-number="3.4.4">
-<h3 data-number="3.4.4" class="anchored" data-anchor-id="transparency-and-reproducibility"><span class="header-section-number">3.4.4</span> Transparency and reproducibility</h3>
-<p>Studies that:</p>
-<ul>
-<li>Clearly describe their methods</li>
-<li>Share their data and code</li>
-<li>Disclose potential conflicts of interest</li>
-<li>Have been successfully reproduced by others</li>
-</ul>
-<p>are more trustworthy than those lacking these features.</p>
-</section>
-<section id="preprints-and-non-peer-reviewed-sources" class="level3" data-number="3.4.5">
-<h3 data-number="3.4.5" class="anchored" data-anchor-id="preprints-and-non-peer-reviewed-sources"><span class="header-section-number">3.4.5</span> Preprints and non-peer-reviewed sources</h3>
-<p>Preprints can be valuable for accessing cutting-edge research, but they have not undergone peer review. When citing preprints:</p>
-<ul>
-<li>Note that they are preprints</li>
-<li>Check whether a peer-reviewed version has since been published</li>
-<li>Exercise extra scrutiny of the methods and conclusions</li>
-</ul>
-</section>
-<section id="sources-to-generally-avoid" class="level3" data-number="3.4.6">
-<h3 data-number="3.4.6" class="anchored" data-anchor-id="sources-to-generally-avoid"><span class="header-section-number">3.4.6</span> Sources to generally avoid</h3>
-<p>Some sources typically lack the rigor needed for scientific writing:</p>
-<ul>
-<li>Wikipedia and general encyclopedias (though they can be useful starting points for finding primary sources)</li>
-<li>Popular press articles about scientific findings (cite the original research instead)</li>
-<li>Blogs and social media posts (unless discussing public discourse or documenting specific claims made in those venues)</li>
-<li>Predatory or pay-to-publish journals without genuine peer review</li>
-<li>Retracted papers</li>
-</ul>
-</section>
-</section>
-<section id="best-practices" class="level2" data-number="3.5">
-<h2 data-number="3.5" class="anchored" data-anchor-id="best-practices"><span class="header-section-number">3.5</span> Best practices</h2>
-<p>To effectively support your claims:</p>
-<ol type="1">
-<li><strong>Cite as you write</strong>: Add citations immediately when making claims, rather than planning to “add references later”</li>
-<li><strong>Use citation management tools</strong>: Software like Zotero, Mendeley, or BibTeX helps organize and format references correctly</li>
-<li><strong>Check your citations</strong>: Before submitting, verify that every citation supports its associated claim</li>
-<li><strong>Provide context</strong>: Help readers understand why a source is relevant (e.g., “Smith et al.&nbsp;(2020) demonstrated that…” rather than just “(Smith et al., 2020)”)</li>
-<li><strong>Balance primary and review sources</strong>: Use primary sources for specific findings, reviews for general background</li>
-<li><strong>Stay current</strong>: Supplement foundational older references with recent work showing the current state of knowledge</li>
-<li><strong>Cite diverse sources</strong>: When possible, include work from different research groups and perspectives</li>
-</ol>
-</section>
-<section id="common-citation-errors-to-avoid" class="level2" data-number="3.6">
-<h2 data-number="3.6" class="anchored" data-anchor-id="common-citation-errors-to-avoid"><span class="header-section-number">3.6</span> Common citation errors to avoid</h2>
-<ul>
-<li><strong>Citation needed</strong>: Making claims without any supporting citation or evidence</li>
-<li><strong>Vague attribution</strong>: Using phrases like “studies have shown” without citing specific studies<br>
-</li>
-<li><strong>Circular citation</strong>: Citing a paper that doesn’t contain the claimed information but cites another paper that does (cite the original source)</li>
-<li><strong>Citation padding</strong>: Adding citations that don’t actually support your claims just to appear well-referenced</li>
-<li><strong>Selective citation</strong>: Only citing work that supports your position while ignoring contradictory evidence</li>
-<li><strong>Ghost authorship</strong>: Failing to cite work that directly influenced your ideas</li>
-</ul>
-</section>
-<section id="examples" class="level2" data-number="3.7">
-<h2 data-number="3.7" class="anchored" data-anchor-id="examples"><span class="header-section-number">3.7</span> Examples</h2>
-<section id="poor-unsupported-claim" class="level3" data-number="3.7.1">
-<h3 data-number="3.7.1" class="anchored" data-anchor-id="poor-unsupported-claim"><span class="header-section-number">3.7.1</span> Poor (unsupported claim)</h3>
-<blockquote class="blockquote">
-<p>Machine learning models often perform poorly on small datasets.</p>
-</blockquote>
-<p><strong>Problem</strong>: This claim is stated as fact without any support.</p>
-</section>
-<section id="better-citation-provided" class="level3" data-number="3.7.2">
-<h3 data-number="3.7.2" class="anchored" data-anchor-id="better-citation-provided"><span class="header-section-number">3.7.2</span> Better (citation provided)</h3>
-<blockquote class="blockquote">
-<p>Machine learning models often perform poorly on small datasets <span class="citation" data-cites="vapnik1998 hawkins2004">(<a href="references.html#ref-vapnik1998" role="doc-biblioref">Vapnik 1998</a>; <a href="references.html#ref-hawkins2004" role="doc-biblioref">Hawkins 2004</a>)</span>.</p>
-</blockquote>
-<p><strong>Improvement</strong>: Citations provide evidence for the claim.</p>
-</section>
-<section id="best-citation-with-context" class="level3" data-number="3.7.3">
-<h3 data-number="3.7.3" class="anchored" data-anchor-id="best-citation-with-context"><span class="header-section-number">3.7.3</span> Best (citation with context)</h3>
-<blockquote class="blockquote">
-<p>Machine learning models often perform poorly on small datasets. Vapnik (1998) showed that the generalization error of learning algorithms typically decreases as training set size increases, and Hawkins (2004) demonstrated that complex models are particularly prone to overfitting when trained on limited data <span class="citation" data-cites="vapnik1998 hawkins2004">(<a href="references.html#ref-vapnik1998" role="doc-biblioref">Vapnik 1998</a>; <a href="references.html#ref-hawkins2004" role="doc-biblioref">Hawkins 2004</a>)</span>.</p>
-</blockquote>
-<p><strong>Improvement</strong>: The specific support each citation provides is explained.</p>
-</section>
-<section id="poor-irrelevant-citation" class="level3" data-number="3.7.4">
-<h3 data-number="3.7.4" class="anchored" data-anchor-id="poor-irrelevant-citation"><span class="header-section-number">3.7.4</span> Poor (irrelevant citation)</h3>
-<blockquote class="blockquote">
-<p>Python is the most popular programming language for data science <span class="citation" data-cites="knuth84">(<a href="references.html#ref-knuth84" role="doc-biblioref">Knuth 1984</a>)</span>.</p>
-</blockquote>
-<p><strong>Problem</strong>: Knuth’s 1984 paper on literate programming doesn’t address Python or data science.</p>
-</section>
-<section id="better-relevant-citation" class="level3" data-number="3.7.5">
-<h3 data-number="3.7.5" class="anchored" data-anchor-id="better-relevant-citation"><span class="header-section-number">3.7.5</span> Better (relevant citation)</h3>
-<blockquote class="blockquote">
-<p>Python is the most popular programming language for data science <span class="citation" data-cites="stackoverflow2024">(<a href="references.html#ref-stackoverflow2024" role="doc-biblioref">Stack Overflow 2024</a>)</span>.</p>
-</blockquote>
-<p><strong>Improvement</strong>: The citation is to a current survey of programming language usage.</p>
-</section>
-</section>
-<section id="conclusion" class="level2" data-number="3.8">
-<h2 data-number="3.8" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">3.8</span> Conclusion</h2>
-<p>Supporting claims with appropriate citations and evidence is not optional—it is essential to scientific communication. It allows readers to verify your claims, understand the foundation of your arguments, and locate resources for further learning. Always ask yourself: “How does my reader know this is true?” If the answer isn’t obvious from your text, add a citation or present direct evidence.</p>
+<section id="example-pythagorean-theorem" class="level3" data-number="2.5.2">
+<h3 data-number="2.5.2" class="anchored" data-anchor-id="example-pythagorean-theorem"><span class="header-section-number">2.5.2</span> Example: Pythagorean theorem</h3>
+<div id="thm-pythagoras" class="theorem">
+<p><span class="theorem-title"><strong>Theorem 2.1 (Pythagorean theorem)</strong></span> In a right triangle, the square of the hypotenuse equals the sum of squares of the other two sides: <span class="math inline">\(a^2 + b^2 = c^2\)</span>.</p>
+</div>
+<div id="exm-pythagoras" class="theorem example">
+<p><span class="theorem-title"><strong>Example 2.4 (Pythagorean theorem example)</strong></span> For a triangle with sides 3, 4, and 5: <span class="math inline">\(3^2 + 4^2 = 9 + 16 = 25 = 5^2\)</span>.</p>
+</div>
+<div id="def-postulate" class="theorem definition">
+<p><span class="theorem-title"><strong>Definition 2.5 (Postulate (axiom))</strong></span> A <em>postulate</em> (or axiom) is a statement accepted as true without proof, serving as a starting point for further reasoning.</p>
+</div>
+<div id="exm-parallel-postulate" class="theorem example">
+<p><span class="theorem-title"><strong>Example 2.5 (Euclid’s parallel postulate)</strong></span> Through a point not on a line, exactly one line can be drawn parallel to the given line.</p>
+<p>If we have line <span class="math inline">\(L\)</span> and point <span class="math inline">\(P\)</span> not on <span class="math inline">\(L\)</span>, only one line through <span class="math inline">\(P\)</span> will never intersect <span class="math inline">\(L\)</span>.</p>
+</div>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
-<div id="ref-hawkins2004" class="csl-entry" role="listitem">
-Hawkins, Douglas M. 2004. <span>“The Problem of Overfitting.”</span> <em>Journal of Chemical Information and Computer Sciences</em> 44 (1): 1–12. <a href="https://doi.org/10.1021/ci0342472">https://doi.org/10.1021/ci0342472</a>.
-</div>
-<div id="ref-knuth84" class="csl-entry" role="listitem">
-Knuth, Donald E. 1984. <span>“Literate Programming.”</span> <em>Comput. J.</em> 27 (2): 97–111. <a href="https://doi.org/10.1093/comjnl/27.2.97">https://doi.org/10.1093/comjnl/27.2.97</a>.
-</div>
-<div id="ref-stackoverflow2024" class="csl-entry" role="listitem">
-Stack Overflow. 2024. <span>“Stack Overflow Developer Survey 2024.”</span> <a href="https://survey.stackoverflow.co/2024/">https://survey.stackoverflow.co/2024/</a>.
-</div>
-<div id="ref-vapnik1998" class="csl-entry" role="listitem">
-Vapnik, Vladimir N. 1998. <em>Statistical Learning Theory</em>. New York: Wiley. <a href="https://www.wiley.com/en-us/Statistical+Learning+Theory-p-9780471030034">https://www.wiley.com/en-us/Statistical+Learning+Theory-p-9780471030034</a>.
-</div>
-</div>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -1025,13 +961,13 @@ Vapnik, Vladimir N. 1998. <em>Statistical Learning Theory</em>. New York: Wiley.
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./defining-terms.html" class="pagination-link" aria-label="Defining terms clearly">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Defining terms clearly</span></span>
+      <a href="./intro.html" class="pagination-link" aria-label="Introduction">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./word-choice.html" class="pagination-link" aria-label="Word choice">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Word choice</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./citations-evidence.html" class="pagination-link" aria-label="Citations and Evidence">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Citations and Evidence</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
