@@ -19,7 +19,7 @@ technical meaning within a particular field or context.
 
 ## Population
 
-::: {#def-population-term}
+::: {#def-population}
 
 ## Population (term)
 
