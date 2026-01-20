@@ -122,7 +122,7 @@ and can be referenced elsewhere in your document using `@thm-pythagorean`.
 
 ### Example: Pythagorean theorem
 
-::: {#thm-pythagorean}
+::: {#thm-pythagoras}
 
 ## Pythagorean theorem
 
@@ -132,7 +132,7 @@ $a^2 + b^2 = c^2$.
 
 :::
 
-::: {#exm-pythagorean}
+::: {#exm-pythagoras}
 
 ## Pythagorean theorem example
 
