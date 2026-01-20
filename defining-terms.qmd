@@ -101,43 +101,6 @@ $3^2 + 4^2 = 9 + 16 = 25 = 5^2$.
 
 :::
 
-::: {#lem-euclid}
-
-## Euclid's Lemma
-
-If a prime number divides a product of two integers,
-it must divide at least one of those integers.
-
-:::
-
-::: {#exm-euclid}
-
-## Euclid's Lemma example
-
-If 5 divides 15 × 6 = 90,
-then 5 must divide either 15 or 6.
-Indeed, 5 divides 15.
-
-:::
-
-::: {#cor-isosceles-right}
-
-## Isosceles right triangle
-
-In an isosceles right triangle with legs of length $a$,
-the hypotenuse has length $a\sqrt{2}$.
-
-:::
-
-::: {#exm-isosceles-right}
-
-## Isosceles right triangle example
-
-For a triangle with legs of length 5,
-the hypotenuse is $5\sqrt{2} \approx 7.07$.
-
-:::
-
 ::: {#def-postulate}
 
 ## Postulate (axiom)
