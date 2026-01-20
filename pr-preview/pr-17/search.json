@@ -14,7 +14,7 @@
     "href": "defining-terms.html",
     "title": "2  Defining terms clearly",
     "section": "",
-    "text": "2.1 Guidelines for defining terms\nClear definitions are essential to effective scientific writing. Every specialized term should have an explicit, concise definition immediately before or after its first use. Readers should not need to search for the meaning of a term or infer it from context alone.\nFollow these principles when introducing new terms:",
+    "text": "2.1 Guidelines for defining terms\nClear definitions are essential to effective scientific writing. Every specialized term should have an explicit, concise definition immediately before or after its first use. Readers should not need to search for the meaning of a term or infer it from context alone. For example:\nFollow these principles when introducing new terms:",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Defining terms clearly</span>"
     ]
@@ -34,17 +34,7 @@
     "href": "defining-terms.html#examples-of-term-definitions",
     "title": "2  Defining terms clearly",
     "section": "2.2 Examples of term definitions",
-    "text": "2.2 Examples of term definitions\nHere are examples of well-defined terms:\n\nExample 2.2 (Statistical term: Confidence interval) A confidence interval is a range of values, derived from sample statistics, that is likely to contain the true population parameter.\nIf we calculate a 95% confidence interval for mean height as [165 cm, 175 cm], we are 95% confident that the true population mean height falls within this range.\n\n\nExample 2.3 (Writing term: Active voice) Active voice is a sentence structure where the subject performs the action expressed by the verb.\n“The researcher conducted the experiment” is in active voice, while “The experiment was conducted by the researcher” is in passive voice.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Defining terms clearly</span>"
-    ]
-  },
-  {
-    "objectID": "defining-terms.html#mathematical-statements-require-examples",
-    "href": "defining-terms.html#mathematical-statements-require-examples",
-    "title": "2  Defining terms clearly",
-    "section": "2.3 Mathematical statements require examples",
-    "text": "2.3 Mathematical statements require examples\nMathematical theorems, lemmas, corollaries, and postulates should always include examples that demonstrate their application. Abstract mathematical statements become more accessible when readers can see concrete instances.\n\nTheorem 2.1 (Pythagorean theorem) In a right triangle, the square of the hypotenuse equals the sum of squares of the other two sides: \\(a^2 + b^2 = c^2\\).\n\n\nExample 2.4 (Pythagorean theorem example) For a triangle with sides 3, 4, and 5: \\(3^2 + 4^2 = 9 + 16 = 25 = 5^2\\).\n\n\nLemma 2.1 (Euclid’s Lemma) If a prime number divides a product of two integers, it must divide at least one of those integers.\n\n\nExample 2.5 (Euclid’s Lemma example) If 5 divides 15 × 6 = 90, then 5 must divide either 15 or 6. Indeed, 5 divides 15.\n\n\nCorollary 2.1 (Isosceles right triangle) In an isosceles right triangle with legs of length \\(a\\), the hypotenuse has length \\(a\\sqrt{2}\\).\n\n\nExample 2.6 (Isosceles right triangle example) For a triangle with legs of length 5, the hypotenuse is \\(5\\sqrt{2} \\approx 7.07\\).\n\n\nDefinition 2.2 (Postulate (axiom)) A postulate (or axiom) is a statement accepted as true without proof, serving as a starting point for further reasoning.\n\n\nExample 2.7 (Euclid’s parallel postulate) Through a point not on a line, exactly one line can be drawn parallel to the given line.\nIf we have line \\(L\\) and point \\(P\\) not on \\(L\\), only one line through \\(P\\) will never intersect \\(L\\).",
+    "text": "2.2 Examples of term definitions\nHere are examples of well-defined terms:\n\nExample 2.2 (Statistical term: Confidence interval)  \n\nDefinition 2.3 (Confidence interval) A confidence interval is a range of values, derived from sample statistics, that is likely to contain the true population parameter.\n\nIf we calculate a 95% confidence interval for mean height as [165 cm, 175 cm], we are 95% confident that the true population mean height falls within this range.\n\n\nExample 2.3 (Writing term: Active voice)  \n\nDefinition 2.4 (Active voice) Active voice is a sentence structure where the subject performs the action expressed by the verb.\n\n“The researcher conducted the experiment” is in active voice, while “The experiment was conducted by the researcher” is in passive voice.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Defining terms clearly</span>"
     ]
@@ -53,8 +43,8 @@
     "objectID": "defining-terms.html#why-examples-matter",
     "href": "defining-terms.html#why-examples-matter",
     "title": "2  Defining terms clearly",
-    "section": "2.4 Why examples matter",
-    "text": "2.4 Why examples matter\nExamples serve several crucial purposes:\n\nConcrete understanding: Examples transform abstract concepts into tangible instances that readers can visualize and understand.\nVerification: Readers can work through examples themselves to verify they understand the definition or theorem.\nApplication: Examples show how to apply definitions and theorems to solve real problems.\nMemory: Concrete examples are easier to remember than abstract definitions alone.",
+    "section": "2.3 Why examples matter",
+    "text": "2.3 Why examples matter\nExamples serve several crucial purposes:\n\nConcrete understanding: Examples transform abstract concepts into tangible instances that readers can visualize and understand.\nVerification: Readers can work through examples themselves to verify they understand the definition or theorem.\nApplication: Examples show how to apply definitions and theorems to solve real problems.\nMemory: Concrete examples are easier to remember than abstract definitions alone.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Defining terms clearly</span>"
     ]
@@ -63,8 +53,18 @@
     "objectID": "defining-terms.html#common-pitfalls-to-avoid",
     "href": "defining-terms.html#common-pitfalls-to-avoid",
     "title": "2  Defining terms clearly",
-    "section": "2.5 Common pitfalls to avoid",
-    "text": "2.5 Common pitfalls to avoid\n\nCircular definitions: Do not define a term using the term itself.\nIncorrect: “Conciseness is the quality of being concise.”\nCorrect: “Conciseness is the quality of expressing ideas using only the words necessary to communicate meaning clearly.”\nVague definitions: Avoid definitions that rely on imprecise language.\nIncorrect: “A variable is something that can change.”\nCorrect: “A variable is a symbol representing a value that can take on different values.”\nMissing examples: Never leave a definition without at least one example.\nExamples without context: Ensure examples clearly illustrate the specific aspect of the definition they are meant to demonstrate.",
+    "section": "2.4 Common pitfalls to avoid",
+    "text": "2.4 Common pitfalls to avoid\n\nCircular definitions: Do not define a term using the term itself.\nIncorrect: “Conciseness is the quality of being concise.”\nCorrect: “Conciseness is the quality of expressing ideas using only the words necessary to communicate meaning clearly.”\nVague definitions: Avoid definitions that rely on imprecise language.\nIncorrect: “A variable is something that can change.”\nCorrect: “A variable is a symbol representing a value that can take on different values.”\nMissing examples: Never leave a definition without at least one example.\nExamples without context: Ensure examples clearly illustrate the specific aspect of the definition they are meant to demonstrate.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Defining terms clearly</span>"
+    ]
+  },
+  {
+    "objectID": "defining-terms.html#mathematical-statements-require-examples",
+    "href": "defining-terms.html#mathematical-statements-require-examples",
+    "title": "2  Defining terms clearly",
+    "section": "2.5 Mathematical statements require examples",
+    "text": "2.5 Mathematical statements require examples\nMathematical theorems, lemmas, corollaries, and postulates should always include examples that demonstrate their application. Abstract mathematical statements become more accessible when readers can see concrete instances.\n\n2.5.1 Using theorem environments in Quarto\nWhen writing mathematical or technical content in Quarto, use theorem environments to demarcate and highlight the structure of your content. These environments provide consistent formatting, automatic numbering, and cross-reference capabilities.\nQuarto provides built-in theorem environments including:\n\n#thm- for theorems\n#lem- for lemmas\n#cor- for corollaries\n#prp- for propositions\n#cnj- for conjectures\n#def- for definitions\n#exm- for examples\n#exr- for exercises\n\nSee the Quarto documentation on theorems and proofs for complete details.\nExample syntax:\n::: {#thm-pythagorean}\n\n## Pythagorean theorem\n\nIn a right triangle,\nthe square of the hypotenuse equals the sum of squares of the other two sides:\n$a^2 + b^2 = c^2$.\n\n:::\nThis produces automatically numbered output like “Theorem 2.1 (Pythagorean theorem)” and can be referenced elsewhere in your document using @thm-pythagorean.\n\n\n2.5.2 Example: Pythagorean theorem\n\nTheorem 2.1 (Pythagorean theorem) In a right triangle, the square of the hypotenuse equals the sum of squares of the other two sides: \\(a^2 + b^2 = c^2\\).\n\n\nExample 2.4 (Pythagorean theorem example) For a triangle with sides 3, 4, and 5: \\(3^2 + 4^2 = 9 + 16 = 25 = 5^2\\).\n\n\nDefinition 2.5 (Postulate (axiom)) A postulate (or axiom) is a statement accepted as true without proof, serving as a starting point for further reasoning.\n\n\nExample 2.5 (Euclid’s parallel postulate) Through a point not on a line, exactly one line can be drawn parallel to the given line.\nIf we have line \\(L\\) and point \\(P\\) not on \\(L\\), only one line through \\(P\\) will never intersect \\(L\\).",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Defining terms clearly</span>"
     ]
