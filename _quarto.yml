@@ -9,6 +9,9 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
+    - defining-terms.qmd
+    - citations-evidence.qmd
+    - paper-organization.qmd
     - word-choice.qmd
     - conciseness.qmd
     - summary.qmd

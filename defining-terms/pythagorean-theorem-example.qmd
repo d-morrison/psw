@@ -1,0 +1,39 @@
+::: {#thm-pythagoras}
+
+## Pythagorean theorem
+
+In a right triangle,
+the square of the hypotenuse equals the sum of squares of the other two sides:
+$a^2 + b^2 = c^2$.
+
+:::
+
+::: {#exm-pythagoras}
+
+## Pythagorean theorem example
+
+For a triangle with sides 3, 4, and 5:
+$3^2 + 4^2 = 9 + 16 = 25 = 5^2$.
+
+:::
+
+::: {#def-postulate}
+
+## Postulate (axiom)
+
+A *postulate* (or axiom) is a statement accepted as true without proof,
+serving as a starting point for further reasoning.
+
+:::
+
+::: {#exm-parallel-postulate}
+
+## Euclid's parallel postulate
+
+Through a point not on a line,
+exactly one line can be drawn parallel to the given line.
+
+If we have line $L$ and point $P$ not on $L$,
+only one line through $P$ will never intersect $L$.
+
+:::

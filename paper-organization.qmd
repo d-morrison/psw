@@ -1,0 +1,58 @@
+# Paper Organization
+
+Effective organization helps readers navigate your scientific paper
+and understand your findings.
+The structure of your paper should guide readers logically
+from your research question through your methods to your results and conclusions.
+
+## Standard paper structure
+
+Most scientific papers follow the IMRaD structure:
+
+- **Introduction**: Present the research question and background
+- **Methods**: Describe how the study was conducted
+- **Results**: Present the findings
+- **Discussion**: Interpret the findings and their implications
+
+Some papers combine Results and Discussion into a single section.
+
+## Organizing the Results section
+
+The Results section presents your findings clearly and logically.
+How you organize this section depends on your research design
+and the complexity of your analyses.
+
+### Single outcome studies
+
+When analyzing a single primary outcome,
+organize results by:
+
+- Descriptive statistics first
+- Main analysis results
+- Sensitivity analyses or subgroup analyses
+
+### Multiple outcomes analyzed separately
+
+{{< include paper-organization/multiple-outcomes.qmd >}}
+
+## Figures and tables
+
+Place figures and tables near the relevant text that describes them.
+Number them sequentially
+and reference them in the text before they appear.
+
+Each figure and table should have a clear,
+informative caption that allows readers to understand it
+without reading the main text.
+
+## Subsection headings
+
+Use descriptive subsection headings to guide readers through your results.
+Headings should clearly indicate the content of each section.
+
+**Poor heading**: "Analysis 1"
+
+**Better heading**: "Association between treatment and mortality"
+
+**Best heading**: "Treatment reduced mortality by 30%"
+(when appropriate and not overstating findings)

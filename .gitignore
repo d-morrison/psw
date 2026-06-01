@@ -6,6 +6,6 @@ anglish_files
 anglish.html
 /.quarto/
 _book
-docs
+docs/
 
 **/*.quarto_ipynb

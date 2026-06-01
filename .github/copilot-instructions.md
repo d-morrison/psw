@@ -35,6 +35,34 @@ Common package URLs:
 - [`{data.table}`](https://rdatatable.gitlab.io/data.table/)
 - [`{assertthat}`](https://cran.r-project.org/web/packages/assertthat/index.html)
 
+### Lists vs. Comma-Separated Items
+
+When describing lists of three or more items,
+use a bullet list instead of a comma-separated list.
+Use your stylistic judgment to determine when this rule applies.
+
+**Examples:**
+
+❌ **Don't** use comma-separated lists for three or more items:
+```
+The template includes GitHub Actions workflows for publishing, link checking, and spell checking.
+```
+
+✅ **Do** use bullet lists instead:
+```
+The template includes GitHub Actions workflows for:
+
+- Publishing
+- Link checking
+- Spell checking
+```
+
+**When to use your judgment:**
+
+- Short, simple items in a sentence may remain comma-separated if it maintains readability
+- Complex items or items with descriptions should always use bullet lists
+- Use bullet lists when the items are important and deserve emphasis
+- Technical lists (commands, file names, features) typically benefit from bullet format
 
 ### Blank Lines Before Lists
 
@@ -170,6 +198,67 @@ See [Quarto Cross-References documentation](https://quarto.org/docs/authoring/cr
 - Consistent formatting across all output formats
 - Better accessibility for screen readers
 
+### Theorems, Definitions, and Examples
+
+**ALWAYS use Quarto's theorem environments for mathematical content and definitions.**
+See [Quarto Theorems and Proofs](https://quarto.org/docs/authoring/cross-references.html#theorems-and-proofs) for complete details.
+
+**Use theorem-like environments instead of manual formatting:**
+
+- Do NOT use `**Definition:**` or `**Example:**` as plain text
+- Do use Quarto's div syntax with appropriate labels
+
+**Available theorem environments and their prefixes:**
+
+| Label Prefix | Printed Name | Use For |
+|--------------|--------------|---------|
+| `#thm-` | Theorem | Mathematical theorems |
+| `#lem-` | Lemma | Supporting lemmas |
+| `#cor-` | Corollary | Corollaries |
+| `#prp-` | Proposition | Propositions |
+| `#cnj-` | Conjecture | Conjectures |
+| `#def-` | Definition | Formal definitions |
+| `#exm-` | Example | Examples |
+| `#exr-` | Exercise | Exercises |
+| `#sol-` | Solution | Solutions |
+| `#rem-` | Remark | Remarks |
+| `#alg-` | Algorithm | Algorithms |
+
+**Syntax for theorem-like environments:**
+
+```markdown
+::: {#def-term}
+
+## Term
+
+A *term* is a word or phrase with a specific,
+technical meaning within a particular field or context.
+
+:::
+```
+
+**Syntax for examples:**
+
+```markdown
+::: {#exm-population}
+
+## Population
+
+In statistics,
+the term "population" refers to the complete set of all items or individuals of interest,
+not just a geographic population of people.
+
+:::
+```
+
+**Benefits:**
+
+- Automatic numbering (e.g., "Definition 2.1", "Example 2.2")
+- Consistent formatting across HTML and PDF output
+- Cross-referenceable with `@def-label` or `@exm-label`
+- Proper semantic structure for accessibility
+- Professional typesetting (uses amsthm package in LaTeX)
+
 ## R Code Style
 
 - Follow the tidyverse style guide: https://style.tidyverse.org
@@ -287,6 +376,16 @@ When working with chapters that don't yet use includes:
 4. Keep headings in the main file
 5. Ensure blank lines before include statements
 6. Test that rendering still works correctly
+
+### Build Artifacts
+
+**Do not track the `docs/` folder in git.**
+
+- The `docs/` folder contains Quarto build output (HTML files, JavaScript, CSS, etc.)
+- Build artifacts are generated during the CI/CD pipeline and deployed to GitHub Pages
+- The `docs/` folder should be listed in `.gitignore`
+- Each build generates fresh output, so committing it creates unnecessary git history bloat
+- The output directory is configured in `_quarto.yml` as `output-dir: docs`
 
 ## Working with DOCX Files
 

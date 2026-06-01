@@ -1,0 +1,35 @@
+When writing mathematical or technical content in Quarto,
+use theorem environments to demarcate and highlight the structure of your content.
+These environments provide consistent formatting,
+automatic numbering,
+and cross-reference capabilities.
+
+Quarto provides built-in theorem environments including:
+
+- `#thm-` for theorems
+- `#lem-` for lemmas
+- `#cor-` for corollaries
+- `#prp-` for propositions
+- `#cnj-` for conjectures
+- `#def-` for definitions
+- `#exm-` for examples
+- `#exr-` for exercises
+
+See the [Quarto documentation on theorems and proofs](https://quarto.org/docs/authoring/cross-references.html#theorems-and-proofs) for complete details.
+
+**Example syntax:**
+
+```markdown
+::: {#thm-pythagorean}
+
+## Pythagorean theorem
+
+In a right triangle,
+the square of the hypotenuse equals the sum of squares of the other two sides:
+$a^2 + b^2 = c^2$.
+
+:::
+```
+
+This produces automatically numbered output like "Theorem 2.1 (Pythagorean theorem)"
+and can be referenced elsewhere in your document using `@thm-pythagorean`.
