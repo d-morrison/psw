@@ -1,3 +1,15 @@
+---
+title: "Principles of Scientific Writing"
+format:
+  html: default
+  revealjs:
+    output-file: index-slides.html
+  pdf:
+    output-file: index-handout.pdf
+  docx:
+    output-file: index.docx
+---
+
 # Preface {.unnumbered}
 
 This book will present my perspective on scientific writing,

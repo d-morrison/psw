@@ -1,4 +1,14 @@
-# Word choice
+---
+title: "Word choice"
+format:
+  html: default
+  revealjs:
+    output-file: word-choice-slides.html
+  pdf:
+    output-file: word-choice-handout.pdf
+  docx:
+    output-file: word-choice.docx
+---
 
 I recommend trying to replace Latin-derived words and phrases 
 with Old English-derived equivalents (["Anglish"](https://anglish.org/wiki/Anglish) words) 

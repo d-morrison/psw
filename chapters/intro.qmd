@@ -1,0 +1,11 @@
+---
+title: "Introduction"
+format:
+  html: default
+  revealjs:
+    output-file: intro-slides.html
+  pdf:
+    output-file: intro-handout.pdf
+  docx:
+    output-file: intro.docx
+---
