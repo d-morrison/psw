@@ -36,6 +36,8 @@ website:
             href: chapters/defining-terms.qmd
           - text: "Citations and evidence"
             href: chapters/citations-evidence.qmd
+          - text: "Paper organization"
+            href: chapters/paper-organization.qmd
           - text: "Word choice"
             href: chapters/word-choice.qmd
           - text: "Conciseness"
