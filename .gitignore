@@ -1,11 +1,58 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
+# Quarto
+/.quarto/
+/_site/
+/_freeze/
+/_book/
+/docs/
+*.pdf
+*.docx
+*.epub
+*.html
+# Source HTML partials we intentionally track (not build output).
+!qwt-reveal-toggle.html
+*_files/
+site_libs/
+
+# psw-specific stale build artifacts
 anglish_files
 anglish.html
-/.quarto/
-_book
-docs/
 
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+*-Ex.R
+/*.tar.gz
+/*.Rcheck/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
 **/*.quarto_ipynb
+.ipynb_checkpoints
+
+# TeX (LaTeX intermediate files)
+*.tex
+*.aux
+*.log
+*.toc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Lychee link checker
+.lycheecache/
+lychee-output/

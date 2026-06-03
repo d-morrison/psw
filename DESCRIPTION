@@ -1,9 +1,25 @@
 Package: psw
 Title: Principles of Scientific Writing
 Version: 0.0.1
-Authors@R: 
+Authors@R:
     person("Douglas", "Morrison", , "demorrison@ucdavis.edu", role = c("aut", "cre"))
-Description: A book about scientific writing principles.
+Description: A website presenting principles of scientific writing, with a
+    focus on writing about statistical data analysis.
 License: CC BY-NC-ND 4.0
 Encoding: UTF-8
 Language: en-US
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+URL: https://github.com/d-morrison/psw, https://d-morrison.github.io/psw/
+BugReports: https://github.com/d-morrison/psw/issues
+Depends:
+    R (>= 4.1.0)
+Imports:
+    tibble
+Suggests:
+    knitr,
+    rmarkdown,
+    spelling,
+    usethis,
+    devtools
+VignetteBuilder: knitr
