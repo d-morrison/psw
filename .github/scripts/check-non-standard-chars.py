@@ -2,19 +2,19 @@
 """
 Script to detect non-standard characters in .qmd and .R files.
 
-This script checks for curly quotes and other non-standard characters that
-can cause issues in Quarto/R projects, such as:
+This script checks for curly quotes that can cause issues in Quarto/R
+projects (e.g. when copy-pasted into code), such as:
 - " (U+201C) - Left double quotation mark
 - " (U+201D) - Right double quotation mark
 - ' (U+2018) - Left single quotation mark
 - ' (U+2019) - Right single quotation mark
-- – (U+2013) - En dash
-- — (U+2014) - Em dash
 
 These should typically be replaced with their ASCII equivalents:
 - " (U+0022) - Quotation mark
 - ' (U+0027) - Apostrophe
-- - (U+002D) - Hyphen-minus
+
+En dashes (U+2013) and em dashes (U+2014) are intentionally NOT flagged:
+they are valid, standard typographic characters in prose .qmd content.
 """
 
 import sys
@@ -27,8 +27,6 @@ NON_STANDARD_CHARS = {
     '\u201D': 'Right double quotation mark',
     '\u2018': 'Left single quotation mark',
     '\u2019': 'Right single quotation mark',
-    '\u2013': 'En dash',
-    '\u2014': 'Em dash',
 }
 
 
@@ -127,7 +125,6 @@ def main() -> int:
     print("Please replace these characters with their ASCII equivalents:")
     print('  \u201C or \u201D -> " (standard double quote)')
     print('  \u2018 or \u2019 -> \' (standard single quote)')
-    print('  \u2013 or \u2014 -> - (standard hyphen)')
     print()
     
     return 1

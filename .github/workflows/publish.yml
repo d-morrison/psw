@@ -19,7 +19,7 @@ jobs:
           submodules: recursive
 
       - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@HEAD
+        uses: quarto-dev/quarto-actions/setup@v2
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -35,9 +35,6 @@ jobs:
             any::knitr
             any::rmarkdown
             any::tibble
-
-      - name: Set timezone to Pacific Time
-        run: echo "TZ=America/Los_Angeles" >> $GITHUB_ENV
 
       - name: Render
         uses: quarto-dev/quarto-actions/render@v2

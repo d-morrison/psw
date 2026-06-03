@@ -208,13 +208,4 @@ format:
 date: last-modified
 date-format: "[Last modified:] YYYY-MM-DD HH:mm:ss (z)"
 
-execute:
-  warning: false
-  message: false
-  cache: false
-  freeze: auto
-
-knitr:
-  opts_chunk:
-    collapse: true
-    comment: "#>"
+# `execute:` and `knitr:` are inherited from the base `_quarto.yml`.

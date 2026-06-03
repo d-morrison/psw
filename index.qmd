@@ -12,7 +12,7 @@ format:
 
 # Preface {.unnumbered}
 
-This book will present my perspective on scientific writing,
+This website will present my perspective on scientific writing,
 in particular focusing on writing about statistical data analysis,
 but also scientific writing generally
 (and informative prose generally).
