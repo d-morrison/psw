@@ -27,6 +27,3 @@ states exactly what "this" refers to,
 instead of leaving the reader to infer it.
 
 :::
-
-For further discussion,
-see the [Texas A&M demonstratives guide](https://writingcenter.tamu.edu/writing-speaking-guides/demonstratives-this-that).
