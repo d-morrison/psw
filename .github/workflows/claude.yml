@@ -11,7 +11,13 @@ on:
   pull_request_review_comment:
     types: [created]
   issues:
-    types: [opened, assigned]
+    # `assigned` is intentionally NOT triggered: the reusable workflow's
+    # trusted-author gate checks `github.event.issue.author_association`,
+    # which describes the issue *author* — not the assigner. A collaborator
+    # assigning themselves to an outsider's issue would fail the gate, so an
+    # `assigned` event can't usefully grant access (it would only re-trigger
+    # on every (re)assignment). Mention @claude in a comment instead.
+    types: [opened]
   pull_request_review:
     types: [submitted]
 
