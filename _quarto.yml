@@ -1,32 +1,40 @@
-project:
-  type: book
-  output-dir: docs
-
-book:
-  title: "Principles of Scientific Writing"
-  author: "Douglas Ezra Morrison"
-  date: "9/19/2025"
-  chapters:
-    - index.qmd
-    - intro.qmd
-    - defining-terms.qmd
-    - citations-evidence.qmd
-    - paper-organization.qmd
-    - word-choice.qmd
-    - grammar.qmd
-    - conciseness.qmd
-    - summary.qmd
-    - references.qmd
+profile:
+  default: website
 
 bibliography: references.bib
 
+editor_options:
+  chunk_output_type: console
+
+editor:
+  markdown:
+    wrap: 72
+
+execute:
+  warning: false
+  message: false
+  cache: false
+  freeze: auto
+
+filters:
+  - div-anchors
+  - slidebreak
+  - equation-anchors
+  - revealjs-level1-slide-breaks.lua
+  - revealjs-html-links.lua
+
 format:
-  html:
-    theme:
-      light: cosmo
-      dark: darkly
   pdf:
-    documentclass: scrreprt
+    filters:
+      - sun123zxy/callouty-theorem
+      - coatless-quarto/custom-callout
+    include-in-header:
+      text: |
+        \usepackage{needspace}
+        \usepackage{etoolbox}
+        \AtBeginEnvironment{longtable}{\Needspace{8\baselineskip}}
 
-editor: source
-
+knitr:
+  opts_chunk:
+    collapse: true
+    comment: "#>"

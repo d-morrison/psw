@@ -1,4 +1,14 @@
-# Grammar
+---
+title: "Grammar"
+format:
+  html: default
+  revealjs:
+    output-file: grammar-slides.html
+  pdf:
+    output-file: grammar-handout.pdf
+  docx:
+    output-file: grammar.docx
+---
 
 {{< include _copilot-disclaimer.qmd >}}
 
