@@ -1,0 +1,32 @@
+Demonstrative words
+(*this*, *that*, *these*, and *those*)
+can serve two roles.
+As adjectives, they modify a noun:
+"**this** result", "**those** samples".
+As standalone pronouns, they replace a noun:
+"**This** shows...", "**That** means...".
+
+When a demonstrative stands alone as a pronoun,
+the reader has to search backward for its referent —
+and often the referent is a whole preceding clause
+rather than a single noun,
+which leaves the reference ambiguous.
+Prefer to follow a demonstrative with the noun it points to,
+so the reference is explicit.
+
+::: {#exm-demonstrative-pronoun}
+
+## Naming the referent
+
+> ❌ The model overfit the training data. **This** poses a problem for deployment.
+>
+> ✅ The model overfit the training data. **This overfitting** poses a problem for deployment.
+
+Adding the noun "overfitting"
+states exactly what "this" refers to,
+instead of leaving the reader to infer it.
+
+:::
+
+For further discussion,
+see the [Texas A&M demonstratives guide](https://writingcenter.tamu.edu/writing-speaking-guides/demonstratives-this-that).
