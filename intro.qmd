@@ -1,1 +1,3 @@
 # Introduction
+
+{{< include _copilot-disclaimer.qmd >}}
