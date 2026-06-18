@@ -10,4 +10,6 @@ format:
     output-file: summary.docx
 ---
 
+{{< include _copilot-disclaimer.qmd >}}
+
 In summary, this website has no content whatsoever.

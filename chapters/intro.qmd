@@ -10,3 +10,5 @@ format:
   docx:
     output-file: intro.docx
 ---
+
+{{< include _copilot-disclaimer.qmd >}}

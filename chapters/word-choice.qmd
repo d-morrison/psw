@@ -10,6 +10,8 @@ format:
     output-file: word-choice.docx
 ---
 
+{{< include _copilot-disclaimer.qmd >}}
+
 I recommend trying to replace Latin-derived words and phrases 
 with Old English-derived equivalents (["Anglish"](https://anglish.org/wiki/Anglish) words) 
 where possible; 
