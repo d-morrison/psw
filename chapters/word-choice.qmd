@@ -1,4 +1,14 @@
-# Word choice
+---
+title: "Word choice"
+format:
+  html: default
+  revealjs:
+    output-file: word-choice-slides.html
+  pdf:
+    output-file: word-choice-handout.pdf
+  docx:
+    output-file: word-choice.docx
+---
 
 {{< include _copilot-disclaimer.qmd >}}
 

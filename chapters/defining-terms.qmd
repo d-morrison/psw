@@ -1,4 +1,14 @@
-# Defining terms clearly
+---
+title: "Defining terms clearly"
+format:
+  html: default
+  revealjs:
+    output-file: defining-terms-slides.html
+  pdf:
+    output-file: defining-terms-handout.pdf
+  docx:
+    output-file: defining-terms.docx
+---
 
 Clear definitions are essential to effective scientific writing.
 Every specialized term should have an explicit,
