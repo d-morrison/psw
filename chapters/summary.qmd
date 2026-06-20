@@ -1,0 +1,15 @@
+---
+title: "Summary"
+format:
+  html: default
+  revealjs:
+    output-file: summary-slides.html
+  pdf:
+    output-file: summary-handout.pdf
+  docx:
+    output-file: summary.docx
+---
+
+{{< include _copilot-disclaimer.qmd >}}
+
+In summary, this website has no content whatsoever.

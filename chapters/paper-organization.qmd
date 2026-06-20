@@ -1,4 +1,14 @@
-# Paper Organization
+---
+title: "Paper organization"
+format:
+  html: default
+  revealjs:
+    output-file: paper-organization-slides.html
+  pdf:
+    output-file: paper-organization-handout.pdf
+  docx:
+    output-file: paper-organization.docx
+---
 
 Effective organization helps readers navigate your scientific paper
 and understand your findings.
