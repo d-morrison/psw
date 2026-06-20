@@ -1,6 +1,11 @@
-Demonstrative words
-(*this*, *that*, *these*, and *those*)
-can serve two roles.
+There are four demonstrative words:
+
+- *this*
+- *that*
+- *these*
+- *those*
+
+They can serve two roles.
 As adjectives, they modify a noun:
 "**this** result", "**those** samples".
 As standalone pronouns, they replace a noun:

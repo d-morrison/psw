@@ -1,6 +1,12 @@
-Relative pronouns
-(*that*, *which*, *who*, *whom*, and *whose*)
-introduce a clause that describes a preceding noun.
+Relative pronouns introduce a clause that describes a preceding noun.
+The relative pronouns are:
+
+- *that*
+- *which*
+- *who*
+- *whom*
+- *whose*
+
 Two habits make these clauses easier to read:
 choosing between *that* and *which* correctly,
 and keeping the relative pronoun rather than dropping it.
