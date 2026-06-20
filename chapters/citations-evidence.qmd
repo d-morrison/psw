@@ -142,6 +142,35 @@ Some sources typically lack the rigor needed for scientific writing:
 - Predatory or pay-to-publish journals without genuine peer review
 - Retracted papers
 
+## Copy-paste with caution
+
+Copying exact wording —
+whether from another writer or from your own earlier work,
+and even with a citation —
+can cause problems:
+plagiarism, if the wording is not clearly marked as a quotation,
+and a shift in voice that makes the text harder to read.
+
+A few rules of thumb:
+
+- **Do not copy-paste prose from anyone who is not a coauthor**
+  of the document you are currently writing.
+  If you must reproduce someone else's exact words,
+  mark them as a direct quotation and cite the source.
+- **Prefer paraphrasing over quoting.**
+  Restating an idea in your own words, with a citation,
+  usually reads better than a block quotation,
+  and it shows that you understand the idea.
+- **Do not recycle your own published text without thought.**
+  Reusing passages from your earlier papers (self-plagiarism)
+  can violate journal policies;
+  cite the earlier work instead of repeating it.
+
+A related case is repetition *within* your own document.
+When a passage you are tempted to copy already appears elsewhere,
+cross-reference it instead of repeating it:
+this keeps a single source of truth and improves concision.
+
 ## Best practices
 
 To effectively support your claims:
