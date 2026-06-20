@@ -1,4 +1,14 @@
-# Conciseness
+---
+title: "Conciseness"
+format:
+  html: default
+  revealjs:
+    output-file: conciseness-slides.html
+  pdf:
+    output-file: conciseness-handout.pdf
+  docx:
+    output-file: conciseness.docx
+---
 
 {{< include _copilot-disclaimer.qmd >}}
 

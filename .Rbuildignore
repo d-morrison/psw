@@ -1,2 +1,12 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^\.github$
+^\.quarto$
+^_site$
+^_freeze$
+^_book/
+^docs$
+^LICENSE\.md$
+^README\.Rmd$
+.*_cache/
+.*_files/
