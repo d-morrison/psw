@@ -4,7 +4,7 @@ Code
 
 Published
 
-Last modified: 2026-06-20 06:40:41 (UTC)
+Last modified: 2026-06-20 06:45:38 (UTC)
 
 > **NOTE:**
 >
@@ -30,7 +30,23 @@ Concise writing conveys ideas efficiently, using only the words necessary to com
 
 Remember: concise writing is not about making every sentence as short as possible, but about removing words that do not contribute to meaning or clarity.
 
-## 2 Examples of concise writing
+## 2 Limit complex sentence structures
+
+A sentence with several nested dependent clauses forces the reader to hold each unfinished clause in mind until the sentence finally resolves. Compound sentences joined by coordinating conjunctions (*and*, *but*, *or*) are usually fine, and an occasional dependent clause is fine too; the problem is piling several of them into a single sentence.
+
+When a sentence becomes hard to follow, split it into shorter sentences, each carrying one main idea.
+
+> **NOTE:**
+>
+> **Example 1 (Splitting an over-nested sentence)**  
+>
+> > ❌ Because the assay, which we had validated the previous year using samples that were collected before the outbreak began, produced results that, although noisy, were consistent with prior reports, we proceeded with the analysis.
+> >
+> > ✅ We had validated the assay the previous year, using samples collected before the outbreak began. Its results were noisy but consistent with prior reports, so we proceeded with the analysis.
+>
+> The revised version breaks one deeply nested sentence into two and restores the natural chronological order (validation, then results, then decision), so the reader can absorb each idea before moving on.
+
+## 3 Examples of concise writing
 
 Many effective writers throughout history have exemplified the principle of conciseness.
 
