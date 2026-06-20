@@ -63,7 +63,9 @@ each carrying one main idea.
 >
 > ✅ We had validated the assay the previous year, using samples collected before the outbreak began. Its results were noisy but consistent with prior reports, so we proceeded with the analysis.
 
-The revised version breaks one deeply nested sentence into two,
+The revised version breaks one deeply nested sentence into two
+and restores the natural chronological order
+(validation, then results, then decision),
 so the reader can absorb each idea before moving on.
 
 :::
