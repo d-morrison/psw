@@ -4,7 +4,7 @@ Code
 
 Published
 
-Last modified: 2026-06-20 05:32:02 (UTC)
+Last modified: 2026-06-20 06:37:10 (UTC)
 
 > **NOTE:**
 >
@@ -56,6 +56,6 @@ Prefer normal words used in their usual sense. When you do need a technical term
 >
 > The plain version is shorter, and it states what was actually done.
 
-For each technical word, ask: would a reader outside my subfield understand it, and does it carry meaning that a normal word would lose? If the answer to both is no, replace it.
+For each technical word, ask whether it carries meaning that a plainer word would lose. If it does not, replace it with the plainer word. If it does carry necessary meaning but a reader outside your subfield would not understand it, define it clearly at first use.
 
 Back to top
