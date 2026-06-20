@@ -4,7 +4,7 @@ Code
 
 Published
 
-Last modified: 2026-06-20 05:18:46 (UTC)
+Last modified: 2026-06-20 06:39:32 (UTC)
 
 > **NOTE:**
 >
@@ -44,7 +44,7 @@ When a sentence becomes hard to follow, split it into shorter sentences, each ca
 > >
 > > ✅ We had validated the assay the previous year, using samples collected before the outbreak began. Its results were noisy but consistent with prior reports, so we proceeded with the analysis.
 >
-> The revised version breaks one deeply nested sentence into two, so the reader can absorb each idea before moving on.
+> The revised version breaks one deeply nested sentence into two and restores the natural chronological order (validation, then results, then decision), so the reader can absorb each idea before moving on.
 
 ## 3 Examples of concise writing
 
