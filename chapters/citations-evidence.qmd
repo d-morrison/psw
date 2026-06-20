@@ -1,4 +1,14 @@
-# Citations and Evidence
+---
+title: "Citations and evidence"
+format:
+  html: default
+  revealjs:
+    output-file: citations-evidence-slides.html
+  pdf:
+    output-file: citations-evidence-handout.pdf
+  docx:
+    output-file: citations-evidence.docx
+---
 
 Every claim in scientific writing should be supported by either citations to relevant sources or direct evidence from data or experiments.
 This principle is fundamental to maintaining credibility,
