@@ -6,10 +6,11 @@ project:
     - "chapters/*.qmd"
     - "!README.md"
     - "!appendix-document-metadata.qmd"
-    # The include partials under chapters/defining-terms/ are pulled into
-    # chapters/defining-terms.qmd via `{{< include >}}` shortcodes; they are
-    # not standalone pages, so don't render them directly.
+    # The include partials under chapters/defining-terms/ and chapters/grammar/
+    # are pulled into their parent chapter via `{{< include >}}` shortcodes; they
+    # are not standalone pages, so don't render them directly.
     - "!chapters/defining-terms/"
+    - "!chapters/grammar/"
 
 website:
   title: "Principles of Scientific Writing"
@@ -40,6 +41,8 @@ website:
             href: chapters/paper-organization.qmd
           - text: "Word choice"
             href: chapters/word-choice.qmd
+          - text: "Grammar"
+            href: chapters/grammar.qmd
           - text: "Conciseness"
             href: chapters/conciseness.qmd
           - text: "Summary"

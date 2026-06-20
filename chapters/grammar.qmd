@@ -1,0 +1,25 @@
+---
+title: "Grammar"
+format:
+  html: default
+  revealjs:
+    output-file: grammar-slides.html
+  pdf:
+    output-file: grammar-handout.pdf
+  docx:
+    output-file: grammar.docx
+---
+
+{{< include _copilot-disclaimer.qmd >}}
+
+Clear grammar removes friction between your ideas and your reader.
+This chapter collects a few grammatical habits
+that consistently make scientific writing easier to read.
+
+## Relative pronouns
+
+{{< include grammar/relative-pronouns.qmd >}}
+
+## Demonstrative pronouns
+
+{{< include grammar/demonstrative-pronouns.qmd >}}
