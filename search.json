@@ -49,130 +49,81 @@
     "text": "Code\n\n\n\n\n\nWhen analyzing multiple outcomes separately, group your results section by outcome rather than by analysis type. This organization improves clarity and readability by keeping all information about each outcome together.\n\nWhy group by outcome\nGrouping by outcome helps readers:\n\nFollow the story of each outcome from descriptive statistics through final results\nCompare findings across outcomes more easily\nUnderstand the complete picture for each outcome before moving to the next\nNavigate directly to outcomes of interest\n\n\n\nHow to organize by outcome\nFor each outcome, present:\n\nDescriptive statistics\nMain analysis results\nSensitivity analyses\nSubgroup analyses (if applicable)\n\nStructure:\nResults\n├── Outcome 1: Mortality\n│   ├── Descriptive statistics\n│   ├── Main analysis\n│   ├── Sensitivity analyses\n│   └── Subgroup analyses\n├── Outcome 2: Hospital readmission\n│   ├── Descriptive statistics\n│   ├── Main analysis\n│   ├── Sensitivity analyses\n│   └── Subgroup analyses\n└── Outcome 3: Quality of life\n    ├── Descriptive statistics\n    ├── Main analysis\n    ├── Sensitivity analyses\n    └── Subgroup analyses\n\n\nWhat to avoid\nDon’t group by analysis type when outcomes are analyzed separately:\nResults (POOR ORGANIZATION)\n├── Descriptive statistics\n│   ├── Mortality\n│   ├── Hospital readmission\n│   └── Quality of life\n├── Main analyses\n│   ├── Mortality\n│   ├── Hospital readmission\n│   └── Quality of life\n└── Sensitivity analyses\n    ├── Mortality\n    ├── Hospital readmission\n    └── Quality of life\nThis forces readers to jump back and forth between sections to understand the complete story for any single outcome.\n\n\nException: Shared descriptive statistics\nIf your descriptive statistics apply to all outcomes (e.g., baseline characteristics in a clinical trial), present them once at the beginning before discussing individual outcomes.\n\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "chapters/conciseness.html",
-    "href": "chapters/conciseness.html",
-    "title": "Conciseness",
+    "objectID": "chapters/defining-terms.html",
+    "href": "chapters/defining-terms.html",
+    "title": "Defining terms clearly",
     "section": "",
-    "text": "NoteAI-Assisted Authorship\n\n\n\nThis chapter was written with the assistance of GitHub Copilot, which expanded on outlined ideas and draft notes provided by the author. The content represents the author’s perspective and has been reviewed for accuracy, but the detailed prose was generated through AI assistance.\nConcise writing conveys ideas efficiently, using only the words necessary to communicate meaning clearly. Every word should serve a purpose. Eliminate redundancy and verbosity. When you can express an idea in fewer words without losing meaning, do so."
+    "text": "Clear definitions are essential to effective scientific writing. Every specialized term should have an explicit, concise definition immediately before or after its first use. Readers should not need to search for the meaning of a term or infer it from context alone. For example:"
   },
   {
-    "objectID": "chapters/conciseness.html#common-ways-to-improve-conciseness",
-    "href": "chapters/conciseness.html#common-ways-to-improve-conciseness",
-    "title": "Conciseness",
-    "section": "1 Common ways to improve conciseness",
-    "text": "1 Common ways to improve conciseness\n\nRemove redundant phrases\n\n“in order to” → “to”\n“due to the fact that” → “because”\n“at this point in time” → “now”\n“a large number of” → “many”\n\nUse active voice instead of passive where appropriate\n\n“The experiment was conducted by the researchers” → “The researchers conducted the experiment”\n\nEliminate unnecessary qualifiers\n\n“very”, “really”, “quite” often add little meaning\n\nReplace wordy phrases with single words\n\n“make a decision” → “decide”\n“give consideration to” → “consider”\n“is able to” → “can”\n\n\nRemember: concise writing is not about making every sentence as short as possible, but about removing words that do not contribute to meaning or clarity."
+    "objectID": "chapters/defining-terms.html#guidelines-for-defining-terms",
+    "href": "chapters/defining-terms.html#guidelines-for-defining-terms",
+    "title": "Defining terms clearly",
+    "section": "1 Guidelines for defining terms",
+    "text": "1 Guidelines for defining terms\nFollow these principles when introducing new terms:\n\nProvide explicit definitions: State clearly what a term means, rather than assuming readers will understand from context.\nBe concise: Definitions should be brief and focused, using only the words necessary to convey the meaning.\nDefine terms at first use: Place the definition immediately before or after the term’s first appearance.\nProvide examples: Every definition should include at least one concrete example that illustrates how the term is used."
   },
   {
-    "objectID": "chapters/conciseness.html#limit-complex-sentence-structures",
-    "href": "chapters/conciseness.html#limit-complex-sentence-structures",
-    "title": "Conciseness",
-    "section": "2 Limit complex sentence structures",
-    "text": "2 Limit complex sentence structures\nA sentence with several nested dependent clauses forces the reader to hold each unfinished clause in mind until the sentence finally resolves. Compound sentences joined by coordinating conjunctions (and, but, or) are usually fine, and an occasional dependent clause is fine too; the problem is piling several of them into a single sentence.\nWhen a sentence becomes hard to follow, split it into shorter sentences, each carrying one main idea.\n\n\n\n\n\n\n\nExample 1 (Splitting an over-nested sentence)  \n\n❌ Because the assay, which we had validated the previous year using samples that were collected before the outbreak began, produced results that, although noisy, were consistent with prior reports, we proceeded with the analysis.\n✅ We had validated the assay the previous year, using samples collected before the outbreak began. Its results were noisy but consistent with prior reports, so we proceeded with the analysis.\n\nThe revised version breaks one deeply nested sentence into two and restores the natural chronological order (validation, then results, then decision), so the reader can absorb each idea before moving on."
+    "objectID": "chapters/defining-terms.html#examples-of-term-definitions",
+    "href": "chapters/defining-terms.html#examples-of-term-definitions",
+    "title": "Defining terms clearly",
+    "section": "2 Examples of term definitions",
+    "text": "2 Examples of term definitions\nHere are examples of well-defined terms:\n\n\n\n\n\n\n\nExample 2 (Statistical term: Confidence interval)  \n\n\n\n\n\n\n\nDefinition 3 (Confidence interval) A confidence interval is a range of values, derived from sample statistics, that is likely to contain the true population parameter.\n\n\n\n\nIf we calculate a 95% confidence interval for mean height as [165 cm, 175 cm], we are 95% confident that the true population mean height falls within this range.\n\n\n\n\n\n\n\n\n\n\n\nExample 3 (Writing term: Active voice)  \n\n\n\n\n\n\n\nDefinition 4 (Active voice) Active voice is a sentence structure where the subject performs the action expressed by the verb.\n\n\n\n\n“The researcher conducted the experiment” is in active voice, while “The experiment was conducted by the researcher” is in passive voice."
   },
   {
-    "objectID": "chapters/conciseness.html#examples-of-concise-writing",
-    "href": "chapters/conciseness.html#examples-of-concise-writing",
-    "title": "Conciseness",
-    "section": "3 Examples of concise writing",
-    "text": "3 Examples of concise writing\nMany effective writers throughout history have exemplified the principle of conciseness.\nJulius Caesar’s Commentarii and phrases like “Veni, vidi, vici” demonstrate the power of brevity (Wikipedia contributors 2026b).\nErnest Hemingway was known for his spare, direct prose style. His short sentences and simple words conveyed complex ideas and emotions without unnecessary embellishment (Wikipedia contributors 2026a)."
+    "objectID": "chapters/defining-terms.html#why-examples-matter",
+    "href": "chapters/defining-terms.html#why-examples-matter",
+    "title": "Defining terms clearly",
+    "section": "3 Why examples matter",
+    "text": "3 Why examples matter\nExamples serve several crucial purposes:\n\nConcrete understanding: Examples transform abstract concepts into tangible instances that readers can visualize and understand.\nVerification: Readers can work through examples themselves to verify they understand the definition or theorem.\nApplication: Examples show how to apply definitions and theorems to solve real problems.\nMemory: Concrete examples are easier to remember than abstract definitions alone."
   },
   {
-    "objectID": "chapters/conciseness-slides.html#common-ways-to-improve-conciseness",
-    "href": "chapters/conciseness-slides.html#common-ways-to-improve-conciseness",
-    "title": "Conciseness",
-    "section": "1 Common ways to improve conciseness",
-    "text": "1 Common ways to improve conciseness"
+    "objectID": "chapters/defining-terms.html#common-pitfalls-to-avoid",
+    "href": "chapters/defining-terms.html#common-pitfalls-to-avoid",
+    "title": "Defining terms clearly",
+    "section": "4 Common pitfalls to avoid",
+    "text": "4 Common pitfalls to avoid\n\nCircular definitions: Do not define a term using the term itself.\nIncorrect: “Conciseness is the quality of being concise.”\nCorrect: “Conciseness is the quality of expressing ideas using only the words necessary to communicate meaning clearly.”\nVague definitions: Avoid definitions that rely on imprecise language.\nIncorrect: “A variable is something that can change.”\nCorrect: “A variable is a symbol representing a value that can take on different values.”\nMissing examples: Never leave a definition without at least one example.\nExamples without context: Ensure examples clearly illustrate the specific aspect of the definition they are meant to demonstrate."
   },
   {
-    "objectID": "chapters/conciseness-slides.html#limit-complex-sentence-structures",
-    "href": "chapters/conciseness-slides.html#limit-complex-sentence-structures",
-    "title": "Conciseness",
-    "section": "2 Limit complex sentence structures",
-    "text": "2 Limit complex sentence structures"
+    "objectID": "chapters/defining-terms.html#mathematical-statements-require-examples",
+    "href": "chapters/defining-terms.html#mathematical-statements-require-examples",
+    "title": "Defining terms clearly",
+    "section": "5 Mathematical statements require examples",
+    "text": "5 Mathematical statements require examples\nMathematical theorems, lemmas, corollaries, and postulates should always include examples that demonstrate their application. Abstract mathematical statements become more accessible when readers can see concrete instances.\n\n5.1 Using theorem environments in Quarto\nWhen writing mathematical or technical content in Quarto, use theorem environments to demarcate and highlight the structure of your content. These environments provide consistent formatting, automatic numbering, and cross-reference capabilities.\nQuarto provides built-in theorem environments including:\n\n#thm- for theorems\n#lem- for lemmas\n#cor- for corollaries\n#prp- for propositions\n#cnj- for conjectures\n#def- for definitions\n#exm- for examples\n#exr- for exercises\n\nSee the Quarto documentation on theorems and proofs for complete details.\nExample syntax:\n::: {#thm-pythagorean}\n\n## Pythagorean theorem\n\nIn a right triangle,\nthe square of the hypotenuse equals the sum of squares of the other two sides:\n$a^2 + b^2 = c^2$.\n\n:::\nThis produces automatically numbered output like “Theorem 2.1 (Pythagorean theorem)” and can be referenced elsewhere in your document using @thm-pythagorean.\n\n\n5.2 Example: Pythagorean theorem\n\n\n\n\n\n\n\nTheorem 1 (Pythagorean theorem) In a right triangle, the square of the hypotenuse equals the sum of squares of the other two sides: \\(a^2 + b^2 = c^2\\).\n\n\n\n\n\n\n\n\n\n\n\nExample 4 (Pythagorean theorem example) For a triangle with sides 3, 4, and 5: \\(3^2 + 4^2 = 9 + 16 = 25 = 5^2\\).\n\n\n\n\n\n\n\n\n\n\n\nDefinition 5 (Postulate (axiom)) A postulate (or axiom) is a statement accepted as true without proof, serving as a starting point for further reasoning.\n\n\n\n\n\n\n\n\n\n\n\nExample 5 (Euclid’s parallel postulate) Through a point not on a line, exactly one line can be drawn parallel to the given line.\nIf we have line \\(L\\) and point \\(P\\) not on \\(L\\), only one line through \\(P\\) will never intersect \\(L\\)."
   },
   {
-    "objectID": "chapters/conciseness-slides.html#examples-of-concise-writing",
-    "href": "chapters/conciseness-slides.html#examples-of-concise-writing",
-    "title": "Conciseness",
-    "section": "3 Examples of concise writing",
-    "text": "3 Examples of concise writing"
+    "objectID": "chapters/defining-terms-slides.html#guidelines-for-defining-terms",
+    "href": "chapters/defining-terms-slides.html#guidelines-for-defining-terms",
+    "title": "Defining terms clearly",
+    "section": "1 Guidelines for defining terms",
+    "text": "1 Guidelines for defining terms"
   },
   {
-    "objectID": "chapters/conciseness-slides.html#references",
-    "href": "chapters/conciseness-slides.html#references",
-    "title": "Conciseness",
-    "section": "",
-    "text": "Many effective writers throughout history have exemplified the principle of conciseness.\nJulius Caesar’s Commentarii and phrases like “Veni, vidi, vici” demonstrate the power of brevity (Wikipedia contributors 2026b).\nErnest Hemingway was known for his spare, direct prose style. His short sentences and simple words conveyed complex ideas and emotions without unnecessary embellishment (Wikipedia contributors 2026a).\n\n\n\n\n\n\n\n\nWikipedia contributors. 2026a. Ernest Hemingway — Wikipedia, the Free Encyclopedia. https://en.wikipedia.org/wiki/Ernest_Hemingway#Writing_style.\n\n\nWikipedia contributors. 2026b. Julius Caesar — Wikipedia, the Free Encyclopedia. https://en.wikipedia.org/wiki/Julius_Caesar#Literary_works."
+    "objectID": "chapters/defining-terms-slides.html#examples-of-term-definitions",
+    "href": "chapters/defining-terms-slides.html#examples-of-term-definitions",
+    "title": "Defining terms clearly",
+    "section": "2 Examples of term definitions",
+    "text": "2 Examples of term definitions"
   },
   {
-    "objectID": "chapters/citations-evidence-slides.html#why-claims-need-support",
-    "href": "chapters/citations-evidence-slides.html#why-claims-need-support",
-    "title": "Citations and evidence",
-    "section": "1 Why claims need support",
-    "text": "1 Why claims need support"
+    "objectID": "chapters/defining-terms-slides.html#why-examples-matter",
+    "href": "chapters/defining-terms-slides.html#why-examples-matter",
+    "title": "Defining terms clearly",
+    "section": "3 Why examples matter",
+    "text": "3 Why examples matter"
   },
   {
-    "objectID": "chapters/citations-evidence-slides.html#what-constitutes-adequate-support",
-    "href": "chapters/citations-evidence-slides.html#what-constitutes-adequate-support",
-    "title": "Citations and evidence",
-    "section": "2 What constitutes adequate support",
-    "text": "2 What constitutes adequate support"
+    "objectID": "chapters/defining-terms-slides.html#common-pitfalls-to-avoid",
+    "href": "chapters/defining-terms-slides.html#common-pitfalls-to-avoid",
+    "title": "Defining terms clearly",
+    "section": "4 Common pitfalls to avoid",
+    "text": "4 Common pitfalls to avoid"
   },
   {
-    "objectID": "chapters/citations-evidence-slides.html#what-makes-a-citation-relevant",
-    "href": "chapters/citations-evidence-slides.html#what-makes-a-citation-relevant",
-    "title": "Citations and evidence",
-    "section": "3 What makes a citation relevant",
-    "text": "3 What makes a citation relevant"
-  },
-  {
-    "objectID": "chapters/citations-evidence-slides.html#what-makes-a-source-trustworthy",
-    "href": "chapters/citations-evidence-slides.html#what-makes-a-source-trustworthy",
-    "title": "Citations and evidence",
-    "section": "4 What makes a source trustworthy",
-    "text": "4 What makes a source trustworthy"
-  },
-  {
-    "objectID": "chapters/citations-evidence-slides.html#copy-paste-with-caution",
-    "href": "chapters/citations-evidence-slides.html#copy-paste-with-caution",
-    "title": "Citations and evidence",
-    "section": "5 Copy-paste with caution",
-    "text": "5 Copy-paste with caution"
-  },
-  {
-    "objectID": "chapters/citations-evidence-slides.html#best-practices",
-    "href": "chapters/citations-evidence-slides.html#best-practices",
-    "title": "Citations and evidence",
-    "section": "6 Best practices",
-    "text": "6 Best practices"
-  },
-  {
-    "objectID": "chapters/citations-evidence-slides.html#common-citation-errors-to-avoid",
-    "href": "chapters/citations-evidence-slides.html#common-citation-errors-to-avoid",
-    "title": "Citations and evidence",
-    "section": "7 Common citation errors to avoid",
-    "text": "7 Common citation errors to avoid"
-  },
-  {
-    "objectID": "chapters/citations-evidence-slides.html#examples",
-    "href": "chapters/citations-evidence-slides.html#examples",
-    "title": "Citations and evidence",
-    "section": "8 Examples",
-    "text": "8 Examples"
-  },
-  {
-    "objectID": "chapters/citations-evidence-slides.html#conclusion",
-    "href": "chapters/citations-evidence-slides.html#conclusion",
-    "title": "Citations and evidence",
-    "section": "9 Conclusion",
-    "text": "9 Conclusion"
-  },
-  {
-    "objectID": "chapters/citations-evidence-slides.html#references",
-    "href": "chapters/citations-evidence-slides.html#references",
-    "title": "Citations and evidence",
-    "section": "",
-    "text": "Supporting claims with appropriate citations and evidence is not optional—it is essential to scientific communication. It allows readers to verify your claims, understand the foundation of your arguments, and locate resources for further learning. Always ask yourself: “How does my reader know this is true?” If the answer isn’t obvious from your text, add a citation or present direct evidence.\n\n\n\n\n\n\n\n\nHawkins, Douglas M. 2004. “The Problem of Overfitting.” Journal of Chemical Information and Computer Sciences 44 (1): 1–12. https://doi.org/10.1021/ci0342472.\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\nStack Overflow. 2024. Stack Overflow Developer Survey 2024. https://survey.stackoverflow.co/2024/.\n\n\nVapnik, Vladimir N. 1998. Statistical Learning Theory. Wiley. https://www.wiley.com/en-us/Statistical+Learning+Theory-p-9780471030034."
+    "objectID": "chapters/defining-terms-slides.html#mathematical-statements-require-examples",
+    "href": "chapters/defining-terms-slides.html#mathematical-statements-require-examples",
+    "title": "Defining terms clearly",
+    "section": "5 Mathematical statements require examples",
+    "text": "5 Mathematical statements require examples"
   },
   {
     "objectID": "chapters/citations-evidence.html",
@@ -245,81 +196,165 @@
     "text": "9 Conclusion\nSupporting claims with appropriate citations and evidence is not optional—it is essential to scientific communication. It allows readers to verify your claims, understand the foundation of your arguments, and locate resources for further learning. Always ask yourself: “How does my reader know this is true?” If the answer isn’t obvious from your text, add a citation or present direct evidence."
   },
   {
-    "objectID": "chapters/defining-terms-slides.html#guidelines-for-defining-terms",
-    "href": "chapters/defining-terms-slides.html#guidelines-for-defining-terms",
-    "title": "Defining terms clearly",
-    "section": "1 Guidelines for defining terms",
-    "text": "1 Guidelines for defining terms"
+    "objectID": "chapters/citations-evidence-slides.html#why-claims-need-support",
+    "href": "chapters/citations-evidence-slides.html#why-claims-need-support",
+    "title": "Citations and evidence",
+    "section": "1 Why claims need support",
+    "text": "1 Why claims need support"
   },
   {
-    "objectID": "chapters/defining-terms-slides.html#examples-of-term-definitions",
-    "href": "chapters/defining-terms-slides.html#examples-of-term-definitions",
-    "title": "Defining terms clearly",
-    "section": "2 Examples of term definitions",
-    "text": "2 Examples of term definitions"
+    "objectID": "chapters/citations-evidence-slides.html#what-constitutes-adequate-support",
+    "href": "chapters/citations-evidence-slides.html#what-constitutes-adequate-support",
+    "title": "Citations and evidence",
+    "section": "2 What constitutes adequate support",
+    "text": "2 What constitutes adequate support"
   },
   {
-    "objectID": "chapters/defining-terms-slides.html#why-examples-matter",
-    "href": "chapters/defining-terms-slides.html#why-examples-matter",
-    "title": "Defining terms clearly",
-    "section": "3 Why examples matter",
-    "text": "3 Why examples matter"
+    "objectID": "chapters/citations-evidence-slides.html#what-makes-a-citation-relevant",
+    "href": "chapters/citations-evidence-slides.html#what-makes-a-citation-relevant",
+    "title": "Citations and evidence",
+    "section": "3 What makes a citation relevant",
+    "text": "3 What makes a citation relevant"
   },
   {
-    "objectID": "chapters/defining-terms-slides.html#common-pitfalls-to-avoid",
-    "href": "chapters/defining-terms-slides.html#common-pitfalls-to-avoid",
-    "title": "Defining terms clearly",
-    "section": "4 Common pitfalls to avoid",
-    "text": "4 Common pitfalls to avoid"
+    "objectID": "chapters/citations-evidence-slides.html#what-makes-a-source-trustworthy",
+    "href": "chapters/citations-evidence-slides.html#what-makes-a-source-trustworthy",
+    "title": "Citations and evidence",
+    "section": "4 What makes a source trustworthy",
+    "text": "4 What makes a source trustworthy"
   },
   {
-    "objectID": "chapters/defining-terms-slides.html#mathematical-statements-require-examples",
-    "href": "chapters/defining-terms-slides.html#mathematical-statements-require-examples",
-    "title": "Defining terms clearly",
-    "section": "5 Mathematical statements require examples",
-    "text": "5 Mathematical statements require examples"
+    "objectID": "chapters/citations-evidence-slides.html#copy-paste-with-caution",
+    "href": "chapters/citations-evidence-slides.html#copy-paste-with-caution",
+    "title": "Citations and evidence",
+    "section": "5 Copy-paste with caution",
+    "text": "5 Copy-paste with caution"
   },
   {
-    "objectID": "chapters/defining-terms.html",
-    "href": "chapters/defining-terms.html",
-    "title": "Defining terms clearly",
+    "objectID": "chapters/citations-evidence-slides.html#best-practices",
+    "href": "chapters/citations-evidence-slides.html#best-practices",
+    "title": "Citations and evidence",
+    "section": "6 Best practices",
+    "text": "6 Best practices"
+  },
+  {
+    "objectID": "chapters/citations-evidence-slides.html#common-citation-errors-to-avoid",
+    "href": "chapters/citations-evidence-slides.html#common-citation-errors-to-avoid",
+    "title": "Citations and evidence",
+    "section": "7 Common citation errors to avoid",
+    "text": "7 Common citation errors to avoid"
+  },
+  {
+    "objectID": "chapters/citations-evidence-slides.html#examples",
+    "href": "chapters/citations-evidence-slides.html#examples",
+    "title": "Citations and evidence",
+    "section": "8 Examples",
+    "text": "8 Examples"
+  },
+  {
+    "objectID": "chapters/citations-evidence-slides.html#conclusion",
+    "href": "chapters/citations-evidence-slides.html#conclusion",
+    "title": "Citations and evidence",
+    "section": "9 Conclusion",
+    "text": "9 Conclusion"
+  },
+  {
+    "objectID": "chapters/citations-evidence-slides.html#references",
+    "href": "chapters/citations-evidence-slides.html#references",
+    "title": "Citations and evidence",
     "section": "",
-    "text": "Clear definitions are essential to effective scientific writing. Every specialized term should have an explicit, concise definition immediately before or after its first use. Readers should not need to search for the meaning of a term or infer it from context alone. For example:"
+    "text": "Supporting claims with appropriate citations and evidence is not optional—it is essential to scientific communication. It allows readers to verify your claims, understand the foundation of your arguments, and locate resources for further learning. Always ask yourself: “How does my reader know this is true?” If the answer isn’t obvious from your text, add a citation or present direct evidence.\n\n\n\n\n\n\n\n\nHawkins, Douglas M. 2004. “The Problem of Overfitting.” Journal of Chemical Information and Computer Sciences 44 (1): 1–12. https://doi.org/10.1021/ci0342472.\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\nStack Overflow. 2024. Stack Overflow Developer Survey 2024. https://survey.stackoverflow.co/2024/.\n\n\nVapnik, Vladimir N. 1998. Statistical Learning Theory. Wiley. https://www.wiley.com/en-us/Statistical+Learning+Theory-p-9780471030034."
   },
   {
-    "objectID": "chapters/defining-terms.html#guidelines-for-defining-terms",
-    "href": "chapters/defining-terms.html#guidelines-for-defining-terms",
-    "title": "Defining terms clearly",
-    "section": "1 Guidelines for defining terms",
-    "text": "1 Guidelines for defining terms\nFollow these principles when introducing new terms:\n\nProvide explicit definitions: State clearly what a term means, rather than assuming readers will understand from context.\nBe concise: Definitions should be brief and focused, using only the words necessary to convey the meaning.\nDefine terms at first use: Place the definition immediately before or after the term’s first appearance.\nProvide examples: Every definition should include at least one concrete example that illustrates how the term is used."
+    "objectID": "chapters/conciseness-slides.html#common-ways-to-improve-conciseness",
+    "href": "chapters/conciseness-slides.html#common-ways-to-improve-conciseness",
+    "title": "Conciseness",
+    "section": "1 Common ways to improve conciseness",
+    "text": "1 Common ways to improve conciseness"
   },
   {
-    "objectID": "chapters/defining-terms.html#examples-of-term-definitions",
-    "href": "chapters/defining-terms.html#examples-of-term-definitions",
-    "title": "Defining terms clearly",
-    "section": "2 Examples of term definitions",
-    "text": "2 Examples of term definitions\nHere are examples of well-defined terms:\n\n\n\n\n\n\n\nExample 2 (Statistical term: Confidence interval)  \n\n\n\n\n\n\n\nDefinition 3 (Confidence interval) A confidence interval is a range of values, derived from sample statistics, that is likely to contain the true population parameter.\n\n\n\n\nIf we calculate a 95% confidence interval for mean height as [165 cm, 175 cm], we are 95% confident that the true population mean height falls within this range.\n\n\n\n\n\n\n\n\n\n\n\nExample 3 (Writing term: Active voice)  \n\n\n\n\n\n\n\nDefinition 4 (Active voice) Active voice is a sentence structure where the subject performs the action expressed by the verb.\n\n\n\n\n“The researcher conducted the experiment” is in active voice, while “The experiment was conducted by the researcher” is in passive voice."
+    "objectID": "chapters/conciseness-slides.html#limit-complex-sentence-structures",
+    "href": "chapters/conciseness-slides.html#limit-complex-sentence-structures",
+    "title": "Conciseness",
+    "section": "2 Limit complex sentence structures",
+    "text": "2 Limit complex sentence structures"
   },
   {
-    "objectID": "chapters/defining-terms.html#why-examples-matter",
-    "href": "chapters/defining-terms.html#why-examples-matter",
-    "title": "Defining terms clearly",
-    "section": "3 Why examples matter",
-    "text": "3 Why examples matter\nExamples serve several crucial purposes:\n\nConcrete understanding: Examples transform abstract concepts into tangible instances that readers can visualize and understand.\nVerification: Readers can work through examples themselves to verify they understand the definition or theorem.\nApplication: Examples show how to apply definitions and theorems to solve real problems.\nMemory: Concrete examples are easier to remember than abstract definitions alone."
+    "objectID": "chapters/conciseness-slides.html#examples-of-concise-writing",
+    "href": "chapters/conciseness-slides.html#examples-of-concise-writing",
+    "title": "Conciseness",
+    "section": "3 Examples of concise writing",
+    "text": "3 Examples of concise writing"
   },
   {
-    "objectID": "chapters/defining-terms.html#common-pitfalls-to-avoid",
-    "href": "chapters/defining-terms.html#common-pitfalls-to-avoid",
-    "title": "Defining terms clearly",
-    "section": "4 Common pitfalls to avoid",
-    "text": "4 Common pitfalls to avoid\n\nCircular definitions: Do not define a term using the term itself.\nIncorrect: “Conciseness is the quality of being concise.”\nCorrect: “Conciseness is the quality of expressing ideas using only the words necessary to communicate meaning clearly.”\nVague definitions: Avoid definitions that rely on imprecise language.\nIncorrect: “A variable is something that can change.”\nCorrect: “A variable is a symbol representing a value that can take on different values.”\nMissing examples: Never leave a definition without at least one example.\nExamples without context: Ensure examples clearly illustrate the specific aspect of the definition they are meant to demonstrate."
+    "objectID": "chapters/conciseness-slides.html#references",
+    "href": "chapters/conciseness-slides.html#references",
+    "title": "Conciseness",
+    "section": "",
+    "text": "Many effective writers throughout history have exemplified the principle of conciseness.\nJulius Caesar’s Commentarii and phrases like “Veni, vidi, vici” demonstrate the power of brevity (Wikipedia contributors 2026b).\nErnest Hemingway was known for his spare, direct prose style. His short sentences and simple words conveyed complex ideas and emotions without unnecessary embellishment (Wikipedia contributors 2026a).\n\n\n\n\n\n\n\n\nWikipedia contributors. 2026a. Ernest Hemingway — Wikipedia, the Free Encyclopedia. https://en.wikipedia.org/wiki/Ernest_Hemingway#Writing_style.\n\n\nWikipedia contributors. 2026b. Julius Caesar — Wikipedia, the Free Encyclopedia. https://en.wikipedia.org/wiki/Julius_Caesar#Literary_works."
   },
   {
-    "objectID": "chapters/defining-terms.html#mathematical-statements-require-examples",
-    "href": "chapters/defining-terms.html#mathematical-statements-require-examples",
-    "title": "Defining terms clearly",
-    "section": "5 Mathematical statements require examples",
-    "text": "5 Mathematical statements require examples\nMathematical theorems, lemmas, corollaries, and postulates should always include examples that demonstrate their application. Abstract mathematical statements become more accessible when readers can see concrete instances.\n\n5.1 Using theorem environments in Quarto\nWhen writing mathematical or technical content in Quarto, use theorem environments to demarcate and highlight the structure of your content. These environments provide consistent formatting, automatic numbering, and cross-reference capabilities.\nQuarto provides built-in theorem environments including:\n\n#thm- for theorems\n#lem- for lemmas\n#cor- for corollaries\n#prp- for propositions\n#cnj- for conjectures\n#def- for definitions\n#exm- for examples\n#exr- for exercises\n\nSee the Quarto documentation on theorems and proofs for complete details.\nExample syntax:\n::: {#thm-pythagorean}\n\n## Pythagorean theorem\n\nIn a right triangle,\nthe square of the hypotenuse equals the sum of squares of the other two sides:\n$a^2 + b^2 = c^2$.\n\n:::\nThis produces automatically numbered output like “Theorem 2.1 (Pythagorean theorem)” and can be referenced elsewhere in your document using @thm-pythagorean.\n\n\n5.2 Example: Pythagorean theorem\n\n\n\n\n\n\n\nTheorem 1 (Pythagorean theorem) In a right triangle, the square of the hypotenuse equals the sum of squares of the other two sides: \\(a^2 + b^2 = c^2\\).\n\n\n\n\n\n\n\n\n\n\n\nExample 4 (Pythagorean theorem example) For a triangle with sides 3, 4, and 5: \\(3^2 + 4^2 = 9 + 16 = 25 = 5^2\\).\n\n\n\n\n\n\n\n\n\n\n\nDefinition 5 (Postulate (axiom)) A postulate (or axiom) is a statement accepted as true without proof, serving as a starting point for further reasoning.\n\n\n\n\n\n\n\n\n\n\n\nExample 5 (Euclid’s parallel postulate) Through a point not on a line, exactly one line can be drawn parallel to the given line.\nIf we have line \\(L\\) and point \\(P\\) not on \\(L\\), only one line through \\(P\\) will never intersect \\(L\\)."
+    "objectID": "chapters/conciseness.html",
+    "href": "chapters/conciseness.html",
+    "title": "Conciseness",
+    "section": "",
+    "text": "NoteAI-Assisted Authorship\n\n\n\nThis chapter was written with the assistance of GitHub Copilot, which expanded on outlined ideas and draft notes provided by the author. The content represents the author’s perspective and has been reviewed for accuracy, but the detailed prose was generated through AI assistance.\nConcise writing conveys ideas efficiently, using only the words necessary to communicate meaning clearly. Every word should serve a purpose. Eliminate redundancy and verbosity. When you can express an idea in fewer words without losing meaning, do so."
+  },
+  {
+    "objectID": "chapters/conciseness.html#common-ways-to-improve-conciseness",
+    "href": "chapters/conciseness.html#common-ways-to-improve-conciseness",
+    "title": "Conciseness",
+    "section": "1 Common ways to improve conciseness",
+    "text": "1 Common ways to improve conciseness\n\nRemove redundant phrases\n\n“in order to” → “to”\n“due to the fact that” → “because”\n“at this point in time” → “now”\n“a large number of” → “many”\n\nUse active voice instead of passive where appropriate\n\n“The experiment was conducted by the researchers” → “The researchers conducted the experiment”\n\nEliminate unnecessary qualifiers\n\n“very”, “really”, “quite” often add little meaning\n\nReplace wordy phrases with single words\n\n“make a decision” → “decide”\n“give consideration to” → “consider”\n“is able to” → “can”\n\n\nRemember: concise writing is not about making every sentence as short as possible, but about removing words that do not contribute to meaning or clarity."
+  },
+  {
+    "objectID": "chapters/conciseness.html#limit-complex-sentence-structures",
+    "href": "chapters/conciseness.html#limit-complex-sentence-structures",
+    "title": "Conciseness",
+    "section": "2 Limit complex sentence structures",
+    "text": "2 Limit complex sentence structures\nA sentence with several nested dependent clauses forces the reader to hold each unfinished clause in mind until the sentence finally resolves. Compound sentences joined by coordinating conjunctions (and, but, or) are usually fine, and an occasional dependent clause is fine too; the problem is piling several of them into a single sentence.\nWhen a sentence becomes hard to follow, split it into shorter sentences, each carrying one main idea.\n\n\n\n\n\n\n\nExample 1 (Splitting an over-nested sentence)  \n\n❌ Because the assay, which we had validated the previous year using samples that were collected before the outbreak began, produced results that, although noisy, were consistent with prior reports, we proceeded with the analysis.\n✅ We had validated the assay the previous year, using samples collected before the outbreak began. Its results were noisy but consistent with prior reports, so we proceeded with the analysis.\n\nThe revised version breaks one deeply nested sentence into two and restores the natural chronological order (validation, then results, then decision), so the reader can absorb each idea before moving on."
+  },
+  {
+    "objectID": "chapters/conciseness.html#examples-of-concise-writing",
+    "href": "chapters/conciseness.html#examples-of-concise-writing",
+    "title": "Conciseness",
+    "section": "3 Examples of concise writing",
+    "text": "3 Examples of concise writing\nMany effective writers throughout history have exemplified the principle of conciseness.\nJulius Caesar’s Commentarii and phrases like “Veni, vidi, vici” demonstrate the power of brevity (Wikipedia contributors 2026b).\nErnest Hemingway was known for his spare, direct prose style. His short sentences and simple words conveyed complex ideas and emotions without unnecessary embellishment (Wikipedia contributors 2026a)."
+  },
+  {
+    "objectID": "chapters/grammar-slides.html#relative-pronouns",
+    "href": "chapters/grammar-slides.html#relative-pronouns",
+    "title": "Grammar",
+    "section": "1 Relative pronouns",
+    "text": "1 Relative pronouns"
+  },
+  {
+    "objectID": "chapters/grammar-slides.html#demonstrative-pronouns",
+    "href": "chapters/grammar-slides.html#demonstrative-pronouns",
+    "title": "Grammar",
+    "section": "2 Demonstrative pronouns",
+    "text": "2 Demonstrative pronouns"
+  },
+  {
+    "objectID": "chapters/grammar.html",
+    "href": "chapters/grammar.html",
+    "title": "Grammar",
+    "section": "",
+    "text": "NoteAI-Assisted Authorship\n\n\n\nThis chapter was written with the assistance of GitHub Copilot, which expanded on outlined ideas and draft notes provided by the author. The content represents the author’s perspective and has been reviewed for accuracy, but the detailed prose was generated through AI assistance.\nClear grammar removes friction between your ideas and your reader. This chapter collects a few grammatical habits that consistently make scientific writing easier to read."
+  },
+  {
+    "objectID": "chapters/grammar.html#relative-pronouns",
+    "href": "chapters/grammar.html#relative-pronouns",
+    "title": "Grammar",
+    "section": "1 Relative pronouns",
+    "text": "1 Relative pronouns\nRelative pronouns introduce a clause that describes a preceding noun. The relative pronouns are:\n\nthat\nwhich\nwho\nwhom\nwhose\n\nTwo habits make these clauses easier to read: choosing between that and which correctly, and keeping the relative pronoun rather than dropping it.\n\n1.1 Restrictive vs. non-restrictive clauses: that vs. which\nUse that for a restrictive clause — one that identifies which thing you mean, and that cannot be removed without changing the meaning of the sentence. Use which, set off by commas, for a non-restrictive clause — one that adds information the reader does not need in order to know which thing you mean.\n\n\n\n\n\n\n\nExample 1 (Restrictive clause (that))  \n\nThe dataset that we collected in 2023 contains 4,000 records.\n\nThe clause “that we collected in 2023” tells the reader which dataset we mean. Removing it changes the meaning, so the clause is restrictive and takes that with no comma.\n\n\n\n\n\n\n\n\n\n\n\nExample 2 (Non-restrictive clause (which))  \n\nOur 2023 dataset, which contains 4,000 records, is publicly available.\n\nThe clause “which contains 4,000 records” adds a detail, but the reader already knows which dataset we mean. The clause is non-restrictive, so it takes which and is set off by commas.\n\n\n\n\nA quick test: if you can drop the clause without changing which thing you are describing, use which and commas; otherwise, use that.\n\n\n1.2 Do not omit relative pronouns\nEnglish lets you drop a relative pronoun in some sentences, but keeping it makes the structure of the sentence explicit and easier to parse on the first read. Prefer to keep that, which, or who, even when the grammar would let you drop it.\n\n\n\n\n\n\n\nExample 3 (Restoring an omitted relative pronoun)  \n\n❌ This body of work laid the methodological groundwork I now apply to enteric fever.\n✅ This body of work laid the methodological groundwork that I now apply to enteric fever.\n\nThe word “that” signals immediately that a describing clause is beginning, so the reader does not briefly misread “the methodological groundwork I” as a single phrase and then have to backtrack."
+  },
+  {
+    "objectID": "chapters/grammar.html#demonstrative-pronouns",
+    "href": "chapters/grammar.html#demonstrative-pronouns",
+    "title": "Grammar",
+    "section": "2 Demonstrative pronouns",
+    "text": "2 Demonstrative pronouns\nThere are four demonstrative words:\n\nthis\nthat\nthese\nthose\n\nThey can serve two roles. As adjectives, they modify a noun: “this result”, “those samples”. As standalone pronouns, they replace a noun: “This shows…”, “That means…”.\nWhen a demonstrative stands alone as a pronoun, the reader has to search backward for its referent — and often the referent is a whole preceding clause rather than a single noun, which leaves the reference ambiguous. Prefer to follow a demonstrative with the noun it points to, so the reference is explicit.\n\n\n\n\n\n\n\nExample 4 (Naming the referent)  \n\n❌ The model overfit the training data. This poses a problem for deployment.\n✅ The model overfit the training data. This overfitting poses a problem for deployment.\n\nAdding the noun “overfitting” states exactly what “this” refers to, instead of leaving the reader to infer it."
   },
   {
     "objectID": "chapters/paper-organization-slides.html#standard-paper-structure",
