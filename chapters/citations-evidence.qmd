@@ -144,9 +144,10 @@ Some sources typically lack the rigor needed for scientific writing:
 
 ## Copy-paste with caution
 
-Reusing another writer's exact words —
-even with a citation —
-raises two problems:
+Copying exact wording —
+whether from another writer or from your own earlier work,
+and even with a citation —
+can cause problems:
 plagiarism, if the wording is not clearly marked as a quotation,
 and a shift in voice that makes the text harder to read.
 
@@ -165,11 +166,10 @@ A few rules of thumb:
   can violate journal policies;
   cite the earlier work instead of repeating it.
 
-When the passage you are tempted to copy already appears elsewhere
-in your own document,
-cross-reference it instead of repeating it.
-Cross-referencing keeps a single source of truth
-and improves concision.
+A related case is repetition *within* your own document.
+When a passage you are tempted to copy already appears elsewhere,
+cross-reference it instead of repeating it:
+this keeps a single source of truth and improves concision.
 
 ## Best practices
 
