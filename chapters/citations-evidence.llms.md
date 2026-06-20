@@ -4,7 +4,7 @@ Code
 
 Published
 
-Last modified: 2026-06-20 06:44:57 (UTC)
+Last modified: 2026-06-20 06:47:42 (UTC)
 
 Every claim in scientific writing should be supported by either citations to relevant sources or direct evidence from data or experiments. This principle is fundamental to maintaining credibility, enabling verification, and building on the accumulated knowledge of the scientific community.
 
@@ -116,7 +116,19 @@ Some sources typically lack the rigor needed for scientific writing:
 - Predatory or pay-to-publish journals without genuine peer review
 - Retracted papers
 
-## 5 Best practices
+## 5 Copy-paste with caution
+
+Copying exact wording — whether from another writer or from your own earlier work, and even with a citation — can cause problems: plagiarism, if the wording is not clearly marked as a quotation, and a shift in voice that makes the text harder to read.
+
+A few rules of thumb:
+
+- **Do not copy-paste prose from anyone who is not a coauthor** of the document you are currently writing. If you must reproduce someone else’s exact words, mark them as a direct quotation and cite the source.
+- **Prefer paraphrasing over quoting.** Restating an idea in your own words, with a citation, usually reads better than a block quotation, and it shows that you understand the idea.
+- **Do not recycle your own published text without thought.** Reusing passages from your earlier papers (self-plagiarism) can violate journal policies; cite the earlier work instead of repeating it.
+
+A related case is repetition *within* your own document. When a passage you are tempted to copy already appears elsewhere, cross-reference it instead of repeating it: this keeps a single source of truth and improves concision.
+
+## 6 Best practices
 
 To effectively support your claims:
 
@@ -128,7 +140,7 @@ To effectively support your claims:
 6.  **Stay current**: Supplement foundational older references with recent work showing the current state of knowledge
 7.  **Cite diverse sources**: When possible, include work from different research groups and perspectives
 
-## 6 Common citation errors to avoid
+## 7 Common citation errors to avoid
 
 - **Citation needed**: Making claims without any supporting citation or evidence
 - **Vague attribution**: Using phrases like “studies have shown” without citing specific studies  
@@ -137,39 +149,39 @@ To effectively support your claims:
 - **Selective citation**: Only citing work that supports your position while ignoring contradictory evidence
 - **Ghost authorship**: Failing to cite work that directly influenced your ideas
 
-## 7 Examples
+## 8 Examples
 
-### 7.1 Poor (unsupported claim)
+### 8.1 Poor (unsupported claim)
 
 > Machine learning models often perform poorly on small datasets.
 
 **Problem**: This claim is stated as fact without any support.
 
-### 7.2 Better (citation provided)
+### 8.2 Better (citation provided)
 
 > Machine learning models often perform poorly on small datasets ([Vapnik 1998](#ref-vapnik1998); [Hawkins 2004](#ref-hawkins2004)).
 
 **Improvement**: Citations provide evidence for the claim.
 
-### 7.3 Best (citation with context)
+### 8.3 Best (citation with context)
 
 > Machine learning models often perform poorly on small datasets. Vapnik (1998) showed that the generalization error of learning algorithms typically decreases as training set size increases, and Hawkins (2004) demonstrated that complex models are particularly prone to overfitting when trained on limited data ([Vapnik 1998](#ref-vapnik1998); [Hawkins 2004](#ref-hawkins2004)).
 
 **Improvement**: The specific support each citation provides is explained.
 
-### 7.4 Poor (irrelevant citation)
+### 8.4 Poor (irrelevant citation)
 
 > Python is the most popular programming language for data science ([Knuth 1984](#ref-knuth84)).
 
 **Problem**: Knuth’s 1984 paper on literate programming doesn’t address Python or data science.
 
-### 7.5 Better (relevant citation)
+### 8.5 Better (relevant citation)
 
 > Python is the most popular programming language for data science ([Stack Overflow 2024](#ref-stackoverflow2024)).
 
 **Improvement**: The citation is to a current survey of programming language usage.
 
-## 8 Conclusion
+## 9 Conclusion
 
 Supporting claims with appropriate citations and evidence is not optional—it is essential to scientific communication. It allows readers to verify your claims, understand the foundation of your arguments, and locate resources for further learning. Always ask yourself: “How does my reader know this is true?” If the answer isn’t obvious from your text, add a citation or present direct evidence.
 
