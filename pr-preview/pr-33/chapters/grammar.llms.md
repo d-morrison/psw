@@ -4,7 +4,7 @@ Code
 
 Published
 
-Last modified: 2026-06-18 19:38:06 (UTC)
+Last modified: 2026-06-20 05:21:28 (UTC)
 
 > **NOTE:**
 >
@@ -14,7 +14,15 @@ Clear grammar removes friction between your ideas and your reader. This chapter 
 
 ## 1 Relative pronouns
 
-Relative pronouns (*that*, *which*, *who*, *whom*, and *whose*) introduce a clause that describes a preceding noun. Two habits make these clauses easier to read: choosing between *that* and *which* correctly, and keeping the relative pronoun rather than dropping it.
+Relative pronouns introduce a clause that describes a preceding noun. The relative pronouns are:
+
+- *that*
+- *which*
+- *who*
+- *whom*
+- *whose*
+
+Two habits make these clauses easier to read: choosing between *that* and *which* correctly, and keeping the relative pronoun rather than dropping it.
 
 ### 1.1 Restrictive vs. non-restrictive clauses: *that* vs. *which*
 
@@ -54,7 +62,14 @@ English lets you drop a relative pronoun in some sentences, but keeping it makes
 
 ## 2 Demonstrative pronouns
 
-Demonstrative words (*this*, *that*, *these*, and *those*) can serve two roles. As adjectives, they modify a noun: “**this** result”, “**those** samples”. As standalone pronouns, they replace a noun: “**This** shows…”, “**That** means…”.
+There are four demonstrative words:
+
+- *this*
+- *that*
+- *these*
+- *those*
+
+They can serve two roles. As adjectives, they modify a noun: “**this** result”, “**those** samples”. As standalone pronouns, they replace a noun: “**This** shows…”, “**That** means…”.
 
 When a demonstrative stands alone as a pronoun, the reader has to search backward for its referent — and often the referent is a whole preceding clause rather than a single noun, which leaves the reference ambiguous. Prefer to follow a demonstrative with the noun it points to, so the reference is explicit.
 
