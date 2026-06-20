@@ -4,7 +4,7 @@ Code
 
 Published
 
-Last modified: 2026-06-20 05:32:01 (UTC)
+Last modified: 2026-06-20 06:38:47 (UTC)
 
 Every claim in scientific writing should be supported by either citations to relevant sources or direct evidence from data or experiments. This principle is fundamental to maintaining credibility, enabling verification, and building on the accumulated knowledge of the scientific community.
 
@@ -118,7 +118,7 @@ Some sources typically lack the rigor needed for scientific writing:
 
 ## 5 Copy-paste with caution
 
-Reusing another writer’s exact words — even with a citation — raises two problems: plagiarism, if the wording is not clearly marked as a quotation, and a shift in voice that makes the text harder to read.
+Copying exact wording — whether from another writer or from your own earlier work, and even with a citation — can cause problems: plagiarism, if the wording is not clearly marked as a quotation, and a shift in voice that makes the text harder to read.
 
 A few rules of thumb:
 
@@ -126,7 +126,7 @@ A few rules of thumb:
 - **Prefer paraphrasing over quoting.** Restating an idea in your own words, with a citation, usually reads better than a block quotation, and it shows that you understand the idea.
 - **Do not recycle your own published text without thought.** Reusing passages from your earlier papers (self-plagiarism) can violate journal policies; cite the earlier work instead of repeating it.
 
-When the passage you are tempted to copy already appears elsewhere in your own document, cross-reference it instead of repeating it. Cross-referencing keeps a single source of truth and improves concision.
+A related case is repetition *within* your own document. When a passage you are tempted to copy already appears elsewhere, cross-reference it instead of repeating it: this keeps a single source of truth and improves concision.
 
 ## 6 Best practices
 
