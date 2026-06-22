@@ -9,7 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.9.38">
 
-  <title>Principles of Scientific Writing – Paper organization</title>
+  <title>Principles of Scientific Writing – Avoiding AI tells</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -234,7 +234,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Paper organization</h1>
+  <h1 class="title">Avoiding AI tells</h1>
 
 <div class="quarto-title-authors">
 </div>
@@ -243,106 +243,130 @@
 </section>
 <section class="slide level2">
 
-<p>Effective organization helps readers navigate your scientific paper and understand your findings. The structure of your paper should guide readers logically from your research question through your methods to your results and conclusions.</p>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>AI-Assisted Authorship</strong></p>
+</div>
+<div class="callout-content">
+<p>This chapter was written with the assistance of GitHub Copilot, which expanded on outlined ideas and draft notes provided by the author. The content represents the author’s perspective and has been reviewed for accuracy, but the detailed prose was generated through AI assistance.</p>
+</div>
+</div>
+</div>
+<p>AI writing assistants have a recognizable house style. When you let one draft your prose, it leaves fingerprints: words, sentence shapes, and formatting habits that recur across unrelated documents. Readers who have seen enough machine-generated text learn to spot these patterns, and once they do, the writing reads as generic and unconsidered, even when the underlying content is sound.</p>
+<p>This chapter catalogs the most common tells so you can remove them. It is written mainly for AI assistants drafting scientific prose, but it is just as useful for humans editing AI-assisted drafts.</p>
+<p>One caveat first: no single word or pattern below is wrong on its own. Each has legitimate uses. The signal is clustering and mechanical repetition, the same constructions appearing again and again regardless of what the sentence needs. Edit for the cluster, not the isolated instance, and do not flatten your prose into a voiceless register trying to avoid every word on a list.</p>
 </section>
-<section id="standard-paper-structure" class="slide level2" data-number="1">
-<h2><span class="header-section-number">1</span> Standard paper structure</h2>
-</section>
-<section class="slide level2">
-
-<p>Most scientific papers follow the IMRaD structure:</p>
-<ul>
-<li><strong>Introduction</strong>: Present the research question and background</li>
-<li><strong>Methods</strong>: Describe how the study was conducted</li>
-<li><strong>Results</strong>: Present the findings</li>
-<li><strong>Discussion</strong>: Interpret the findings and their implications</li>
-</ul>
-<p>Some papers combine Results and Discussion into a single section.</p>
-</section>
-<section id="organizing-the-results-section" class="slide level2" data-number="2">
-<h2><span class="header-section-number">2</span> Organizing the Results section</h2>
-</section>
-<section class="slide level2 scrollable">
-
-<p>The Results section presents your findings clearly and logically. How you organize this section depends on your research design and the complexity of your analyses.</p>
-<h3 id="single-outcome-studies">Single outcome studies</h3>
-<p>When analyzing a single primary outcome, organize results by:</p>
-<ul>
-<li>Descriptive statistics first</li>
-<li>Main analysis results</li>
-<li>Sensitivity analyses or subgroup analyses</li>
-</ul>
-<h3 id="multiple-outcomes-analyzed-separately">Multiple outcomes analyzed separately</h3>
-<p>When analyzing multiple outcomes separately, <strong>group your results section by outcome</strong> rather than by analysis type. This organization improves clarity and readability by keeping all information about each outcome together.</p>
-<h4 id="why-group-by-outcome">Why group by outcome</h4>
-<p>Grouping by outcome helps readers:</p>
-<ul>
-<li>Follow the story of each outcome from descriptive statistics through final results</li>
-<li>Compare findings across outcomes more easily</li>
-<li>Understand the complete picture for each outcome before moving to the next</li>
-<li>Navigate directly to outcomes of interest</li>
-</ul>
-<h4 id="how-to-organize-by-outcome">How to organize by outcome</h4>
-<p>For each outcome, present:</p>
-<ol type="1">
-<li>Descriptive statistics</li>
-<li>Main analysis results</li>
-<li>Sensitivity analyses</li>
-<li>Subgroup analyses (if applicable)</li>
-</ol>
-<p><strong>Structure:</strong></p>
-<pre><code>Results
-├── Outcome 1: Mortality
-│   ├── Descriptive statistics
-│   ├── Main analysis
-│   ├── Sensitivity analyses
-│   └── Subgroup analyses
-├── Outcome 2: Hospital readmission
-│   ├── Descriptive statistics
-│   ├── Main analysis
-│   ├── Sensitivity analyses
-│   └── Subgroup analyses
-└── Outcome 3: Quality of life
-    ├── Descriptive statistics
-    ├── Main analysis
-    ├── Sensitivity analyses
-    └── Subgroup analyses</code></pre>
-<h4 id="what-to-avoid">What to avoid</h4>
-<p><strong>Don’t group by analysis type</strong> when outcomes are analyzed separately:</p>
-<pre><code>Results (POOR ORGANIZATION)
-├── Descriptive statistics
-│   ├── Mortality
-│   ├── Hospital readmission
-│   └── Quality of life
-├── Main analyses
-│   ├── Mortality
-│   ├── Hospital readmission
-│   └── Quality of life
-└── Sensitivity analyses
-    ├── Mortality
-    ├── Hospital readmission
-    └── Quality of life</code></pre>
-<p>This forces readers to jump back and forth between sections to understand the complete story for any single outcome.</p>
-<h4 id="exception-shared-descriptive-statistics">Exception: Shared descriptive statistics</h4>
-<p>If your descriptive statistics apply to all outcomes (e.g., baseline characteristics in a clinical trial), present them once at the beginning before discussing individual outcomes.</p>
-</section>
-<section id="figures-and-tables" class="slide level2" data-number="3">
-<h2><span class="header-section-number">3</span> Figures and tables</h2>
+<section id="overused-vocabulary" class="slide level2" data-number="1">
+<h2><span class="header-section-number">1</span> Overused vocabulary</h2>
 </section>
 <section class="slide level2">
 
-<p>Place figures and tables near the relevant text that describes them. Number them sequentially and reference them in the text before they appear.</p>
-<p>Each figure and table should have a clear, informative caption that allows readers to understand it without reading the main text.</p>
+<p>Some words appear far more often in machine-generated text than in careful human writing. Many are also Latin-derived words with plainer alternatives, so the advice here overlaps with the <a href="../chapters/word-choice.html">Word choice</a> chapter. <a href="#/tbl-ai-vocabulary" class="quarto-xref">Table&nbsp;1</a> lists frequent offenders and plainer replacements.</p>
+<div id="tbl-ai-vocabulary" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-tbl">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ai-vocabulary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Words overused by AI assistants and plainer alternatives
+</figcaption>
+<div aria-describedby="tbl-ai-vocabulary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Overused</th>
+<th>Plainer alternative</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>delve into</td>
+<td>examine, study</td>
+</tr>
+<tr class="even">
+<td>leverage</td>
+<td>use</td>
+</tr>
+<tr class="odd">
+<td>utilize</td>
+<td>use</td>
+</tr>
+<tr class="even">
+<td>showcase</td>
+<td>show</td>
+</tr>
+<tr class="odd">
+<td>robust</td>
+<td>reliable, well-tested</td>
+</tr>
+<tr class="even">
+<td>seamless</td>
+<td>smooth</td>
+</tr>
+<tr class="odd">
+<td>pivotal, crucial</td>
+<td>important, key</td>
+</tr>
+<tr class="even">
+<td>testament to</td>
+<td>shows, demonstrates</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Whole phrases recur too. “In today’s fast-paced world”, “it is important to note that”, and “plays a vital role in” add length without content; delete them and start with the actual point.</p>
 </section>
-<section id="subsection-headings" class="slide level2" data-number="4">
-<h2><span class="header-section-number">4</span> Subsection headings</h2>
+<section id="rhetorical-reflexes" class="slide level2" data-number="2">
+<h2><span class="header-section-number">2</span> Rhetorical reflexes</h2>
 </section>
 <section class="slide level2">
 
-<p>Use descriptive subsection headings to guide readers through your results. Headings should clearly indicate the content of each section.</p>
-<p><strong>Poor heading</strong>: “Analysis 1”</p>
-<p><strong>Better heading</strong>: “Association between treatment and mortality”</p>
-<p><strong>Best heading</strong>: “Treatment reduced mortality by 30%” (when appropriate and not overstating findings)</p>
+<p>AI assistants reach for a few sentence shapes by reflex, whether or not the content calls for them.</p>
+<p>The strongest tell is the <em>not just X, but Y</em> antithesis. It promises a profound contrast and usually delivers a hollow one.</p>
+<div id="exm-antithesis" class="theorem example">
+<p><span class="theorem-title"><strong>Example 1 (The “not just X, but Y” reflex)</strong></span> &nbsp;</p>
+<blockquote>
+<p>❌ This method is not just fast — it is transformative.</p>
+<p>✅ This method runs in half the time of the previous approach.</p>
+</blockquote>
+<p>The plain version makes a concrete, verifiable claim. The antithesis frame makes none.</p>
+</div>
+<p>Other reflexes to watch for:</p>
+<ul>
+<li><strong>Mechanical lists of three.</strong> Three parallel items appear whether or not three is the right count. Use the number of items the point actually needs.</li>
+<li><strong>Signpost filler.</strong> Phrases like “it is worth noting that” and “importantly” announce a point instead of making it. Cut them and state the point directly.</li>
+<li><strong>Hedging stacks.</strong> “May potentially suggest” and “could possibly indicate” pile up qualifiers. Keep one honest hedge; drop the rest.</li>
+<li><strong>Hollow summaries.</strong> A closing paragraph that opens with “in conclusion” and only restates what you just said adds nothing. End on a real point.</li>
+</ul>
+</section>
+<section id="formatting-habits" class="slide level2" data-number="3">
+<h2><span class="header-section-number">3</span> Formatting habits</h2>
+</section>
+<section class="slide level2">
+
+<p>Some tells are typographic rather than verbal.</p>
+<ul>
+<li><strong>The em-dash as a default connector.</strong> AI text reaches for the em-dash to join almost any two clauses. Vary your punctuation: a period, a comma, or a semicolon is often the better fit.</li>
+<li><strong>Bold-leading bullets everywhere.</strong> A <code>**Term:** explanation</code> bullet is fine once, but applying the pattern to every list turns it into a tic. Use it when the label earns emphasis, plain bullets otherwise.</li>
+<li><strong>Emoji section headers.</strong> Emoji in headings signal a blog post, not a scientific document. Leave them out.</li>
+<li><strong>Uniform paragraph rhythm.</strong> Paragraphs of near-identical length, each three or four sentences, read as machine-paced. Let paragraph length follow the ideas.</li>
+</ul>
+</section>
+<section id="tone" class="slide level2" data-number="4">
+<h2><span class="header-section-number">4</span> Tone</h2>
+</section>
+<section class="slide level2">
+
+<p>The last group of tells is about register.</p>
+<ul>
+<li><strong>Promotional language.</strong> Words like “powerful”, “game-changing”, and “cutting-edge” sell rather than inform. Describe what the thing does and let the reader judge.</li>
+<li><strong>Reflexive both-sides framing.</strong> Tacking “however, it is important to consider the other side” onto every claim signals caution without adding content. Hedge when the evidence is genuinely mixed, not by habit.</li>
+<li><strong>Vague universals.</strong> “Studies show” and “experts agree”, with no specific source or number, are tells precisely because they dodge the evidence. Name the study and give the number, as the <a href="../chapters/citations-evidence.html">Citations and evidence</a> chapter recommends.</li>
+</ul>
+<p>A short scan for these patterns before you submit a draft catches most of them. Cut the filler and the reflexes, but keep your own voice: the goal is clear, honest prose, not prose that has been sanded smooth.</p>
 
 
 <script>

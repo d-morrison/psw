@@ -266,6 +266,69 @@
     "text": "Supporting claims with appropriate citations and evidence is not optional—it is essential to scientific communication. It allows readers to verify your claims, understand the foundation of your arguments, and locate resources for further learning. Always ask yourself: “How does my reader know this is true?” If the answer isn’t obvious from your text, add a citation or present direct evidence.\n\n\n\n\n\n\n\n\nHawkins, Douglas M. 2004. “The Problem of Overfitting.” Journal of Chemical Information and Computer Sciences 44 (1): 1–12. https://doi.org/10.1021/ci0342472.\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\nStack Overflow. 2024. Stack Overflow Developer Survey 2024. https://survey.stackoverflow.co/2024/.\n\n\nVapnik, Vladimir N. 1998. Statistical Learning Theory. Wiley. https://www.wiley.com/en-us/Statistical+Learning+Theory-p-9780471030034."
   },
   {
+    "objectID": "chapters/avoid-ai-tells-slides.html#overused-vocabulary",
+    "href": "chapters/avoid-ai-tells-slides.html#overused-vocabulary",
+    "title": "Avoiding AI tells",
+    "section": "1 Overused vocabulary",
+    "text": "1 Overused vocabulary"
+  },
+  {
+    "objectID": "chapters/avoid-ai-tells-slides.html#rhetorical-reflexes",
+    "href": "chapters/avoid-ai-tells-slides.html#rhetorical-reflexes",
+    "title": "Avoiding AI tells",
+    "section": "2 Rhetorical reflexes",
+    "text": "2 Rhetorical reflexes"
+  },
+  {
+    "objectID": "chapters/avoid-ai-tells-slides.html#formatting-habits",
+    "href": "chapters/avoid-ai-tells-slides.html#formatting-habits",
+    "title": "Avoiding AI tells",
+    "section": "3 Formatting habits",
+    "text": "3 Formatting habits"
+  },
+  {
+    "objectID": "chapters/avoid-ai-tells-slides.html#tone",
+    "href": "chapters/avoid-ai-tells-slides.html#tone",
+    "title": "Avoiding AI tells",
+    "section": "4 Tone",
+    "text": "4 Tone"
+  },
+  {
+    "objectID": "chapters/avoid-ai-tells.html",
+    "href": "chapters/avoid-ai-tells.html",
+    "title": "Avoiding AI tells",
+    "section": "",
+    "text": "NoteAI-Assisted Authorship\n\n\n\nThis chapter was written with the assistance of GitHub Copilot, which expanded on outlined ideas and draft notes provided by the author. The content represents the author’s perspective and has been reviewed for accuracy, but the detailed prose was generated through AI assistance.\nAI writing assistants have a recognizable house style. When you let one draft your prose, it leaves fingerprints: words, sentence shapes, and formatting habits that recur across unrelated documents. Readers who have seen enough machine-generated text learn to spot these patterns, and once they do, the writing reads as generic and unconsidered, even when the underlying content is sound.\nThis chapter catalogs the most common tells so you can remove them. It is written mainly for AI assistants drafting scientific prose, but it is just as useful for humans editing AI-assisted drafts.\nOne caveat first: no single word or pattern below is wrong on its own. Each has legitimate uses. The signal is clustering and mechanical repetition, the same constructions appearing again and again regardless of what the sentence needs. Edit for the cluster, not the isolated instance, and do not flatten your prose into a voiceless register trying to avoid every word on a list."
+  },
+  {
+    "objectID": "chapters/avoid-ai-tells.html#overused-vocabulary",
+    "href": "chapters/avoid-ai-tells.html#overused-vocabulary",
+    "title": "Avoiding AI tells",
+    "section": "1 Overused vocabulary",
+    "text": "1 Overused vocabulary\nSome words appear far more often in machine-generated text than in careful human writing. Many are also Latin-derived words with plainer alternatives, so the advice here overlaps with the Word choice chapter. Table 1 lists frequent offenders and plainer replacements.\n\n\n\nTable 1: Words overused by AI assistants and plainer alternatives\n\n\n\n\n\nOverused\nPlainer alternative\n\n\n\n\ndelve into\nexamine, study\n\n\nleverage\nuse\n\n\nutilize\nuse\n\n\nshowcase\nshow\n\n\nrobust\nreliable, well-tested\n\n\nseamless\nsmooth\n\n\npivotal, crucial\nimportant, key\n\n\ntestament to\nshows, demonstrates\n\n\n\n\n\n\nWhole phrases recur too. “In today’s fast-paced world”, “it is important to note that”, and “plays a vital role in” add length without content; delete them and start with the actual point."
+  },
+  {
+    "objectID": "chapters/avoid-ai-tells.html#rhetorical-reflexes",
+    "href": "chapters/avoid-ai-tells.html#rhetorical-reflexes",
+    "title": "Avoiding AI tells",
+    "section": "2 Rhetorical reflexes",
+    "text": "2 Rhetorical reflexes\nAI assistants reach for a few sentence shapes by reflex, whether or not the content calls for them.\nThe strongest tell is the not just X, but Y antithesis. It promises a profound contrast and usually delivers a hollow one.\n\n\n\n\n\n\n\nExample 1 (The “not just X, but Y” reflex)  \n\n❌ This method is not just fast — it is transformative.\n✅ This method runs in half the time of the previous approach.\n\nThe plain version makes a concrete, verifiable claim. The antithesis frame makes none.\n\n\n\n\nOther reflexes to watch for:\n\nMechanical lists of three. Three parallel items appear whether or not three is the right count. Use the number of items the point actually needs.\nSignpost filler. Phrases like “it is worth noting that” and “importantly” announce a point instead of making it. Cut them and state the point directly.\nHedging stacks. “May potentially suggest” and “could possibly indicate” pile up qualifiers. Keep one honest hedge; drop the rest.\nHollow summaries. A closing paragraph that opens with “in conclusion” and only restates what you just said adds nothing. End on a real point."
+  },
+  {
+    "objectID": "chapters/avoid-ai-tells.html#formatting-habits",
+    "href": "chapters/avoid-ai-tells.html#formatting-habits",
+    "title": "Avoiding AI tells",
+    "section": "3 Formatting habits",
+    "text": "3 Formatting habits\nSome tells are typographic rather than verbal.\n\nThe em-dash as a default connector. AI text reaches for the em-dash to join almost any two clauses. Vary your punctuation: a period, a comma, or a semicolon is often the better fit.\nBold-leading bullets everywhere. A **Term:** explanation bullet is fine once, but applying the pattern to every list turns it into a tic. Use it when the label earns emphasis, plain bullets otherwise.\nEmoji section headers. Emoji in headings signal a blog post, not a scientific document. Leave them out.\nUniform paragraph rhythm. Paragraphs of near-identical length, each three or four sentences, read as machine-paced. Let paragraph length follow the ideas."
+  },
+  {
+    "objectID": "chapters/avoid-ai-tells.html#tone",
+    "href": "chapters/avoid-ai-tells.html#tone",
+    "title": "Avoiding AI tells",
+    "section": "4 Tone",
+    "text": "4 Tone\nThe last group of tells is about register.\n\nPromotional language. Words like “powerful”, “game-changing”, and “cutting-edge” sell rather than inform. Describe what the thing does and let the reader judge.\nReflexive both-sides framing. Tacking “however, it is important to consider the other side” onto every claim signals caution without adding content. Hedge when the evidence is genuinely mixed, not by habit.\nVague universals. “Studies show” and “experts agree”, with no specific source or number, are tells precisely because they dodge the evidence. Name the study and give the number, as the Citations and evidence chapter recommends.\n\nA short scan for these patterns before you submit a draft catches most of them. Cut the filler and the reflexes, but keep your own voice: the goal is clear, honest prose, not prose that has been sanded smooth."
+  },
+  {
     "objectID": "chapters/conciseness-slides.html#common-ways-to-improve-conciseness",
     "href": "chapters/conciseness-slides.html#common-ways-to-improve-conciseness",
     "title": "Conciseness",
