@@ -41,6 +41,8 @@ website:
             href: chapters/paper-organization.qmd
           - text: "Word choice"
             href: chapters/word-choice.qmd
+          - text: "Avoiding AI tells"
+            href: chapters/avoid-ai-tells.qmd
           - text: "Grammar"
             href: chapters/grammar.qmd
           - text: "Conciseness"
