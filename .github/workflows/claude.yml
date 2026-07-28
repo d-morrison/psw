@@ -1,4 +1,4 @@
-# Thin caller for the central d-morrison/gha reusable Claude Code workflow.
+# Thin caller for the central Morrison-Lab/gha reusable Claude Code workflow.
 # Requires the CLAUDE_CODE_OAUTH_TOKEN repository secret. The calling job grants
 # write permissions so Claude (agent mode) can push branches and open PRs;
 # `secrets: inherit` passes CLAUDE_CODE_OAUTH_TOKEN through to the reusable
@@ -37,7 +37,7 @@ jobs:
       issues: write
       id-token: write
       actions: write       # dispatch the review workflow via `gh workflow run`
-    uses: d-morrison/gha/.github/workflows/claude.yml@v1
+    uses: Morrison-Lab/gha/.github/workflows/claude.yml@v1
     secrets: inherit
     with:
       setup-r: false          # psw is a Quarto book with no R package code
