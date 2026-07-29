@@ -6,8 +6,8 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.9.38">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
 
   <title>Principles of Scientific Writing – Defining terms clearly</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -19,10 +19,13 @@
     /* Default styles provided by pandoc.
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
     */
-    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -305,7 +308,7 @@
 <div class="quarto-title-authors">
 </div>
 
-  <p class="date">Last modified: 2026-06-22 06:24:47 (UTC)</p>
+  <p class="date">Last modified: 2026-07-29 20:07:53 (UTC)</p>
 </section>
 <section class="slide level2">
 
@@ -404,15 +407,15 @@
 </ul>
 <p>See the <a href="https://quarto.org/docs/authoring/cross-references.html#theorems-and-proofs">Quarto documentation on theorems and proofs</a> for complete details.</p>
 <p><strong>Example syntax:</strong></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a></a>::: {#thm-pythagorean}</span>
-<span id="cb1-2"><a></a></span>
-<span id="cb1-3"><a></a><span class="fu">## Pythagorean theorem</span></span>
-<span id="cb1-4"><a></a></span>
-<span id="cb1-5"><a></a>In a right triangle,</span>
-<span id="cb1-6"><a></a>the square of the hypotenuse equals the sum of squares of the other two sides:</span>
-<span id="cb1-7"><a></a>$a^2 + b^2 = c^2$.</span>
-<span id="cb1-8"><a></a></span>
-<span id="cb1-9"><a></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a aria-label="1"></a>::: {#thm-pythagorean}</span>
+<span id="cb1-2"><a aria-label="2"></a></span>
+<span id="cb1-3"><a aria-label="3"></a><span class="fu">## Pythagorean theorem</span></span>
+<span id="cb1-4"><a aria-label="4"></a></span>
+<span id="cb1-5"><a aria-label="5"></a>In a right triangle,</span>
+<span id="cb1-6"><a aria-label="6"></a>the square of the hypotenuse equals the sum of squares of the other two sides:</span>
+<span id="cb1-7"><a aria-label="7"></a>$a^2 + b^2 = c^2$.</span>
+<span id="cb1-8"><a aria-label="8"></a></span>
+<span id="cb1-9"><a aria-label="9"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>This produces automatically numbered output like “Theorem 2.1 (Pythagorean theorem)” and can be referenced elsewhere in your document using <code>@thm-pythagorean</code>.</p>
 <h3 id="example-pythagorean-theorem">Example: Pythagorean theorem</h3>
 <div id="thm-pythagoras" class="theorem">
@@ -810,7 +813,7 @@ window.addEventListener("load", alignEquationAnchorsWithDefault);
         margin: 0,
 
         math: {
-          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],

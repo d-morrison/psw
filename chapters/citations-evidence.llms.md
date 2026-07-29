@@ -4,7 +4,7 @@ Code
 
 Published
 
-Last modified: 2026-06-22 06:24:47 (UTC)
+Last modified: 2026-07-29 20:07:53 (UTC)
 
 Every claim in scientific writing should be supported by either citations to relevant sources or direct evidence from data or experiments. This principle is fundamental to maintaining credibility, enabling verification, and building on the accumulated knowledge of the scientific community.
 
@@ -143,7 +143,7 @@ To effectively support your claims:
 ## 7 Common citation errors to avoid
 
 - **Citation needed**: Making claims without any supporting citation or evidence
-- **Vague attribution**: Using phrases like “studies have shown” without citing specific studies  
+- **Vague attribution**: Using phrases like “studies have shown” without citing specific studies\
 - **Circular citation**: Citing a paper that doesn’t contain the claimed information but cites another paper that does (cite the original source)
 - **Citation padding**: Adding citations that don’t actually support your claims just to appear well-referenced
 - **Selective citation**: Only citing work that supports your position while ignoring contradictory evidence
