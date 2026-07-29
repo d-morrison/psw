@@ -1,4 +1,4 @@
-# Thin caller for the central d-morrison/gha reusable Claude code-review
+# Thin caller for the central Morrison-Lab/gha reusable Claude code-review
 # workflow. Requires the CLAUDE_CODE_OAUTH_TOKEN repository secret (passed via
 # `secrets: inherit`). The workflow_dispatch path lets claude.yml re-dispatch a
 # review after an @claude run pushes commits — keep this file named
@@ -22,7 +22,7 @@ jobs:
       pull-requests: write
       issues: write
       id-token: write
-    uses: d-morrison/gha/.github/workflows/claude-code-review.yml@v1
+    uses: Morrison-Lab/gha/.github/workflows/claude-code-review.yml@v1
     secrets: inherit
     with:
       # Wires the workflow_dispatch input through so claude.yml can re-dispatch
